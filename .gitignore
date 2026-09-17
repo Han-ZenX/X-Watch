@@ -46,3 +46,4 @@ Thumbs.db
 .history/
 *.lck
 *-backups/
+*.bak
