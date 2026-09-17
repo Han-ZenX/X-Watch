@@ -252,8 +252,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "XWatch_Rev1.0"
+    ],
+    "pinned_symbol_libs": [
+      "XWatch_Rev1.0"
+    ]
   },
   "meta": {
     "filename": "XWatch_Rev1.0.kicad_pro",
@@ -412,19 +416,14 @@
     "top_level_sheets": [
       {
         "filename": "XWatch_Rev1.0.kicad_sch",
-        "name": "XWacth_Rev1.0",
-        "uuid": "3a476182-8064-471b-9da9-5088a88740da"
+        "name": "XWatch_Rev1.0",
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [
-    [
-      "3a476182-8064-471b-9da9-5088a88740da",
-      "XWacth_Rev1.0"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
