@@ -12,3 +12,4 @@
 *.iges filter=lfs diff=lfs merge=lfs -text
 *.ger filter=lfs diff=lfs merge=lfs -text
 *.gbr filter=lfs diff=lfs merge=lfs -text
+*.wrl filter=lfs diff=lfs merge=lfs -text
