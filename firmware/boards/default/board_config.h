@@ -11,8 +11,8 @@
 
 /* ---- MCU 配置 ---- */
 #define BOARD_NAME              "default"
-#define MCU_TYPE                "STM32F407"
-#define SYSTEM_CLOCK_HZ         168000000
+#define MCU_TYPE                "STM32L4R9AII6U"
+#define SYSTEM_CLOCK_HZ         120000000
 
 /* ---- UART 引脚映射 ---- */
 #define UART_DEBUG_TX_PIN       GPIO_PIN_9    /* PA9  */
