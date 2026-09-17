@@ -1,0 +1,448 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6c1e8384-e914-4c83-a2c9-8d6d9364b04e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "XWatch_Rev1.0:NT3H1101W0FHKH"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 17.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NT3H1101W0FHKH"
+				(at 0 -17.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev1.0:NT3H1101W0FHKH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/RF-Chips_NXP-Semicon_NT3H1101W0FHKH_NXP-Semicon-NT3H1101W0FHKH_C73156.html"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1.7V~3.6V 13.56MHz I2C ISO 14443 XQFN-8(1.6x1.6) RFID ICs ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C73156"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "NXP Semicon"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "NT3H1101W0FHKH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C73156 NT3H1101W0FHKH NXP Semicon XQFN-8_L1.6-W1.6-P0.50-BR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NT3H1101W0FHKH_0_1"
+				(circle
+					(center -8.255 9.525)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -12.7) (xy 8.4811 -12.6902) (xy 8.5764 -12.6613) (xy 8.6642 -12.6144) (xy 8.7412 -12.5512)
+						(xy 8.8044 -12.4742) (xy 8.8513 -12.3864) (xy 8.8802 -12.2911) (xy 8.89 -12.192) (xy 8.8802 9.7511)
+						(xy 8.8513 9.8464) (xy 8.8044 9.9342) (xy 8.7412 10.0112) (xy 8.6642 10.0744) (xy 8.5764 10.1213)
+						(xy 8.4811 10.1502) (xy 8.382 10.16) (xy -8.4811 10.1502) (xy -8.5764 10.1213) (xy -8.6642 10.0744)
+						(xy -8.7412 10.0112) (xy -8.8044 9.9342) (xy -8.8513 9.8464) (xy -8.8802 9.7511) (xy -8.89 9.652)
+						(xy -8.8802 -12.2911) (xy -8.8513 -12.3864) (xy -8.8044 -12.4742) (xy -8.7412 -12.5512) (xy -8.6642 -12.6144)
+						(xy -8.5764 -12.6613) (xy -8.4811 -12.6902) (xy -8.382 -12.7) (xy 8.382 -12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NT3H1101W0FHKH_1_1"
+				(pin passive line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "LA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "FD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "LB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 15.24 270)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev1.0:NT3H1101W0FHKH")
+		(at 109.22 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1436f9-1722-4e99-91c9-116cf1f3e304")
+		(property "Reference" "U5"
+			(at 111.3633 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NT3H1101W0FHKH"
+			(at 111.3633 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:NT3H1101W0FHKH"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/RF-Chips_NXP-Semicon_NT3H1101W0FHKH_NXP-Semicon-NT3H1101W0FHKH_C73156.html"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.7V~3.6V 13.56MHz I2C ISO 14443 XQFN-8(1.6x1.6) RFID ICs ROHS"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C73156"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NXP Semicon"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "NT3H1101W0FHKH"
+			(at 109.22 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fe2ded5a-38d6-467e-949c-13ecf2767754")
+		)
+		(pin "4"
+			(uuid "89f307ab-9409-4704-8269-b45354d0496b")
+		)
+		(pin "5"
+			(uuid "9132d66d-6ead-43c7-85fd-74b526f5d295")
+		)
+		(pin "9"
+			(uuid "c75f6808-ef18-4fab-87f7-6becbf238b58")
+		)
+		(pin "1"
+			(uuid "0c6982e9-e498-4f49-b25a-75250115dee4")
+		)
+		(pin "6"
+			(uuid "1639afe9-9fee-484d-beb4-b07a31c69bc5")
+		)
+		(pin "8"
+			(uuid "123f8075-1b0f-4538-b987-6b46e03d5959")
+		)
+		(pin "7"
+			(uuid "eff7c198-8a2d-437c-aef1-8420b6b57818")
+		)
+		(pin "2"
+			(uuid "62553103-716a-4e0c-b443-c60e9cdb4217")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/c88303d3-dc95-4c4f-b709-e76c246b80e7"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

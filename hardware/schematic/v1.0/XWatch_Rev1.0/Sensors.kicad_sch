@@ -1,0 +1,1927 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ee91b6aa-f8fa-4ea4-acac-1386cb712adb")
+	(paper "A4")
+	(lib_symbols
+		(symbol "XWatch_Rev1.0:AK09918C"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 8.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AK09918C"
+				(at 0 -8.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev1.0:AK09918C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201120730_Asahi-Kasei-Microdevices-AK09918C_C2655004.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-30℃~+85℃ 1.1mA 1.65V~1.95V 16bit I2C ±4.912mT ±4.912mT WLCSP-4(0.8x0.8) 3D Magnetic Sensors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2655004"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Asahi Kasei Microdevices"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "AK09918C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "AK09918C Asahi Kasei Microdevices C2655004 WLCSP-4_L0.8-W0.8-R2-C2-P0.40-BL-1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AK09918C_0_1"
+				(circle
+					(center -2.54 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -6.35) (xy 3.4011 -6.3402) (xy 3.4964 -6.3113) (xy 3.5842 -6.2644) (xy 3.6612 -6.2012)
+						(xy 3.7244 -6.1242) (xy 3.7713 -6.0364) (xy 3.8002 -5.9411) (xy 3.81 -5.842) (xy 3.8002 5.9411)
+						(xy 3.7713 6.0364) (xy 3.7244 6.1242) (xy 3.6612 6.2012) (xy 3.5842 6.2644) (xy 3.4964 6.3113)
+						(xy 3.4011 6.3402) (xy 3.302 6.35) (xy -3.4011 6.3402) (xy -3.4964 6.3113) (xy -3.5842 6.2644)
+						(xy -3.6612 6.2012) (xy -3.7244 6.1242) (xy -3.7713 6.0364) (xy -3.8002 5.9411) (xy -3.81 5.842)
+						(xy -3.8002 -5.9411) (xy -3.7713 -6.0364) (xy -3.7244 -6.1242) (xy -3.6612 -6.2012) (xy -3.5842 -6.2644)
+						(xy -3.4964 -6.3113) (xy -3.4011 -6.3402) (xy -3.302 -6.35) (xy 3.302 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AK09918C_1_1"
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XWatch_Rev1.0:BMI270"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BMI270"
+				(at 0 -12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev1.0:BMI270"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121930_Bosch-Sensortec-BMI270_C2836813.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 1.71V~3.6V 16bit 2KB 3.5uA Accelerometer Gyroscope SPI、I2C X,Y,Z X,Y,Z ±16g ±2000dps LGA-14(2.5x3) Accelerometers ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2836813"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Bosch Sensortec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "BMI270"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BMI270 Bosch Sensortec C2836813 LGA-14_L3.0-W2.5-P0.50-BR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMI270_0_1"
+				(circle
+					(center -7.62 8.89)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -10.16) (xy 8.4811 -10.1502) (xy 8.5764 -10.1213) (xy 8.6642 -10.0744) (xy 8.7412 -10.0112)
+						(xy 8.8044 -9.9342) (xy 8.8513 -9.8464) (xy 8.8802 -9.7511) (xy 8.89 -9.652) (xy 8.8802 9.7511)
+						(xy 8.8513 9.8464) (xy 8.8044 9.9342) (xy 8.7412 10.0112) (xy 8.6642 10.0744) (xy 8.5764 10.1213)
+						(xy 8.4811 10.1502) (xy 8.382 10.16) (xy -8.4811 10.1502) (xy -8.5764 10.1213) (xy -8.6642 10.0744)
+						(xy -8.7412 10.0112) (xy -8.8044 9.9342) (xy -8.8513 9.8464) (xy -8.8802 9.7511) (xy -8.89 9.652)
+						(xy -8.8802 -9.7511) (xy -8.8513 -9.8464) (xy -8.8044 -9.9342) (xy -8.7412 -10.0112) (xy -8.6642 -10.0744)
+						(xy -8.5764 -10.1213) (xy -8.4811 -10.1502) (xy -8.382 -10.16) (xy 8.382 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BMI270_1_1"
+				(pin passive line
+					(at -11.43 7.62 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "ASDX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 2.54 0)
+					(length 2.54)
+					(name "ASCX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 0 0)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -2.54 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "GNDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -7.62 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -2.54 180)
+					(length 2.54)
+					(name "OCSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "OSDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 2.54 180)
+					(length 2.54)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "SCX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 7.62 180)
+					(length 2.54)
+					(name "SDX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XWatch_Rev1.0:LIS2MDLTR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LIS2MDLTR"
+				(at 0 -10.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev1.0:LIS2MDLTR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2111191730_STMicroelectronics-LIS2MDLTR_C919695.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 1.71V~3.6V 16bit 200uA I2C、SPI ±5mT ±5mT LGA-12(2x2) 3D Magnetic Sensors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C919695"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "LIS2MDLTR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C919695 LIS2MDLTR STMicroelectronics VLGA-12_L2.0-W2.0-P0.50-BL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LIS2MDLTR_0_1"
+				(circle
+					(center -20.32 7.62)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.082 -8.89) (xy 21.1811 -8.8802) (xy 21.2764 -8.8513) (xy 21.3642 -8.8044) (xy 21.4412 -8.7412)
+						(xy 21.5044 -8.6642) (xy 21.5513 -8.5764) (xy 21.5802 -8.4811) (xy 21.59 -8.382) (xy 21.5802 8.4811)
+						(xy 21.5513 8.5764) (xy 21.5044 8.6642) (xy 21.4412 8.7412) (xy 21.3642 8.8044) (xy 21.2764 8.8513)
+						(xy 21.1811 8.8802) (xy 21.082 8.89) (xy -21.1811 8.8802) (xy -21.2764 8.8513) (xy -21.3642 8.8044)
+						(xy -21.4412 8.7412) (xy -21.5044 8.6642) (xy -21.5513 8.5764) (xy -21.5802 8.4811) (xy -21.59 8.382)
+						(xy -21.5802 -8.4811) (xy -21.5513 -8.5764) (xy -21.5044 -8.6642) (xy -21.4412 -8.7412) (xy -21.3642 -8.8044)
+						(xy -21.2764 -8.8513) (xy -21.1811 -8.8802) (xy -21.082 -8.89) (xy 21.082 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LIS2MDLTR_1_1"
+				(pin passive line
+					(at -24.13 6.35 0)
+					(length 2.54)
+					(name "SCL/SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 3.81 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 1.27 0)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 -1.27 0)
+					(length 2.54)
+					(name "SDA/SDI/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 -3.81 0)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -24.13 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -6.35 180)
+					(length 2.54)
+					(name "INT/DRDY/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 -1.27 180)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 1.27 180)
+					(length 2.54)
+					(name "Vdd_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 3.81 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 24.13 6.35 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XWatch_Rev1.0:LSM6DSOXTR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LSM6DSOXTR"
+				(at 0 -12.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev1.0:LSM6DSOXTR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2003181935_STMicroelectronics-LSM6DSOXTR_C481766.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 1.71V~3.6V 3uA 9KB IMU (accelerometer + gyroscope) Motion event detection、Synchronization and timestamp SPI、I2C X,Y,Z X,Y,Z ±16g ±2000dps LGA-14 Accelerometers ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C481766"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "LSM6DSOXTR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C481766 LGA-14L_L3.0-W2.5-P0.50-TL LSM6DSOXTR STMicroelectronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LSM6DSOXTR_0_1"
+				(circle
+					(center -12.7 8.89)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.462 -10.16) (xy 13.5611 -10.1502) (xy 13.6564 -10.1213) (xy 13.7442 -10.0744) (xy 13.8212 -10.0112)
+						(xy 13.8844 -9.9342) (xy 13.9313 -9.8464) (xy 13.9602 -9.7511) (xy 13.97 -9.652) (xy 13.9602 9.7511)
+						(xy 13.9313 9.8464) (xy 13.8844 9.9342) (xy 13.8212 10.0112) (xy 13.7442 10.0744) (xy 13.6564 10.1213)
+						(xy 13.5611 10.1502) (xy 13.462 10.16) (xy -13.5611 10.1502) (xy -13.6564 10.1213) (xy -13.7442 10.0744)
+						(xy -13.8212 10.0112) (xy -13.8844 9.9342) (xy -13.9313 9.8464) (xy -13.9602 9.7511) (xy -13.97 9.652)
+						(xy -13.9602 -9.7511) (xy -13.9313 -9.8464) (xy -13.8844 -9.9342) (xy -13.8212 -10.0112) (xy -13.7442 -10.0744)
+						(xy -13.6564 -10.1213) (xy -13.5611 -10.1502) (xy -13.462 -10.16) (xy 13.462 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LSM6DSOXTR_1_1"
+				(pin passive line
+					(at -16.51 7.62 0)
+					(length 2.54)
+					(name "SDO/SA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 5.08 0)
+					(length 2.54)
+					(name "SDX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 2.54 0)
+					(length 2.54)
+					(name "SCX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 0 0)
+					(length 2.54)
+					(name "INT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 -2.54 0)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -16.51 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "INT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "OSC_AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 0 180)
+					(length 2.54)
+					(name "SDO_AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 2.54 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 5.08 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 16.51 7.62 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev1.0:AK09918C")
+		(at 191.77 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd6af3bc-a839-408d-84b2-28a0257c19e6")
+		(property "Reference" "U3"
+			(at 196.85 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AK09918C"
+			(at 196.85 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:AK09918C"
+			(at 191.77 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201120730_Asahi-Kasei-Microdevices-AK09918C_C2655004.pdf"
+			(at 191.77 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-30℃~+85℃ 1.1mA 1.65V~1.95V 16bit I2C ±4.912mT ±4.912mT WLCSP-4(0.8x0.8) 3D Magnetic Sensors ROHS"
+			(at 191.77 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2655004"
+			(at 191.77 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Asahi Kasei Microdevices"
+			(at 191.77 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "AK09918C"
+			(at 191.77 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B2"
+			(uuid "d0dece2a-6234-4414-a392-ab072b1298ce")
+		)
+		(pin "B1"
+			(uuid "b4178a5f-c613-4cf0-9c46-41061b9c962e")
+		)
+		(pin "A1"
+			(uuid "00b9aae5-f490-40d2-8303-18b4bc2422ce")
+		)
+		(pin "A2"
+			(uuid "4ee2a18f-ccf9-4dfa-9639-8645824db2b9")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/60582904-f38c-47af-bf5b-266849badec8"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev1.0:LIS2MDLTR")
+		(at 116.84 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde6f93e-259c-484d-a8e0-ff2107062973")
+		(property "Reference" "U6"
+			(at 116.84 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LIS2MDLTR"
+			(at 116.84 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:LIS2MDLTR"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2111191730_STMicroelectronics-LIS2MDLTR_C919695.pdf"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1.71V~3.6V 16bit 200uA I2C、SPI ±5mT ±5mT LGA-12(2x2) 3D Magnetic Sensors ROHS"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C919695"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "LIS2MDLTR"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "532cc947-8ae8-4348-afbe-639a36d1fc48")
+		)
+		(pin "12"
+			(uuid "e87a9a59-5f81-434e-853c-7f23996feb8f")
+		)
+		(pin "9"
+			(uuid "a8dfad10-2262-47d3-8cc2-85b0a3a9ff88")
+		)
+		(pin "4"
+			(uuid "2b53ad3a-1dd8-4942-a210-3ede212a3f1f")
+		)
+		(pin "2"
+			(uuid "423b0eab-cb69-4821-a0d1-1ae1516286c7")
+		)
+		(pin "5"
+			(uuid "a98a2acc-159d-4068-8466-9ba5d3607464")
+		)
+		(pin "6"
+			(uuid "53d84025-b5fd-443d-bd1f-d5cbfb65fb0c")
+		)
+		(pin "7"
+			(uuid "918aea18-1c58-4057-b586-01e7e5d7f3d2")
+		)
+		(pin "10"
+			(uuid "3e613ef0-7459-4801-a42a-fdd6c88759c2")
+		)
+		(pin "8"
+			(uuid "13fd7c44-b2ab-4480-93f4-777a3595393b")
+		)
+		(pin "11"
+			(uuid "8ea3186f-7a29-4948-9848-8533fe60c07c")
+		)
+		(pin "1"
+			(uuid "05f755fb-0c37-41b9-887d-6f3f1280b9c7")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/60582904-f38c-47af-bf5b-266849badec8"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev1.0:BMI270")
+		(at 205.74 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce5914ff-24a9-4184-b3f2-248764a5676b")
+		(property "Reference" "U4"
+			(at 205.74 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMI270"
+			(at 205.74 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:BMI270"
+			(at 205.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121930_Bosch-Sensortec-BMI270_C2836813.pdf"
+			(at 205.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1.71V~3.6V 16bit 2KB 3.5uA Accelerometer Gyroscope SPI、I2C X,Y,Z X,Y,Z ±16g ±2000dps LGA-14(2.5x3) Accelerometers ROHS"
+			(at 205.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2836813"
+			(at 205.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bosch Sensortec"
+			(at 205.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "BMI270"
+			(at 205.74 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "7608183e-7d96-4dbe-93a1-b6157f543d66")
+		)
+		(pin "9"
+			(uuid "8b9ae04a-55b2-476f-bc98-07594b3b4af9")
+		)
+		(pin "1"
+			(uuid "bc55d37c-aa0a-4232-b646-d8be59b2beb1")
+		)
+		(pin "13"
+			(uuid "a61af1f8-1af3-4cb3-a6f3-02fff8185aa8")
+		)
+		(pin "4"
+			(uuid "e85904d9-a80f-4213-ac23-54966cc478aa")
+		)
+		(pin "3"
+			(uuid "15170f2d-d6ef-4339-bab6-e10ebf6db291")
+		)
+		(pin "10"
+			(uuid "f6ed176f-cf8a-4783-8eeb-0b51ec2f5dfa")
+		)
+		(pin "8"
+			(uuid "78608e9e-4bfa-4710-9847-3cf83b3db316")
+		)
+		(pin "6"
+			(uuid "778007f8-c074-4925-8698-8982020df46f")
+		)
+		(pin "14"
+			(uuid "b73845f0-b7c1-49c9-b005-94be31117195")
+		)
+		(pin "2"
+			(uuid "64d521b1-4fee-49e1-b54e-11f66b55bf6f")
+		)
+		(pin "11"
+			(uuid "1ec538c1-631c-4c2d-9a95-f2ecdb935686")
+		)
+		(pin "12"
+			(uuid "50922815-7f53-4a5f-a64e-86bf6a978b85")
+		)
+		(pin "7"
+			(uuid "a62ba67c-512f-4eb4-9f23-3d6d74b4a6bc")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/60582904-f38c-47af-bf5b-266849badec8"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev1.0:LSM6DSOXTR")
+		(at 110.49 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d885bb1a-6163-4a08-a1c4-51e84cfbb760")
+		(property "Reference" "U2"
+			(at 110.49 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LSM6DSOXTR"
+			(at 110.49 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:LSM6DSOXTR"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2003181935_STMicroelectronics-LSM6DSOXTR_C481766.pdf"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1.71V~3.6V 3uA 9KB IMU (accelerometer + gyroscope) Motion event detection、Synchronization and timestamp SPI、I2C X,Y,Z X,Y,Z ±16g ±2000dps LGA-14 Accelerometers ROHS"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C481766"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "LSM6DSOXTR"
+			(at 110.49 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fee0d15-4219-4d1b-928c-0e470d0d0446")
+		)
+		(pin "8"
+			(uuid "31bf5c65-5275-4dc9-a54f-f5c0fede31d4")
+		)
+		(pin "2"
+			(uuid "986550e1-c8db-4237-86b5-8a26a8a66ade")
+		)
+		(pin "10"
+			(uuid "387855a5-f905-46ad-9945-62271f36824b")
+		)
+		(pin "9"
+			(uuid "157a6c78-9965-41bc-aa0f-75686187d80f")
+		)
+		(pin "13"
+			(uuid "0a0e6e31-276a-4b95-893c-0888cefc25da")
+		)
+		(pin "12"
+			(uuid "aa9ca8d0-6ba4-44f0-9400-3d29c0eff06a")
+		)
+		(pin "3"
+			(uuid "10cc96f0-e969-4120-9102-1fc0d58dbec2")
+		)
+		(pin "11"
+			(uuid "f356f34f-b1aa-4ad3-8d29-ad34e61ac52d")
+		)
+		(pin "4"
+			(uuid "1033595e-b250-4534-8123-af2da4f6d864")
+		)
+		(pin "5"
+			(uuid "e7517244-6e2c-46ae-ae08-bff8837fd226")
+		)
+		(pin "14"
+			(uuid "4359650d-61e8-4e34-918c-6228448943d8")
+		)
+		(pin "7"
+			(uuid "8457b565-fdf3-4b70-8337-81ff8f0cb717")
+		)
+		(pin "6"
+			(uuid "ba153f0a-3f96-4c34-88db-bccfe04f241c")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/60582904-f38c-47af-bf5b-266849badec8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

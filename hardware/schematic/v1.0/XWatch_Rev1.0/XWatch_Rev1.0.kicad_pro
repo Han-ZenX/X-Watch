@@ -652,7 +652,7 @@
         "uuid": "2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "U1-6,CN1-2,IC1-3",
     "variants": []
   },
   "sheets": [
@@ -667,6 +667,26 @@
     [
       "e282b40f-64c4-469e-8d7f-2fdbf340a5ed",
       "Display"
+    ],
+    [
+      "60582904-f38c-47af-bf5b-266849badec8",
+      "Sensors"
+    ],
+    [
+      "c88303d3-dc95-4c4f-b709-e76c246b80e7",
+      "Connectivity"
+    ],
+    [
+      "c1d925a8-200b-4a74-8f49-eb244dc4dc34",
+      "Power"
+    ],
+    [
+      "01ba0b89-59f9-4a59-855d-ecc8f6f537f0",
+      "Memory"
+    ],
+    [
+      "18dc8338-4752-49da-89c4-4b99f8885177",
+      "GNSS"
     ]
   ],
   "text_variables": {},

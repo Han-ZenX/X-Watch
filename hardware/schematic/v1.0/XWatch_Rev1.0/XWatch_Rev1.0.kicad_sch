@@ -6,6 +6,236 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 63.5 101.6)
+		(size 15.24 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "01ba0b89-59f9-4a59-855d-ecc8f6f537f0")
+		(property "Sheetname" "Memory"
+			(at 63.5 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Memory.kicad_sch"
+			(at 63.5 130.1246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 63.5)
+		(size 20.32 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "18dc8338-4752-49da-89c4-4b99f8885177")
+		(property "Sheetname" "GNSS"
+			(at 134.62 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GNSS.kicad_sch"
+			(at 134.62 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 144.78 146.05)
+		(size 12.7 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60582904-f38c-47af-bf5b-266849badec8")
+		(property "Sheetname" "Sensors"
+			(at 144.78 145.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 144.78 168.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 147.32)
+		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c1d925a8-200b-4a74-8f49-eb244dc4dc34")
+		(property "Sheetname" "Power"
+			(at 177.8 146.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 177.8 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 107.95 153.67)
+		(size 12.7 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c88303d3-dc95-4c4f-b709-e76c246b80e7")
+		(property "Sheetname" "Connectivity"
+			(at 107.95 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectivity.kicad_sch"
+			(at 107.95 169.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 166.37 99.06)
 		(size 20.32 29.21)
 		(exclude_from_sim no)
