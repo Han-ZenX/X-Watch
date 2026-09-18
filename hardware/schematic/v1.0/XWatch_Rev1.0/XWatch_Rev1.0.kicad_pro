@@ -611,7 +611,30 @@
       "sort_asc": true,
       "sort_field": "位号"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "DSI_LANE": [
+        "DSI_CK_P",
+        "DSI_CK_N",
+        "DSI_D0_P",
+        "DSI_D0_N",
+        "DSI_D1_P",
+        "DSI_D1_N"
+      ],
+      "DSI_SPI": [
+        "DSI_SPI_CS",
+        "DSI_SPI_MOSI",
+        "DSI_SPI_CK",
+        "DSI_SPI_DCX"
+      ],
+      "DSI_USART": [
+        "DSI_USART_CK",
+        "DSI_USART_TX"
+      ],
+      "MFX_I2C": [
+        "I2C1_SCL",
+        "I2C1_SDA"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -652,7 +675,7 @@
         "uuid": "2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc"
       }
     ],
-    "used_designators": "U1-6,CN1-2,IC1-4",
+    "used_designators": "U1-8,CN1-2,R1-5,IC1-4,#PWR1-12,C1-4",
     "variants": []
   },
   "sheets": [
@@ -687,6 +710,14 @@
     [
       "18dc8338-4752-49da-89c4-4b99f8885177",
       "GNSS"
+    ],
+    [
+      "f41fb82b-32ee-4d3d-bfdf-0a49f43ac9c6",
+      "Audio"
+    ],
+    [
+      "eb648df4-5c42-4d97-a46f-0bb7960c1727",
+      "STLink"
     ]
   ],
   "text_variables": {},

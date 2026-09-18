@@ -5,612 +5,6 @@
 	(uuid "ee91b6aa-f8fa-4ea4-acac-1386cb712adb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "XWatch_Rev1.0:AK09918C"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 8.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AK09918C"
-				(at 0 -8.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "XWatch_Rev1.0:AK09918C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201120730_Asahi-Kasei-Microdevices-AK09918C_C2655004.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-30℃~+85℃ 1.1mA 1.65V~1.95V 16bit I2C ±4.912mT ±4.912mT WLCSP-4(0.8x0.8) 3D Magnetic Sensors ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C2655004"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Asahi Kasei Microdevices"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "AK09918C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "AK09918C Asahi Kasei Microdevices C2655004 WLCSP-4_L0.8-W0.8-R2-C2-P0.40-BL-1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AK09918C_0_1"
-				(circle
-					(center -2.54 5.08)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -6.35) (xy 3.4011 -6.3402) (xy 3.4964 -6.3113) (xy 3.5842 -6.2644) (xy 3.6612 -6.2012)
-						(xy 3.7244 -6.1242) (xy 3.7713 -6.0364) (xy 3.8002 -5.9411) (xy 3.81 -5.842) (xy 3.8002 5.9411)
-						(xy 3.7713 6.0364) (xy 3.7244 6.1242) (xy 3.6612 6.2012) (xy 3.5842 6.2644) (xy 3.4964 6.3113)
-						(xy 3.4011 6.3402) (xy 3.302 6.35) (xy -3.4011 6.3402) (xy -3.4964 6.3113) (xy -3.5842 6.2644)
-						(xy -3.6612 6.2012) (xy -3.7244 6.1242) (xy -3.7713 6.0364) (xy -3.8002 5.9411) (xy -3.81 5.842)
-						(xy -3.8002 -5.9411) (xy -3.7713 -6.0364) (xy -3.7244 -6.1242) (xy -3.6612 -6.2012) (xy -3.5842 -6.2644)
-						(xy -3.4964 -6.3113) (xy -3.4011 -6.3402) (xy -3.302 -6.35) (xy 3.302 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AK09918C_1_1"
-				(pin passive line
-					(at -6.35 -3.81 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -1.27 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 1.27 0)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 3.81 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "XWatch_Rev1.0:BMI270"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 12.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BMI270"
-				(at 0 -12.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "XWatch_Rev1.0:BMI270"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121930_Bosch-Sensortec-BMI270_C2836813.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-40℃~+85℃ 1.71V~3.6V 16bit 2KB 3.5uA Accelerometer Gyroscope SPI、I2C X,Y,Z X,Y,Z ±16g ±2000dps LGA-14(2.5x3) Accelerometers ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C2836813"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Bosch Sensortec"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "BMI270"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BMI270 Bosch Sensortec C2836813 LGA-14_L3.0-W2.5-P0.50-BR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BMI270_0_1"
-				(circle
-					(center -7.62 8.89)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.382 -10.16) (xy 8.4811 -10.1502) (xy 8.5764 -10.1213) (xy 8.6642 -10.0744) (xy 8.7412 -10.0112)
-						(xy 8.8044 -9.9342) (xy 8.8513 -9.8464) (xy 8.8802 -9.7511) (xy 8.89 -9.652) (xy 8.8802 9.7511)
-						(xy 8.8513 9.8464) (xy 8.8044 9.9342) (xy 8.7412 10.0112) (xy 8.6642 10.0744) (xy 8.5764 10.1213)
-						(xy 8.4811 10.1502) (xy 8.382 10.16) (xy -8.4811 10.1502) (xy -8.5764 10.1213) (xy -8.6642 10.0744)
-						(xy -8.7412 10.0112) (xy -8.8044 9.9342) (xy -8.8513 9.8464) (xy -8.8802 9.7511) (xy -8.89 9.652)
-						(xy -8.8802 -9.7511) (xy -8.8513 -9.8464) (xy -8.8044 -9.9342) (xy -8.7412 -10.0112) (xy -8.6642 -10.0744)
-						(xy -8.5764 -10.1213) (xy -8.4811 -10.1502) (xy -8.382 -10.16) (xy 8.382 -10.16)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "BMI270_1_1"
-				(pin passive line
-					(at -11.43 7.62 0)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 5.08 0)
-					(length 2.54)
-					(name "ASDX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 2.54 0)
-					(length 2.54)
-					(name "ASCX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 0 0)
-					(length 2.54)
-					(name "INT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -2.54 0)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -5.08 0)
-					(length 2.54)
-					(name "GNDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -11.43 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -7.62 180)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -5.08 180)
-					(length 2.54)
-					(name "INT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 -2.54 180)
-					(length 2.54)
-					(name "OCSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "OSDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 2.54 180)
-					(length 2.54)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 5.08 180)
-					(length 2.54)
-					(name "SCX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 11.43 7.62 180)
-					(length 2.54)
-					(name "SDX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "XWatch_Rev1.0:LIS2MDLTR"
 			(pin_names
 				(offset 1.016)
@@ -958,6 +352,345 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XWatch_Rev1.0:LPS27HHWTR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LPS27HHWTR"
+				(at 0 -10.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev1.0:LPS27HHWTR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205061630_STMicroelectronics-LPS27HHWTR_C3010792.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 0.025hpa 0.5hpa 1.7V~3.6V 26Kpa~1.26bar 900nA I2C、SPI CCLGA-10(2.7x2.7) Pressure Sensors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C3010792"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "LPS27HHWTR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C3010792 CLGA-10_L2.7-W2.7-P0.60-TL-EP0.6 LPS27HHWTR STMicroelectronics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LPS27HHWTR_0_1"
+				(circle
+					(center -16.51 7.62)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.272 -8.89) (xy 17.3711 -8.8802) (xy 17.4664 -8.8513) (xy 17.5542 -8.8044) (xy 17.6312 -8.7412)
+						(xy 17.6944 -8.6642) (xy 17.7413 -8.5764) (xy 17.7702 -8.4811) (xy 17.78 -8.382) (xy 17.7702 8.4811)
+						(xy 17.7413 8.5764) (xy 17.6944 8.6642) (xy 17.6312 8.7412) (xy 17.5542 8.8044) (xy 17.4664 8.8513)
+						(xy 17.3711 8.8802) (xy 17.272 8.89) (xy -17.3711 8.8802) (xy -17.4664 8.8513) (xy -17.5542 8.8044)
+						(xy -17.6312 8.7412) (xy -17.6944 8.6642) (xy -17.7413 8.5764) (xy -17.7702 8.4811) (xy -17.78 8.382)
+						(xy -17.7702 -8.4811) (xy -17.7413 -8.5764) (xy -17.6944 -8.6642) (xy -17.6312 -8.7412) (xy -17.5542 -8.8044)
+						(xy -17.4664 -8.8513) (xy -17.3711 -8.8802) (xy -17.272 -8.89) (xy 17.272 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LPS27HHWTR_1_1"
+				(pin passive line
+					(at -20.32 3.81 0)
+					(length 2.54)
+					(name "Vdd_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 1.27 0)
+					(length 2.54)
+					(name "SCL/SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -1.27 0)
+					(length 2.54)
+					(name "Reserved"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -3.81 0)
+					(length 2.54)
+					(name "SDA/SDI/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -6.35 0)
+					(length 2.54)
+					(name "SDO/SA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -6.35 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -3.81 180)
+					(length 2.54)
+					(name "INT_DRDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 3.81 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1361,10 +1094,799 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XWatch_Rev1.0:MAX86141ENP+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at -5.588 18.542 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MAX86141ENP+"
+				(at -5.588 16.002 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XWatch_Rev1.0:BGA20C40P5X4_205X185X50"
+				(at 34.29 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX86140-MAX86141.pdf"
+				(at 34.29 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.5"
+				(at 34.29 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 34.29 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MAX86141ENP+"
+				(at 34.29 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "700-MAX86141ENP+"
+				(at 34.29 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX86141ENP%2b?qs=YCa%2FAAYMW01jqVI3kzZSjA%3D%3D"
+				(at 34.29 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 34.29 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 34.29 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "MAX86141ENP+_1_1"
+				(rectangle
+					(start -13.97 11.43)
+					(end 13.97 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -19.05 8.89 0)
+					(length 5.08)
+					(name "VLED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 6.35 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 3.81 0)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 1.27 0)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -1.27 0)
+					(length 5.08)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -3.81 0)
+					(length 5.08)
+					(name "LED3_DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -6.35 0)
+					(length 5.08)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -8.89 0)
+					(length 5.08)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -11.43 0)
+					(length 5.08)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -19.05 -13.97 0)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 8.89 180)
+					(length 5.08)
+					(name "LED2_DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 6.35 180)
+					(length 5.08)
+					(name "VDD_DIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 3.81 180)
+					(length 5.08)
+					(name "GND_DIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 1.27 180)
+					(length 5.08)
+					(name "GND_ANA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -1.27 180)
+					(length 5.08)
+					(name "PD_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -3.81 180)
+					(length 5.08)
+					(name "LED1_DRV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -6.35 180)
+					(length 5.08)
+					(name "VDD_ANA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -8.89 180)
+					(length 5.08)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -11.43 180)
+					(length 5.08)
+					(name "PD2_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 19.05 -13.97 180)
+					(length 5.08)
+					(name "PD1_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XWatch_Rev1.0:OPT3001DNPR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "OPT3001DNPR"
+				(at 0 -9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev1.0:OPT3001DNPR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291409_Texas-Instruments-OPT3001DNPR_C90462.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 0.65mm 1.8V~3.6V 1.8uA 2mm 2mm 83klx I2C Light Intensity USON-6-EP(2.1x2.1) Ambient Light Sensors ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C90462"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "OPT3001DNPR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C90462 OPT3001DNPR Texas Instruments USON6_L2.1-W2.1-P0.65-BL-EP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OPT3001DNPR_0_1"
+				(circle
+					(center -6.35 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 -5.08) (xy 7.2111 -5.0702) (xy 7.3064 -5.0413) (xy 7.3942 -4.9944) (xy 7.4712 -4.9312)
+						(xy 7.5344 -4.8542) (xy 7.5813 -4.7664) (xy 7.6102 -4.6711) (xy 7.62 -4.572) (xy 7.6102 4.6711)
+						(xy 7.5813 4.7664) (xy 7.5344 4.8542) (xy 7.4712 4.9312) (xy 7.3942 4.9944) (xy 7.3064 5.0413)
+						(xy 7.2111 5.0702) (xy 7.112 5.08) (xy -7.2111 5.0702) (xy -7.3064 5.0413) (xy -7.3942 4.9944)
+						(xy -7.4712 4.9312) (xy -7.5344 4.8542) (xy -7.5813 4.7664) (xy -7.6102 4.6711) (xy -7.62 4.572)
+						(xy -7.6102 -4.6711) (xy -7.5813 -4.7664) (xy -7.5344 -4.8542) (xy -7.4712 -4.9312) (xy -7.3942 -4.9944)
+						(xy -7.3064 -5.0413) (xy -7.2111 -5.0702) (xy -7.112 -5.08) (xy 7.112 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OPT3001DNPR_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(symbol
-		(lib_id "XWatch_Rev1.0:AK09918C")
-		(at 191.77 80.01 0)
+		(lib_id "XWatch_Rev1.0:OPT3001DNPR")
+		(at 67.31 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1373,31 +1895,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd6af3bc-a839-408d-84b2-28a0257c19e6")
-		(property "Reference" "U3"
-			(at 196.85 78.7399 0)
+		(uuid "8f6245be-7fc2-4095-9d0d-2708fff38221")
+		(property "Reference" "U7"
+			(at 67.31 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "AK09918C"
-			(at 196.85 81.2799 0)
+		(property "Value" "OPT3001DNPR"
+			(at 67.31 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:AK09918C"
-			(at 191.77 80.01 0)
+		(property "Footprint" "XWatch_Rev1.0:OPT3001DNPR"
+			(at 67.31 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1407,8 +1927,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2201120730_Asahi-Kasei-Microdevices-AK09918C_C2655004.pdf"
-			(at 191.77 80.01 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291409_Texas-Instruments-OPT3001DNPR_C90462.pdf"
+			(at 67.31 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,8 +1938,8 @@
 				)
 			)
 		)
-		(property "Description" "-30℃~+85℃ 1.1mA 1.65V~1.95V 16bit I2C ±4.912mT ±4.912mT WLCSP-4(0.8x0.8) 3D Magnetic Sensors ROHS"
-			(at 191.77 80.01 0)
+		(property "Description" "-40℃~+85℃ 0.65mm 1.8V~3.6V 1.8uA 2mm 2mm 83klx I2C Light Intensity USON-6-EP(2.1x2.1) Ambient Light Sensors ROHS"
+			(at 67.31 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1429,8 +1949,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C2655004"
-			(at 191.77 80.01 0)
+		(property "LCSC" "C90462"
+			(at 67.31 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1440,8 +1960,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Asahi Kasei Microdevices"
-			(at 191.77 80.01 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 67.31 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1451,8 +1971,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "AK09918C"
-			(at 191.77 80.01 0)
+		(property "Manufacturer Part" "OPT3001DNPR"
+			(at 67.31 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1462,22 +1982,391 @@
 				)
 			)
 		)
-		(pin "B2"
-			(uuid "d0dece2a-6234-4414-a392-ab072b1298ce")
+		(pin "2"
+			(uuid "a91320c5-8664-4e3e-8c46-a47f52fdd40e")
 		)
-		(pin "B1"
-			(uuid "b4178a5f-c613-4cf0-9c46-41061b9c962e")
+		(pin "1"
+			(uuid "7b70d0f6-c8e6-4523-8c29-158d11ebc664")
 		)
-		(pin "A1"
-			(uuid "00b9aae5-f490-40d2-8303-18b4bc2422ce")
+		(pin "3"
+			(uuid "54c6791a-72da-426b-8d7a-1c54e6d21366")
 		)
-		(pin "A2"
-			(uuid "4ee2a18f-ccf9-4dfa-9639-8645824db2b9")
+		(pin "7"
+			(uuid "5eadb88f-1d86-443b-ad59-cc0ab331b7fd")
+		)
+		(pin "6"
+			(uuid "5fc20658-f7cf-496a-82f0-273d2cf4e968")
+		)
+		(pin "4"
+			(uuid "8277dc7b-d7a3-4956-bf42-e30429a4c80c")
+		)
+		(pin "5"
+			(uuid "7829a44f-a2b4-4a02-9e9d-e51b80972fd3")
 		)
 		(instances
 			(project "XWatch_Rev1.0"
 				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/60582904-f38c-47af-bf5b-266849badec8"
-					(reference "U3")
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev1.0:MAX86141ENP+")
+		(at 152.4 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91cfdbb0-34b7-45d2-8e88-5401e4c33e24")
+		(property "Reference" "IC2"
+			(at 152.4 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX86141ENP+"
+			(at 152.4 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:BGA20C40P5X4_205X185X50"
+			(at 186.69 138.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://datasheets.maximintegrated.com/en/ds/MAX86140-MAX86141.pdf"
+			(at 186.69 238.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MAXIM INTEGRATED PRODUCTS - MAX86141ENP+ - PULSE OXIMETER/HEART RATE SENSOR, WLP-20"
+			(at 152.4 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.5"
+			(at 186.69 438.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 186.69 538.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX86141ENP+"
+			(at 186.69 638.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "700-MAX86141ENP+"
+			(at 186.69 738.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX86141ENP%2b?qs=YCa%2FAAYMW01jqVI3kzZSjA%3D%3D"
+			(at 186.69 838.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 186.69 938.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 186.69 1038.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "C2"
+			(uuid "bead6c0b-58a6-40a7-a57c-9341987868a8")
+		)
+		(pin "C3"
+			(uuid "b1038746-3555-4227-abbb-58784241e6cd")
+		)
+		(pin "D3"
+			(uuid "52278548-2012-4d08-822a-6a785b356fb8")
+		)
+		(pin "A1"
+			(uuid "ee1d257c-028c-4a67-873e-6e692cf47dc8")
+		)
+		(pin "D4"
+			(uuid "6e72f85b-6709-4e18-9fe0-fd3af10cce87")
+		)
+		(pin "D1"
+			(uuid "928188ac-d9cf-406e-b21e-418d632caba0")
+		)
+		(pin "B3"
+			(uuid "f58a6f09-6c27-43a1-9313-2cd9b9779dae")
+		)
+		(pin "B5"
+			(uuid "b5aa598f-555b-4e5d-b33b-17ceb09ddf1e")
+		)
+		(pin "A4"
+			(uuid "ad2d1904-0643-4703-a46d-842c26db0824")
+		)
+		(pin "A5"
+			(uuid "ccc78e48-f840-459a-adab-17952abefda4")
+		)
+		(pin "D5"
+			(uuid "8b1f5695-7e14-456b-b8d5-33ae76f36a2c")
+		)
+		(pin "A2"
+			(uuid "5d48afcf-bc03-4e44-865c-5c1925faab94")
+		)
+		(pin "C5"
+			(uuid "c4f734ba-0c0a-4bd2-8b36-6bfd67c5730c")
+		)
+		(pin "B4"
+			(uuid "32763a22-4a33-402d-83d0-b76e7421e334")
+		)
+		(pin "B2"
+			(uuid "af2ef9e6-8718-4a6d-9c6d-e195fcc9c746")
+		)
+		(pin "D2"
+			(uuid "919a8841-6dd9-4bf7-a9c4-5abe234b07d6")
+		)
+		(pin "B1"
+			(uuid "54cf2748-7b5d-4bda-b209-80b9a0bc78f0")
+		)
+		(pin "C4"
+			(uuid "3522f85f-d987-43c8-8e4b-4187f5d75cc0")
+		)
+		(pin "A3"
+			(uuid "1b4ce3b4-830b-473f-a4fa-80a2c29405fa")
+		)
+		(pin "C1"
+			(uuid "67ebd4ea-53e0-45eb-a2c0-0c247f956d3c")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/60582904-f38c-47af-bf5b-266849badec8"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev1.0:LPS27HHWTR")
+		(at 57.15 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5f6d9b7-54b0-4686-a467-082d769ab07b")
+		(property "Reference" "U8"
+			(at 57.15 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LPS27HHWTR"
+			(at 57.15 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:LPS27HHWTR"
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205061630_STMicroelectronics-LPS27HHWTR_C3010792.pdf"
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 0.025hpa 0.5hpa 1.7V~3.6V 26Kpa~1.26bar 900nA I2C、SPI CCLGA-10(2.7x2.7) Pressure Sensors ROHS"
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3010792"
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "LPS27HHWTR"
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "33a87132-6ec2-4ce7-8511-3572bf2e9b59")
+		)
+		(pin "11"
+			(uuid "038656c7-1016-410f-bf6f-a0145f9b0a32")
+		)
+		(pin "5"
+			(uuid "06750d3a-123f-4aef-8cd2-3af2c573890e")
+		)
+		(pin "4"
+			(uuid "16363ae2-6684-497a-8b8d-ee73d668c067")
+		)
+		(pin "7"
+			(uuid "f843441f-cc95-4a6f-8a70-f0724f01a8ea")
+		)
+		(pin "6"
+			(uuid "5d02e6b3-38e0-4156-809b-1ea878a7f8a1")
+		)
+		(pin "2"
+			(uuid "688f7006-dcd6-4cc1-b72d-f27e44a65970")
+		)
+		(pin "10"
+			(uuid "3ce4fd0e-bcb8-4ef2-936b-ce9fa588a256")
+		)
+		(pin "8"
+			(uuid "984bde91-6bf3-4e7e-92ce-ce2462fb7884")
+		)
+		(pin "9"
+			(uuid "2885921f-8bac-4cf6-864d-08b7a2d9c4ea")
+		)
+		(pin "1"
+			(uuid "5d4a12a5-428f-4a1f-a407-ea022d9baa5c")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/60582904-f38c-47af-bf5b-266849badec8"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1621,155 +2510,6 @@
 			(project "XWatch_Rev1.0"
 				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/60582904-f38c-47af-bf5b-266849badec8"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XWatch_Rev1.0:BMI270")
-		(at 205.74 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce5914ff-24a9-4184-b3f2-248764a5676b")
-		(property "Reference" "U4"
-			(at 205.74 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BMI270"
-			(at 205.74 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XWatch_Rev1.0:BMI270"
-			(at 205.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121930_Bosch-Sensortec-BMI270_C2836813.pdf"
-			(at 205.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-40℃~+85℃ 1.71V~3.6V 16bit 2KB 3.5uA Accelerometer Gyroscope SPI、I2C X,Y,Z X,Y,Z ±16g ±2000dps LGA-14(2.5x3) Accelerometers ROHS"
-			(at 205.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2836813"
-			(at 205.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Bosch Sensortec"
-			(at 205.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "BMI270"
-			(at 205.74 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "7608183e-7d96-4dbe-93a1-b6157f543d66")
-		)
-		(pin "9"
-			(uuid "8b9ae04a-55b2-476f-bc98-07594b3b4af9")
-		)
-		(pin "1"
-			(uuid "bc55d37c-aa0a-4232-b646-d8be59b2beb1")
-		)
-		(pin "13"
-			(uuid "a61af1f8-1af3-4cb3-a6f3-02fff8185aa8")
-		)
-		(pin "4"
-			(uuid "e85904d9-a80f-4213-ac23-54966cc478aa")
-		)
-		(pin "3"
-			(uuid "15170f2d-d6ef-4339-bab6-e10ebf6db291")
-		)
-		(pin "10"
-			(uuid "f6ed176f-cf8a-4783-8eeb-0b51ec2f5dfa")
-		)
-		(pin "8"
-			(uuid "78608e9e-4bfa-4710-9847-3cf83b3db316")
-		)
-		(pin "6"
-			(uuid "778007f8-c074-4925-8698-8982020df46f")
-		)
-		(pin "14"
-			(uuid "b73845f0-b7c1-49c9-b005-94be31117195")
-		)
-		(pin "2"
-			(uuid "64d521b1-4fee-49e1-b54e-11f66b55bf6f")
-		)
-		(pin "11"
-			(uuid "1ec538c1-631c-4c2d-9a95-f2ecdb935686")
-		)
-		(pin "12"
-			(uuid "50922815-7f53-4a5f-a64e-86bf6a978b85")
-		)
-		(pin "7"
-			(uuid "a62ba67c-512f-4eb4-9f23-3d6d74b4a6bc")
-		)
-		(instances
-			(project "XWatch_Rev1.0"
-				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/60582904-f38c-47af-bf5b-266849badec8"
-					(reference "U4")
 					(unit 1)
 				)
 			)

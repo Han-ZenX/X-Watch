@@ -4,5 +4,443 @@
 	(generator_version "10.0")
 	(uuid "e7353f14-a791-4c8b-8814-c3c66c4b28f0")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "XWatch_Rev1.0:W25Q256JWPIQ"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "W25Q256JWPIQ"
+				(at 0 -8.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev1.0:W25Q256JWPIQ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010930_Winbond-Elec-W25Q256JWPIQ_C5362614.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 1.7V~1.95V 100,000 cycles 133MHz 1uA 20 Years 200ms@(64KB) 256Mbit 800us SPI WSON-8(5x6) NOR FLASH ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5362614"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Winbond Elec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "W25Q256JWPIQ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C5362614 W25Q256JWPIQ WSON-8_L6.0-W5.0-P1.27-TL-EP Winbond Elec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "W25Q256JWPIQ_0_1"
+				(circle
+					(center -22.86 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.622 -6.35) (xy 23.7211 -6.3402) (xy 23.8164 -6.3113) (xy 23.9042 -6.2644) (xy 23.9812 -6.2012)
+						(xy 24.0444 -6.1242) (xy 24.0913 -6.0364) (xy 24.1202 -5.9411) (xy 24.13 -5.842) (xy 24.1202 5.9411)
+						(xy 24.0913 6.0364) (xy 24.0444 6.1242) (xy 23.9812 6.2012) (xy 23.9042 6.2644) (xy 23.8164 6.3113)
+						(xy 23.7211 6.3402) (xy 23.622 6.35) (xy -23.7211 6.3402) (xy -23.8164 6.3113) (xy -23.9042 6.2644)
+						(xy -23.9812 6.2012) (xy -24.0444 6.1242) (xy -24.0913 6.0364) (xy -24.1202 5.9411) (xy -24.13 5.842)
+						(xy -24.1202 -5.9411) (xy -24.0913 -6.0364) (xy -24.0444 -6.1242) (xy -23.9812 -6.2012) (xy -23.9042 -6.2644)
+						(xy -23.8164 -6.3113) (xy -23.7211 -6.3402) (xy -23.622 -6.35) (xy 23.622 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "W25Q256JWPIQ_1_1"
+				(pin passive line
+					(at -26.67 3.81 0)
+					(length 2.54)
+					(name "CS#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -26.67 1.27 0)
+					(length 2.54)
+					(name "DO(IO1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -26.67 -1.27 0)
+					(length 2.54)
+					(name "WP#(IO2)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -26.67 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -3.81 180)
+					(length 2.54)
+					(name "DI(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 -1.27 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 1.27 180)
+					(length 2.54)
+					(name "HOLD#orRESET#(IO3)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 26.67 3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev1.0:W25Q256JWPIQ")
+		(at 142.24 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c828d748-9e89-44e4-8e13-89a954b719fb")
+		(property "Reference" "U3"
+			(at 142.24 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W25Q256JWPIQ"
+			(at 142.24 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:W25Q256JWPIQ"
+			(at 142.24 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010930_Winbond-Elec-W25Q256JWPIQ_C5362614.pdf"
+			(at 142.24 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1.7V~1.95V 100,000 cycles 133MHz 1uA 20 Years 200ms@(64KB) 256Mbit 800us SPI WSON-8(5x6) NOR FLASH ROHS"
+			(at 142.24 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5362614"
+			(at 142.24 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Winbond Elec"
+			(at 142.24 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "W25Q256JWPIQ"
+			(at 142.24 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "6efea527-d1ad-40e7-9984-19f3ad3687c8")
+		)
+		(pin "8"
+			(uuid "b349f39c-0efa-47be-8bf3-0d714bd8b512")
+		)
+		(pin "6"
+			(uuid "1458c397-664f-4768-a3ae-b5362c70c3c6")
+		)
+		(pin "5"
+			(uuid "c15c2596-42ab-49ff-b676-71cd951dd56d")
+		)
+		(pin "9"
+			(uuid "c2ba60ec-0967-47e7-b4d0-6c9c8f4b02a5")
+		)
+		(pin "3"
+			(uuid "e8ec61ba-1692-4ea4-89d5-adb259ce417a")
+		)
+		(pin "1"
+			(uuid "3a08d9c9-5c2d-49da-8e03-f83b68191d78")
+		)
+		(pin "4"
+			(uuid "15baa503-5259-4fea-bf1e-22c3bda09859")
+		)
+		(pin "2"
+			(uuid "1eeb220e-d915-4601-8788-89554c26d0b3")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/01ba0b89-59f9-4a59-855d-ecc8f6f537f0"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
