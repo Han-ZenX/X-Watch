@@ -4552,7 +4552,7 @@
 		)
 		(uuid "73c1ae0e-b7f7-4280-9055-8c47a0785a58")
 	)
-	(hierarchical_label "DSI_BL_CTRL"
+	(hierarchical_label "DSI_AVDDEN"
 		(shape bidirectional)
 		(at 40.64 172.72 180)
 		(effects
