@@ -6493,7 +6493,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at -12.7 15.24 0)
+			(at -7.366 16.256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6504,7 +6504,7 @@
 			)
 		)
 		(property "Value" "SGM38046YG_TR"
-			(at -12.7 -27.94 0)
+			(at -7.366 13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6635,8 +6635,8 @@
 		)
 		(symbol "SGM38046YG_TR_1_1"
 			(rectangle
-				(start -12.7 12.7)
-				(end 12.7 -20.32)
+				(start -11.43 10.16)
+				(end 11.43 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -6646,7 +6646,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 5.08 0)
+				(at -16.51 7.62 0)
 				(length 5.08)
 				(name "PVIN"
 					(effects
@@ -6664,7 +6664,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 2.54 0)
+				(at -16.51 5.08 0)
 				(length 5.08)
 				(name "AVIN"
 					(effects
@@ -6682,7 +6682,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -25.4 90)
+				(at -16.51 2.54 0)
 				(length 5.08)
 				(name "AGND"
 					(effects
@@ -6700,7 +6700,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -2.54 0)
+				(at -16.51 0 0)
 				(length 5.08)
 				(name "C1P"
 					(effects
@@ -6718,7 +6718,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 10.16 0)
+				(at -16.51 -2.54 0)
 				(length 5.08)
 				(name "SW1"
 					(effects
@@ -6736,7 +6736,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -25.4 90)
+				(at -16.51 -5.08 0)
 				(length 5.08)
 				(name "PGND"
 					(effects
@@ -6754,7 +6754,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -25.4 90)
+				(at -16.51 -7.62 0)
 				(length 5.08)
 				(name "CPGND"
 					(effects
@@ -6772,7 +6772,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -5.08 0)
+				(at -16.51 -10.16 0)
 				(length 5.08)
 				(name "C1N"
 					(effects
@@ -6790,7 +6790,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 10.16 180)
+				(at 16.51 7.62 180)
 				(length 5.08)
 				(name "SW2"
 					(effects
@@ -6808,7 +6808,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -10.16 0)
+				(at 16.51 5.08 180)
 				(length 5.08)
 				(name "AVDDEN"
 					(effects
@@ -6826,7 +6826,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -12.7 0)
+				(at 16.51 2.54 180)
 				(length 5.08)
 				(name "SWIRE"
 					(effects
@@ -6844,7 +6844,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -10.16 180)
+				(at 16.51 0 180)
 				(length 5.08)
 				(name "VON"
 					(effects
@@ -6862,7 +6862,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 5.08 180)
+				(at 16.51 -2.54 180)
 				(length 5.08)
 				(name "VOUT"
 					(effects
@@ -6880,7 +6880,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 2.54 180)
+				(at 16.51 -5.08 180)
 				(length 5.08)
 				(name "AVDD"
 					(effects
@@ -6898,7 +6898,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -2.54 180)
+				(at 16.51 -7.62 180)
 				(length 5.08)
 				(name "OVDD"
 					(effects
@@ -6916,7 +6916,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -5.08 180)
+				(at 16.51 -10.16 180)
 				(length 5.08)
 				(name "OVSS"
 					(effects
