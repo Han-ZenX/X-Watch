@@ -1705,6 +1705,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 121.92) (xy 91.44 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5f43f4c-6f7e-4e32-8e75-116a3d661c8b")
+	)
+	(wire
+		(pts
 			(xy 147.32 88.9) (xy 158.75 88.9)
 		)
 		(stroke
@@ -1752,6 +1762,16 @@
 			(type default)
 		)
 		(uuid "ec2df8b8-8c70-4dd0-a5e6-5f89615e76fa")
+	)
+	(label "TE"
+		(at 80.01 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "026324b9-82a3-460a-a776-1ec7f3b4d764")
 	)
 	(label "TP_RESET"
 		(at 115.57 83.82 0)
@@ -1862,6 +1882,17 @@
 			(justify right bottom)
 		)
 		(uuid "f345d2ac-03fb-408d-9dfc-110c1a3dd4b6")
+	)
+	(hierarchical_label "DSI_TE"
+		(shape output)
+		(at 74.93 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be5c856f-43aa-4ad6-995b-7679cec8574a")
 	)
 	(symbol
 		(lib_id "power:GND")
