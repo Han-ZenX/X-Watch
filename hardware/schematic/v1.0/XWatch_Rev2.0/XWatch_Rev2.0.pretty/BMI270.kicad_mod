@@ -1,0 +1,266 @@
+(footprint "BMI270"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 1.71V~3.6V 16bit 2KB 3.5uA Accelerometer Gyroscope SPI、I2C X,Y,Z X,Y,Z ±16g ±2000dps LGA-14(2.5x3) Accelerometers ROHS")
+	(tags "BMI270 Bosch Sensortec C2836813 LGA-14_L3.0-W2.5-P0.50-BR")
+	(property "Reference" "REF**"
+		(at 0 -2.326286 0)
+		(layer "F.SilkS")
+		(uuid "e2041154-6516-49dd-8cdd-01a0665aba68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.326 0)
+		(layer "F.Fab")
+		(uuid "e8d30123-a4a1-4498-85fe-acaffd46f598")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121930_Bosch-Sensortec-BMI270_C2836813.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86602b2f-23b9-4441-8c8a-25fa1a49e9e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 1.71V~3.6V 16bit 2KB 3.5uA Accelerometer Gyroscope SPI、I2C X,Y,Z X,Y,Z ±16g ±2000dps LGA-14(2.5x3) Accelerometers ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c0e2273-0cc9-4491-8d23-7de187e4fabb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2836813"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3e3e30d-5438-493b-b31d-56ff94ca765e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.576248 -1.326286)
+		(end -1.576248 -1.080592)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbf802b1-8150-4bcd-8fc3-dc017e97c528")
+	)
+	(fp_line
+		(start -1.576248 1.326)
+		(end -1.576248 1.080389)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cce9570e-ed23-4c70-9fad-965f100b5c83")
+	)
+	(fp_line
+		(start -0.83058 -1.326286)
+		(end -1.576248 -1.326286)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da61618e-7969-40ee-a3f2-c3ca05a778a0")
+	)
+	(fp_line
+		(start -0.83058 1.326)
+		(end -1.576248 1.326)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f89c6657-e354-44cf-b76f-3397a715b5aa")
+	)
+	(fp_line
+		(start 0.83058 -1.326286)
+		(end 1.576197 -1.326286)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d0dd4ac9-7d1c-498b-9b8f-16b89a47a083")
+	)
+	(fp_line
+		(start 0.83058 1.326)
+		(end 1.576197 1.326)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d582951c-f4e0-43ad-b126-d80c496d17b1")
+	)
+	(fp_line
+		(start 1.576197 -1.326286)
+		(end 1.576197 -1.080592)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fa39f595-143f-4776-8393-5d895009e76c")
+	)
+	(fp_line
+		(start 1.576197 1.326)
+		(end 1.576197 1.080389)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6a8e0b8-4cc4-4f15-a2cd-f1eedb20f086")
+	)
+	(fp_circle
+		(center 1.73 0.74)
+		(end 1.805 0.74)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "004df28c-d815-47e1-bdd3-d1b4cb36b146")
+	)
+	(fp_circle
+		(center 1.36 0.76)
+		(end 1.435 0.76)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "36514a93-cf5f-4c7a-8f11-60d1a8234b2f")
+	)
+	(pad "1" smd rect
+		(at 1.17 0.75)
+		(size 0.6 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "50c13df6-943c-4dc1-b2ae-005bd048f805")
+	)
+	(pad "2" smd rect
+		(at 1.17 0.249809)
+		(size 0.6 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6c9346b-77fb-467e-b0ae-4911da0df150")
+	)
+	(pad "3" smd rect
+		(at 1.17 -0.25)
+		(size 0.6 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e251c2c5-eaa4-4d71-a8d0-fc4127cb026e")
+	)
+	(pad "4" smd rect
+		(at 1.17 -0.750189)
+		(size 0.6 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8065cd92-a16e-4f99-93e5-598ffebbc568")
+	)
+	(pad "5" smd rect
+		(at 0.49977 -0.92)
+		(size 0.27 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b67132f-b454-4ff0-bf32-ff8d0de67e14")
+	)
+	(pad "6" smd rect
+		(at 0 -0.92)
+		(size 0.27 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0171a612-5132-454c-a6ca-7eb080802d51")
+	)
+	(pad "7" smd rect
+		(at -0.500228 -0.92)
+		(size 0.27 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f33c3e5f-9596-4a48-9462-1d058ab4c542")
+	)
+	(pad "8" smd rect
+		(at -1.17 -0.750189)
+		(size 0.6 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fe81217b-9a1c-42bc-b6d0-e46af4f573bb")
+	)
+	(pad "9" smd rect
+		(at -1.17 -0.25)
+		(size 0.6 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8cea3957-6a57-419d-9cdb-721f04242356")
+	)
+	(pad "10" smd rect
+		(at -1.17 0.249809)
+		(size 0.6 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2614eb7-78d7-4bcf-bea6-8e75118f7f9e")
+	)
+	(pad "11" smd rect
+		(at -1.17 0.75)
+		(size 0.6 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "69a084ba-4dad-4b81-baa3-7e9e04de1f58")
+	)
+	(pad "12" smd rect
+		(at -0.500228 0.92)
+		(size 0.27 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6058a434-1f5a-487a-9a11-312fa15158e8")
+	)
+	(pad "13" smd rect
+		(at 0 0.92)
+		(size 0.27 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "497f4f5a-ea14-4fec-8970-024b1556bfe6")
+	)
+	(pad "14" smd rect
+		(at 0.49977 0.92)
+		(size 0.27 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "45335545-d989-4c8f-ada7-5eeaa77c8322")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/BMI270.wrl"
+		(offset
+			(xyz 0 0 0.21)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)

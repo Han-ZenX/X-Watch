@@ -1,0 +1,244 @@
+(footprint "OPT3001DNPR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 0.65mm 1.8V~3.6V 1.8uA 2mm 2mm 83klx I2C Light Intensity USON-6-EP(2.1x2.1) Ambient Light Sensors ROHS")
+	(tags "C90462 OPT3001DNPR Texas Instruments USON6_L2.1-W2.1-P0.65-BL-EP")
+	(property "Reference" "REF**"
+		(at 0 -2.22504 0)
+		(layer "F.SilkS")
+		(uuid "a5452f3c-445f-4c83-af1d-1c4f8f360a6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.22504 0)
+		(layer "F.Fab")
+		(uuid "01888575-9ae9-4e3c-9946-8f4d701d5b7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809291409_Texas-Instruments-OPT3001DNPR_C90462.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a0620ca-0c43-48ee-82c7-2a38249e4e86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 0.65mm 1.8V~3.6V 1.8uA 2mm 2mm 83klx I2C Light Intensity USON-6-EP(2.1x2.1) Ambient Light Sensors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67e47712-f51e-4547-95f0-d9afcafee8ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C90462"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c5b8050-7010-4f47-9250-c8f6d595fa07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.05 -1.05)
+		(end -1.05 1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4966133d-dec6-4fe2-9e4c-bd6057cf0e6c")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end -0.93 1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cc40dbd-bc58-49e9-bd81-471408659dc3")
+	)
+	(fp_line
+		(start -0.93 -1.05)
+		(end -1.05 -1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "729192a5-3db2-4625-82b8-0b492790872f")
+	)
+	(fp_line
+		(start -0.37 1.05)
+		(end -0.28 1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34742ea5-3870-470f-a0af-322cf41a69fd")
+	)
+	(fp_line
+		(start -0.28 -1.05)
+		(end -0.37 -1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8776928d-065e-479a-ae9e-ffb39fa0f3b8")
+	)
+	(fp_line
+		(start 0.28 1.05)
+		(end 0.370129 1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f90e9112-b81e-4a9c-a9b8-010a7ba2bfe8")
+	)
+	(fp_line
+		(start 0.370129 -1.05)
+		(end 0.28 -1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d429c4af-bdd1-4a01-822e-399b8dd89cfa")
+	)
+	(fp_line
+		(start 0.93 1.05)
+		(end 1.05 1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "895a8473-cf50-412e-9949-d4bd09fc1019")
+	)
+	(fp_line
+		(start 1.05 -1.05)
+		(end 0.93 -1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c7bcfd3-a697-4139-a0b4-0de2161928b5")
+	)
+	(fp_line
+		(start 1.05 1.05)
+		(end 1.05 -1.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "641cf755-ed38-4c21-9975-3cbaee646371")
+	)
+	(fp_circle
+		(center -1.1 1.35)
+		(end -0.958571 1.35)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "655b6c8b-f893-448d-98dd-bb970d255d43")
+	)
+	(fp_circle
+		(center -0.9 1)
+		(end -0.8 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "7ec9fe07-9bf9-4613-b01e-0f0b0f4081bf")
+	)
+	(pad "1" smd rect
+		(at -0.65 0.95 180)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "17592009-b83b-494b-8417-35a4ba9ab331")
+	)
+	(pad "2" smd rect
+		(at 0 0.95 180)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a78ae8ff-930b-4800-ab46-f2456eb574e7")
+	)
+	(pad "3" smd rect
+		(at 0.65 0.95 180)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e4163b99-0135-4a08-a8db-9eab7e0e2a61")
+	)
+	(pad "4" smd rect
+		(at 0.65 -0.95 180)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f333da1a-f75c-4d9b-aa4c-a0afa71348e7")
+	)
+	(pad "5" smd rect
+		(at 0 -0.95 180)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b09dbee6-dedc-4b7d-bc7a-80ad0c0ccd4b")
+	)
+	(pad "6" smd rect
+		(at -0.65 -0.95 180)
+		(size 0.25 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05e3576b-b4fd-4c51-b9ca-9281114e8236")
+	)
+	(pad "7" smd rect
+		(at 0 -0.000127 180)
+		(size 1.35 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "58305fcc-c719-4d5b-a2a7-f56d9b251ba3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/OPT3001DNPR.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

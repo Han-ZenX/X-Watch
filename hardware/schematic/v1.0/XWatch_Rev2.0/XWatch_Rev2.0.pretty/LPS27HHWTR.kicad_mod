@@ -1,0 +1,260 @@
+(footprint "LPS27HHWTR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 0.025hpa 0.5hpa 1.7V~3.6V 26Kpa~1.26bar 900nA I2C、SPI CCLGA-10(2.7x2.7) Pressure Sensors ROHS")
+	(tags "C3010792 CLGA-10_L2.7-W2.7-P0.60-TL-EP0.6 LPS27HHWTR STMicroelectronics")
+	(property "Reference" "REF**"
+		(at 0 -2.373 0)
+		(layer "F.SilkS")
+		(uuid "ae02c0f2-94be-43ef-b842-617cf6f1ac48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.373 0)
+		(layer "F.Fab")
+		(uuid "5c0c25c7-9ff1-4e43-a41e-9a1af807a045")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205061630_STMicroelectronics-LPS27HHWTR_C3010792.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6913721c-4b0d-485b-990b-c8cf3bc06ae6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 0.025hpa 0.5hpa 1.7V~3.6V 26Kpa~1.26bar 900nA I2C、SPI CCLGA-10(2.7x2.7) Pressure Sensors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "905c899d-0793-448b-8e6f-c9f186f30877")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C3010792"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e65b6741-7dfe-4a06-a29c-5efbdee8f144")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.35 -1.350137)
+		(end -0.993445 -1.350137)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b072f21f-c9a5-4217-9007-15179dfb20e6")
+	)
+	(fp_line
+		(start -1.35 -0.693598)
+		(end -1.35 -1.350137)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb458ade-e7d5-45d2-94a4-51d0d7ad6394")
+	)
+	(fp_line
+		(start -1.35 1.35)
+		(end -1.35 0.69342)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a47062f-d1cc-4dd1-bd88-964867af9d69")
+	)
+	(fp_line
+		(start -0.993445 1.35)
+		(end -1.35 1.35)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea24edf4-f867-41aa-a893-8967209ecf1b")
+	)
+	(fp_line
+		(start 0.993445 -1.350137)
+		(end 1.35 -1.350137)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a63ccd75-87b8-4c94-b68f-43437011a860")
+	)
+	(fp_line
+		(start 1.35 -1.350137)
+		(end 1.35 -0.693598)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec3607c2-882b-4619-95d7-73e1f8332b39")
+	)
+	(fp_line
+		(start 1.35 0.69342)
+		(end 1.35 1.35)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "feeb09ba-2993-4e75-a7b8-ce9c3c4c4ed1")
+	)
+	(fp_line
+		(start 1.35 1.35)
+		(end 0.993445 1.35)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84337442-5518-4dcc-9b0d-c403b5afe86b")
+	)
+	(fp_circle
+		(center -1.68 -0.82)
+		(end -1.63 -0.82)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "eee960f7-0586-4e3e-8216-4919dcf0881c")
+	)
+	(fp_poly
+		(pts
+			(xy -1.675 -1.210132) (xy -1.675 -1.570126) (xy -1.265 -1.570126)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6e5d64d7-5d2b-4f6c-9456-6e9fadb5ac71")
+	)
+	(fp_circle
+		(center -1.696466 -0.358267)
+		(end -1.59639 -0.358267)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "23721461-62c1-4b8a-980a-782299e4b95b")
+	)
+	(pad "1" smd rect
+		(at -1.195 -0.3)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "763bcfc4-d0a5-4245-86ed-188de27d0f40")
+	)
+	(pad "2" smd rect
+		(at -1.195 0.299847)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5ac58bf-5050-4570-9b61-f82a7be34509")
+	)
+	(pad "3" smd rect
+		(at -0.6 1.198 90)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7e958e78-bb0a-4347-944f-991bc16b259b")
+	)
+	(pad "4" smd rect
+		(at 0 1.198 90)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "22e9c20b-6070-439a-89b8-bead3f3004fe")
+	)
+	(pad "5" smd rect
+		(at 0.6 1.198 90)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8cb4fbb6-c758-4141-af64-a6552a206edf")
+	)
+	(pad "6" smd rect
+		(at 1.195 0.299847 180)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6b1ad811-ba1e-4ef9-9cef-7648672c4e38")
+	)
+	(pad "7" smd rect
+		(at 1.195 -0.3 180)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a988b4e4-cad1-4249-84d1-b969126dfc32")
+	)
+	(pad "8" smd rect
+		(at 0.6 -1.198 270)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8dcfa226-7ed8-4e98-8990-f821f5fb2983")
+	)
+	(pad "9" smd rect
+		(at 0 -1.198 270)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44673334-663b-47f6-8797-be2914fd2c39")
+	)
+	(pad "10" smd rect
+		(at -0.6 -1.198 270)
+		(size 0.8 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e9c8c4c-16ce-4f88-9c40-934f1716655f")
+	)
+	(pad "11" smd rect
+		(at 0 -0.000127 270)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d99a7b4f-302c-4839-8203-49acb04cd3e0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/LPS27HHWTR.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

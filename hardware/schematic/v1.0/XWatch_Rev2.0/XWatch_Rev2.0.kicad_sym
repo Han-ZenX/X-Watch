@@ -30,7 +30,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:5042082410"
+		(property "Footprint" "XWatch_Rev2.0:5042082410"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -622,7 +622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:AK09918C"
+		(property "Footprint" "XWatch_Rev2.0:AK09918C"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -835,7 +835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:AXE530127"
+		(property "Footprint" "XWatch_Rev2.0:AXE530127"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1588,7 +1588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:BMI270"
+		(property "Footprint" "XWatch_Rev2.0:BMI270"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1986,7 +1986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:GEN_C_0201"
+		(property "Footprint" "XWatch_Rev2.0:GEN_C_0201"
 			(at 0.9652 -3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2607,7 +2607,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:BGA30C40P5X6_214X254X56"
+		(property "Footprint" "XWatch_Rev2.0:BGA30C40P5X6_214X254X56"
 			(at 36.83 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +3761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:FH19C-8S-0_5SH_10"
+		(property "Footprint" "XWatch_Rev2.0:FH19C-8S-0_5SH_10"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4062,7 +4062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:FH19C-8S-0_5SH_10"
+		(property "Footprint" "XWatch_Rev2.0:FH19C-8S-0_5SH_10"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4717,7 +4717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:L_0402_1005Metric"
+		(property "Footprint" "XWatch_Rev2.0:L_0402_1005Metric"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4891,7 +4891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:LIS2MDLTR"
+		(property "Footprint" "XWatch_Rev2.0:LIS2MDLTR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5248,7 +5248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:LPS27HHWTR"
+		(property "Footprint" "XWatch_Rev2.0:LPS27HHWTR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5587,7 +5587,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:LSM6DSOXTR"
+		(property "Footprint" "XWatch_Rev2.0:LSM6DSOXTR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5980,7 +5980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:MAX17048G_T10"
+		(property "Footprint" "XWatch_Rev2.0:MAX17048G_T10"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6282,7 +6282,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:BGA20C40P5X4_205X185X50"
+		(property "Footprint" "XWatch_Rev2.0:BGA20C40P5X4_205X185X50"
 			(at 34.29 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6805,7 +6805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:NT3H1101W0FHKH"
+		(property "Footprint" "XWatch_Rev2.0:NT3H1101W0FHKH"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7109,7 +7109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:NX3215SA_32_768KHZ_EXS00A-MU00525"
+		(property "Footprint" "XWatch_Rev2.0:NX3215SA_32_768KHZ_EXS00A-MU00525"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:OPT3001DNPR"
+		(property "Footprint" "XWatch_Rev2.0:OPT3001DNPR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7584,7 +7584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:GEN_R_0201"
+		(property "Footprint" "XWatch_Rev2.0:GEN_R_0201"
 			(at -1.778 0 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7720,7 +7720,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:BGA16C50P4X4_200X200X61"
+		(property "Footprint" "XWatch_Rev2.0:BGA16C50P4X4_200X200X61"
 			(at 29.21 -94.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8171,7 +8171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:STM32L4R9AII6"
+		(property "Footprint" "XWatch_Rev2.0:STM32L4R9AII6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11340,7 +11340,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:STM32L4R9AII6"
+		(property "Footprint" "XWatch_Rev2.0:STM32L4R9AII6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14507,7 +14507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:STM32U5A9BJY6QTR"
+		(property "Footprint" "XWatch_Rev2.0:STM32U5A9BJY6QTR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18452,7 +18452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:STM32U5G9NJH6Q"
+		(property "Footprint" "XWatch_Rev2.0:STM32U5G9NJH6Q"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22500,7 +22500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:TPS62840DLCR"
+		(property "Footprint" "XWatch_Rev2.0:TPS62840DLCR"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22786,7 +22786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:TXM16M0004252CBCEO00T"
+		(property "Footprint" "XWatch_Rev2.0:TXM16M0004252CBCEO00T"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23096,7 +23096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:W25Q256JWPIQ"
+		(property "Footprint" "XWatch_Rev2.0:W25Q256JWPIQ"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23399,7 +23399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:XL7EL89COI-111YLC-16M"
+		(property "Footprint" "XWatch_Rev2.0:XL7EL89COI-111YLC-16M"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23661,7 +23661,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "XWatch_Rev1.0:QFN40P500X500X90-41N"
+		(property "Footprint" "XWatch_Rev2.0:QFN40P500X500X90-41N"
 			(at 41.91 -79.68 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -718,18 +718,6 @@
     [
       "eb648df4-5c42-4d97-a46f-0bb7960c1727",
       "STLink"
-    ],
-    [
-      "9b75958b-9cda-46a5-84ac-61164304e63d",
-      "MCU_IO"
-    ],
-    [
-      "2a0147b1-cbac-4b10-9f04-ad00024f07aa",
-      "DSI_LCD"
-    ],
-    [
-      "19e65f72-a673-4bca-ae14-f8c0be4b7400",
-      "MCU_PWR"
     ]
   ],
   "text_variables": {},

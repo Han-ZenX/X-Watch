@@ -163,6 +163,7 @@
 		(symbol "XWatch_Rev1.0:NX3215SA_32_768KHZ_EXS00A-MU00525"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3674,6 +3675,7 @@
 		(symbol "XWatch_Rev1.0:TXM16M0004252CBCEO00T"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4532,12 +4534,6 @@
 		(uuid "22e40ec7-7e52-49bc-8cd8-c66f06fd0c20")
 	)
 	(junction
-		(at 148.59 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "310b8e7a-67f7-4e6c-80ce-2e6f0ac90c4e")
-	)
-	(junction
 		(at 231.14 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4590,6 +4586,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58768fdb-88ba-495d-aba1-b6dc67f4a3d0")
+	)
+	(junction
+		(at 107.95 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f0c8626-f9cf-48d0-9ca6-9c0c55614806")
 	)
 	(junction
 		(at 276.86 223.52)
@@ -4646,12 +4648,6 @@
 		(uuid "82d71a05-18ca-4f8e-aaf8-c809886b05b0")
 	)
 	(junction
-		(at 107.95 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "842104ba-5f92-401f-834f-15a3d81183e6")
-	)
-	(junction
 		(at 276.86 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4680,12 +4676,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87ba508d-fef3-479d-8497-8ee145296f16")
-	)
-	(junction
-		(at 118.11 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88fae598-8928-4e8b-b50b-b3a84ea033ea")
 	)
 	(junction
 		(at 223.52 193.04)
@@ -4788,6 +4778,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc776ccc-acd1-45f5-82d5-04b8f058fd82")
+	)
+	(junction
+		(at 118.11 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e109b97a-ffa2-4346-ac82-d0ab619283c9")
 	)
 	(junction
 		(at 332.74 29.21)
@@ -5101,6 +5097,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 124.46) (xy 107.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ed09fa-f23d-404f-8f5d-4b57183bbd78")
+	)
+	(wire
+		(pts
 			(xy 121.92 160.02) (xy 127 160.02)
 		)
 		(stroke
@@ -5188,16 +5194,6 @@
 			(type default)
 		)
 		(uuid "2e6095eb-4052-4e4f-a883-c4a08877bc47")
-	)
-	(wire
-		(pts
-			(xy 107.95 120.65) (xy 107.95 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f2bfa28-b44c-4ec3-a731-6611768870d1")
 	)
 	(wire
 		(pts
@@ -5371,7 +5367,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 120.65) (xy 118.11 139.7)
+			(xy 118.11 116.84) (xy 118.11 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5501,16 +5497,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 152.4) (xy 148.59 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "659ccc37-bf4b-43bd-bc74-438c4820101a")
-	)
-	(wire
-		(pts
 			(xy 231.14 198.12) (xy 231.14 200.66)
 		)
 		(stroke
@@ -5611,7 +5597,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 116.84) (xy 107.95 120.65)
+			(xy 107.95 116.84) (xy 107.95 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5851,16 +5837,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 152.4) (xy 148.59 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9258c0f7-a853-428f-918c-3c7e58e1c9ab")
-	)
-	(wire
-		(pts
 			(xy 281.94 139.7) (xy 295.91 139.7)
 		)
 		(stroke
@@ -6028,6 +6004,16 @@
 			(type default)
 		)
 		(uuid "adea31f1-e231-4568-be57-714b91e9e98b")
+	)
+	(wire
+		(pts
+			(xy 127 152.4) (xy 148.59 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae752de5-e317-4ed2-a68a-49831212c066")
 	)
 	(wire
 		(pts
@@ -6331,16 +6317,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 116.84) (xy 118.11 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7fef2d-7859-45be-a2ac-7bcef115b4a8")
-	)
-	(wire
-		(pts
 			(xy 127 175.26) (xy 127 177.8)
 		)
 		(stroke
@@ -6378,6 +6354,16 @@
 			(type default)
 		)
 		(uuid "e16373ec-8d6c-4e00-b351-60e499fb3d30")
+	)
+	(wire
+		(pts
+			(xy 118.11 124.46) (xy 118.11 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e221c785-3c37-4855-a460-4a74f451b90e")
 	)
 	(wire
 		(pts
@@ -9160,124 +9146,6 @@
 		)
 	)
 	(symbol
-		(lib_id "XWatch_Rev1.0:TXM16M0004252CBCEO00T")
-		(at 114.3 171.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "549f3f4d-640e-4888-bdc0-91502df24d6b")
-		(property "Reference" "X2"
-			(at 114.3 164.846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TXM16M0004252CBCEO00T"
-			(at 112.014 180.594 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XWatch_Rev1.0:TXM16M0004252CBCEO00T"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809251007_Yajingxin-TXM16M0004252CBCEO00T_C284160.pdf"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-40℃~+85℃ 16MHz 30Ω 9pF Crystal Oscillator ±10ppm ±30ppm SMD2520-4P Crystals ROHS"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C284160"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Yajingxin"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TXM16M0004252CBCEO00T"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2466b7df-f362-4f35-99c9-4cb2399bdf74")
-		)
-		(pin "1"
-			(uuid "c2b2ffd4-1d91-47e4-b55b-03cdec29a6c0")
-		)
-		(pin "4"
-			(uuid "6c19a0dd-2398-404f-a00d-f4b1f236aac2")
-		)
-		(pin "3"
-			(uuid "31f5a8f7-3534-4343-8b4e-84ecb6a32cd4")
-		)
-		(instances
-			(project "XWatch_Rev1.0"
-				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/fef283f4-292d-430b-9533-4cb8712f0a49"
-					(reference "X2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "XWatch_Rev1.0:C")
 		(at 193.04 196.85 0)
 		(unit 1)
@@ -10320,6 +10188,124 @@
 		)
 	)
 	(symbol
+		(lib_id "XWatch_Rev1.0:TXM16M0004252CBCEO00T")
+		(at 114.3 171.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8aa9afe3-196c-4f7a-85ab-59667f661aab")
+		(property "Reference" "X2"
+			(at 114.3 164.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXM16M0004252CBCEO00T"
+			(at 110.998 181.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:TXM16M0004252CBCEO00T"
+			(at 114.3 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1809251007_Yajingxin-TXM16M0004252CBCEO00T_C284160.pdf"
+			(at 114.3 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 16MHz 30Ω 9pF Crystal Oscillator ±10ppm ±30ppm SMD2520-4P Crystals ROHS"
+			(at 114.3 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C284160"
+			(at 114.3 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yajingxin"
+			(at 114.3 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TXM16M0004252CBCEO00T"
+			(at 114.3 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "3e100dab-e44b-4ebe-afdc-e6d55b1bbaf0")
+		)
+		(pin "1"
+			(uuid "d740f04f-511c-4fac-8acf-afcac978abc9")
+		)
+		(pin "2"
+			(uuid "c2df6d51-68e2-42af-aaf3-42ffd8dd2a9a")
+		)
+		(pin "3"
+			(uuid "53fa42aa-46c8-4990-b662-e3709a6f5dec")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/fef283f4-292d-430b-9533-4cb8712f0a49"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 107.95 107.95 180)
 		(unit 1)
@@ -10553,118 +10539,6 @@
 			(project "XWatch_Rev1.0"
 				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/fef283f4-292d-430b-9533-4cb8712f0a49"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XWatch_Rev1.0:NX3215SA_32_768KHZ_EXS00A-MU00525")
-		(at 113.03 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a89b0616-2012-4a8f-9990-72bb9877dee5")
-		(property "Reference" "X1"
-			(at 113.284 124.968 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NX3215SA_32_768KHZ_EXS00A-MU00525"
-			(at 79.502 116.332 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XWatch_Rev1.0:NX3215SA_32_768KHZ_EXS00A-MU00525"
-			(at 113.03 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404151205_NDK-NX3215SA-32-768KHZ-EXS00A-MU00525_C528987.pdf"
-			(at 113.03 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-40℃~+85℃ 32.768kHz 6pF 70kΩ Crystal Oscillator SMD3215-2P Crystals ROHS"
-			(at 113.03 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C528987"
-			(at 113.03 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "NDK"
-			(at 113.03 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "NX3215SA 32.768KHZ EXS00A-MU00525"
-			(at 113.03 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "20833d2b-9b2a-42d6-9a0f-d2e625d6a224")
-		)
-		(pin "2"
-			(uuid "921ede6b-368d-47bb-b421-941c44b035b7")
-		)
-		(instances
-			(project "XWatch_Rev1.0"
-				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/fef283f4-292d-430b-9533-4cb8712f0a49"
-					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -10982,6 +10856,118 @@
 			(project "XWatch_Rev1.0"
 				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/fef283f4-292d-430b-9533-4cb8712f0a49"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev1.0:NX3215SA_32_768KHZ_EXS00A-MU00525")
+		(at 113.03 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd468022-1249-4ab9-9330-75cc1a200410")
+		(property "Reference" "X1"
+			(at 113.03 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NX3215SA_32_768KHZ_EXS00A-MU00525"
+			(at 108.204 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev1.0:NX3215SA_32_768KHZ_EXS00A-MU00525"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404151205_NDK-NX3215SA-32-768KHZ-EXS00A-MU00525_C528987.pdf"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 32.768kHz 6pF 70kΩ Crystal Oscillator SMD3215-2P Crystals ROHS"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C528987"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NDK"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "NX3215SA 32.768KHZ EXS00A-MU00525"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17c75c3f-76d9-4302-89fb-ad01ced3fcbd")
+		)
+		(pin "2"
+			(uuid "370b1d2c-2209-4e5a-8e8c-77834d0c3e24")
+		)
+		(instances
+			(project "XWatch_Rev1.0"
+				(path "/2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc/fef283f4-292d-430b-9533-4cb8712f0a49"
+					(reference "X1")
 					(unit 1)
 				)
 			)

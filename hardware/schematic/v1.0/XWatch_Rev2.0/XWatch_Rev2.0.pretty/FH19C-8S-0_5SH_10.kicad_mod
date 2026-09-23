@@ -1,0 +1,313 @@
+(footprint "FH19C-8S-0_5SH_10"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-55℃~+85℃ 0.2mm 0.5mm 0.88mm 8P Bottom Contact Gold Hinged Lid Phosphor bronze Surface Mount, Right Angle SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS")
+	(tags "C424652 FH19C-8S-0.5SH(10) FPC-SMD_FH19C-8S-0.5SH HRS(Hirose)")
+	(property "Reference" "REF**"
+		(at 0 -2.65 0)
+		(layer "F.SilkS")
+		(uuid "bb0775a5-1ea6-480a-8955-171516bc9734")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 3.06 0)
+		(layer "F.Fab")
+		(uuid "f4f7c106-6af4-4785-ae0d-33979c95c22e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_HRS-Hirose-FH19C-8S-0-5SH-10_C424652.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c9e4629-9553-4f32-ba55-a44bb17a06bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-55℃~+85℃ 0.2mm 0.5mm 0.88mm 8P Bottom Contact Gold Hinged Lid Phosphor bronze Surface Mount, Right Angle SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a871da81-fd2c-4f2a-82ab-7ef8d7d471dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C424652"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2b28580-7283-4b8d-ae0e-a9fc57df2150")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3 -0.957199)
+		(end -2.043836 -0.957199)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d89b7ba-f37f-48e7-92b7-a127244fd137")
+	)
+	(fp_line
+		(start -3 -0.618769)
+		(end 2.995371 -0.6)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46586373-5f07-4297-b07c-61648cdbdba6")
+	)
+	(fp_line
+		(start -3 0.65)
+		(end -3 -0.957199)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c81c664c-5ab3-4ad2-aac7-36c1dd3df4c7")
+	)
+	(fp_line
+		(start -2.5 1.55)
+		(end 2.5 1.55)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce8daf28-4daa-4471-9a94-dadc02ce06c3")
+	)
+	(fp_line
+		(start -2.352167 1.55)
+		(end -2.352167 2.06)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d133ec11-c97d-44a4-9b52-e91bb37cb8e9")
+	)
+	(fp_line
+		(start -2.352167 2.06)
+		(end -2 2.06)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72b34ee2-1269-4c88-b5a0-02d90d8d7698")
+	)
+	(fp_line
+		(start -2.300783 -0.303632)
+		(end -1.846 -0.029312)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46b93b9a-7d10-402a-b5b0-53be7c3eb90b")
+	)
+	(fp_line
+		(start -2.072183 -0.438252)
+		(end -2.072183 0.105308)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cae49632-0975-4aa7-96e4-c091d883b529")
+	)
+	(fp_line
+		(start -2 1.95)
+		(end 2 1.95)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67de6a56-70d4-480e-a039-89cb9f9f5a06")
+	)
+	(fp_line
+		(start -2 2.06)
+		(end -2 1.95)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3ba6113-8332-41c6-bcef-203c6b426072")
+	)
+	(fp_line
+		(start -1.846 -0.303632)
+		(end -2.300783 -0.029312)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f201462c-8547-49a7-8cf1-38402c0f1595")
+	)
+	(fp_line
+		(start 2 1.95)
+		(end 2 2.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02398f94-e431-40e9-9b05-501a51c2ad00")
+	)
+	(fp_line
+		(start 2 2.05)
+		(end 2.35 2.05)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b82107d-79cf-4f37-9930-9f9ee3ba4e97")
+	)
+	(fp_line
+		(start 2.05 -0.95)
+		(end 2.995397 -0.95)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84137957-150d-4321-aaf3-f91119a7aec7")
+	)
+	(fp_line
+		(start 2.35 2.05)
+		(end 2.35 1.55)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9d1b285-8c24-4bdc-b1ed-7f807ea40cd5")
+	)
+	(fp_line
+		(start 2.995397 -0.95)
+		(end 2.995397 0.657276)
+		(stroke
+			(width 0.1016)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90ad19d1-a58f-47d1-8487-949c880cbdd9")
+	)
+	(fp_poly
+		(pts
+			(xy -2.35 2.05) (xy -2.35 1.55) (xy 2.35 1.55) (xy 2.35 2.05) (xy 2 2.05) (xy 2 1.95) (xy -2 1.95)
+			(xy -2 2.05)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "38988369-cdca-44e4-81cd-ad1a9ca7db05")
+	)
+	(pad "1" smd rect
+		(at -1.750187 -1.25 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1c0c8ee1-f809-4fa5-98eb-cf0fca29c483")
+	)
+	(pad "2" smd rect
+		(at -1.25 -1.25 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63c0a7c1-8bb0-4117-836d-06da8c5acb03")
+	)
+	(pad "3" smd rect
+		(at -0.750189 -1.25 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7d40c7ad-e7f8-491a-826e-6f34cff8d2e6")
+	)
+	(pad "4" smd rect
+		(at -0.25 -1.25 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "657da815-cb38-4a1e-9c02-3078db6a8fd0")
+	)
+	(pad "5" smd rect
+		(at 0.25 -1.25 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "acad9a2b-6e5a-45c1-bb35-d53b2559f488")
+	)
+	(pad "6" smd rect
+		(at 0.75 -1.25 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5c9dd818-2a80-4703-8edb-23ad120f0cef")
+	)
+	(pad "7" smd rect
+		(at 1.249807 -1.25 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0139c120-6c28-4ae5-ab20-3be53ec8daa4")
+	)
+	(pad "8" smd rect
+		(at 1.75 -1.25 180)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cd1633a1-5a48-43ab-802e-05a7fe32695e")
+	)
+	(pad "9" smd rect
+		(at 2.75 1.25 180)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2357414-f39c-4daf-864e-3cbf4f605fcf")
+	)
+	(pad "10" smd rect
+		(at -2.75 1.25)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e3f0e88-12af-4af0-87a5-42b5b5aa234c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/FH19C-8S-0_5SH_10.wrl"
+		(offset
+			(xyz 6 2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,112 @@
+(footprint "NX3215SA_32_768KHZ_EXS00A-MU00525"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 32.768kHz 6pF 70kΩ Crystal Oscillator SMD3215-2P Crystals ROHS")
+	(tags "C528987 CRYSTAL-SMD_L3.2-W1.5 NDK NX3215SA 32.768KHZ EXS00A-MU00525")
+	(property "Reference" "REF**"
+		(at 0 -2.14046 0)
+		(layer "F.SilkS")
+		(uuid "915afd7f-0b8c-4b4f-ac38-4d4f8d449bf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.14046 0)
+		(layer "F.Fab")
+		(uuid "3c8860e9-cae4-46a4-95c4-6fa6a9d5307f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404151205_NDK-NX3215SA-32-768KHZ-EXS00A-MU00525_C528987.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8c7ff09-9f79-4ad6-8182-325311fe60b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 32.768kHz 6pF 70kΩ Crystal Oscillator SMD3215-2P Crystals ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92dc7b45-72f0-48be-ae91-c78d6c9b3b23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C528987"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db64d62e-a93c-4cdd-a961-a884d05bfeb9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.597482 1.14046)
+		(end 1.602537 1.14046)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79d60f50-ce88-4462-83c6-d12de5220d8a")
+	)
+	(fp_line
+		(start 1.597482 -1.14046)
+		(end -1.602537 -1.14046)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f71c875e-b84c-4540-8cc6-904dc68d1bc6")
+	)
+	(pad "1" smd rect
+		(at -1.3081 0 180)
+		(size 0.95 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3f462816-91a0-4404-9676-37f00d408d48")
+	)
+	(pad "2" smd rect
+		(at 1.3081 0)
+		(size 0.95 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "acd3249a-b890-4a10-8804-c309db4c5e41")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/NX3215SA_32_768KHZ_EXS00A-MU00525.wrl"
+		(offset
+			(xyz 0 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
