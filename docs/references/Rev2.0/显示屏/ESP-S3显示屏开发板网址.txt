@@ -1,0 +1,3 @@
+https://www.waveshare.com/esp32-s3-touch-amoled-1.43.htm?sku=30106
+
+ESP-S3没有MIPI DSI接口，用的QSPI 接口。

@@ -675,7 +675,7 @@
         "uuid": "2e5e9480-7d2e-4148-a9bf-0ac7d46b20bc"
       }
     ],
-    "used_designators": "U1-10,CN1-2,R1-6,IC1-5,L1-2,#PWR1-46,C1-40,X1-2",
+    "used_designators": "U1-12,CN1-2,R1-6,IC1-5,L1-2,#PWR1-64,C1-40,X1-2",
     "variants": []
   },
   "sheets": [
@@ -718,6 +718,18 @@
     [
       "eb648df4-5c42-4d97-a46f-0bb7960c1727",
       "STLink"
+    ],
+    [
+      "9b75958b-9cda-46a5-84ac-61164304e63d",
+      "MCU_IO"
+    ],
+    [
+      "2a0147b1-cbac-4b10-9f04-ad00024f07aa",
+      "DSI_LCD"
+    ],
+    [
+      "19e65f72-a673-4bca-ae14-f8c0be4b7400",
+      "MCU_PWR"
     ]
   ],
   "text_variables": {},
