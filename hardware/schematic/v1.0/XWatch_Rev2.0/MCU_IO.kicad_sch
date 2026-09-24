@@ -5069,78 +5069,6 @@
 		(color 0 0 0 0)
 		(uuid "ee3aecff-2496-4633-b2c8-519b46c5232c")
 	)
-	(bus_entry
-		(at 325.12 212.09)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35baa419-ab83-4d64-afd1-c88f08b9207c")
-	)
-	(bus_entry
-		(at 325.12 224.79)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45fc871a-6598-483e-8462-1101c27f9e2b")
-	)
-	(bus_entry
-		(at 325.12 203.2)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bee3482-1bf9-4956-b5a7-271a7393555f")
-	)
-	(bus_entry
-		(at 325.12 222.25)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7896b945-3266-4739-9562-6322833215bc")
-	)
-	(bus_entry
-		(at 325.12 205.74)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813fa113-b266-4b22-be33-afe3f94c076d")
-	)
-	(bus_entry
-		(at 325.12 209.55)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad4b934f-2f47-4678-abcc-138385a5db9d")
-	)
-	(bus_entry
-		(at 325.12 199.39)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c6372b-ca1c-4b4c-bf9c-d57de1ca2fab")
-	)
-	(bus_entry
-		(at 325.12 196.85)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee7e4a36-20be-45b7-8826-10b82363311f")
-	)
 	(wire
 		(pts
 			(xy 367.03 231.14) (xy 382.27 231.14)
@@ -5193,7 +5121,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 205.74) (xy 325.12 205.74)
+			(xy 311.15 200.66) (xy 325.12 200.66)
 		)
 		(stroke
 			(width 0)
@@ -5213,23 +5141,13 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 199.39) (xy 325.12 199.39)
+			(xy 311.15 213.36) (xy 325.12 213.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e1ac600-eece-4240-bac0-231b42fedd9a")
-	)
-	(bus
-		(pts
-			(xy 327.66 219.71) (xy 327.66 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40bdde28-e692-4bf1-a843-3d71a97a5e20")
 	)
 	(wire
 		(pts
@@ -5253,7 +5171,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 209.55) (xy 325.12 209.55)
+			(xy 311.15 204.47) (xy 325.12 204.47)
 		)
 		(stroke
 			(width 0)
@@ -5280,16 +5198,6 @@
 			(type default)
 		)
 		(uuid "5aa28412-46be-417e-9fd9-8a1a85613bf7")
-	)
-	(bus
-		(pts
-			(xy 327.66 219.71) (xy 330.2 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b3ead68-10a7-4bb6-87bd-4fc3f930ab7e")
 	)
 	(wire
 		(pts
@@ -5411,16 +5319,6 @@
 		)
 		(uuid "9b51f7ca-5925-4621-8753-5b2e96dc9630")
 	)
-	(bus
-		(pts
-			(xy 327.66 194.31) (xy 327.66 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a335e959-ecc3-48c4-a7a4-c5b7c1da6470")
-	)
 	(wire
 		(pts
 			(xy 156.21 55.88) (xy 170.18 55.88)
@@ -5473,7 +5371,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 212.09) (xy 325.12 212.09)
+			(xy 311.15 207.01) (xy 325.12 207.01)
 		)
 		(stroke
 			(width 0)
@@ -5563,7 +5461,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 203.2) (xy 325.12 203.2)
+			(xy 311.15 198.12) (xy 325.12 198.12)
 		)
 		(stroke
 			(width 0)
@@ -5580,16 +5478,6 @@
 			(type default)
 		)
 		(uuid "da563c93-9047-4d79-ba86-a56f3c1aa401")
-	)
-	(bus
-		(pts
-			(xy 327.66 194.31) (xy 330.2 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde3c8a0-eded-486d-adf0-7e874d27139d")
 	)
 	(wire
 		(pts
@@ -5613,7 +5501,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 196.85) (xy 325.12 196.85)
+			(xy 311.15 210.82) (xy 325.12 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5671,7 +5559,7 @@
 		)
 		(uuid "f53269b7-6a69-4b03-8779-9a59ff516775")
 	)
-	(label "DSI_RESETn"
+	(label "DSI.RESET"
 		(at 158.75 55.88 0)
 		(effects
 			(font
@@ -5712,7 +5600,7 @@
 		(uuid "0e3020b0-275f-4fdb-a7ac-92a5c860b6ae")
 	)
 	(label "DSI.CK_N"
-		(at 311.15 199.39 0)
+		(at 311.15 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5741,7 +5629,7 @@
 		)
 		(uuid "1eae6efa-c986-4925-8073-f14f6ab94443")
 	)
-	(label "DSI_TE"
+	(label "DSI.TE"
 		(at 311.15 232.41 0)
 		(effects
 			(font
@@ -5751,7 +5639,7 @@
 		)
 		(uuid "2b7a81d8-1beb-4bdc-821f-a04aaebf2199")
 	)
-	(label "DSI_PWR_ON"
+	(label "DSI_PWR_EN"
 		(at 367.03 238.76 0)
 		(effects
 			(font
@@ -5782,7 +5670,7 @@
 		(uuid "40ba8273-2d51-484d-9188-8d3e8c4bbe78")
 	)
 	(label "DSI.D0_N"
-		(at 311.15 205.74 0)
+		(at 311.15 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5872,7 +5760,7 @@
 		(uuid "9bbe2d52-0579-4f39-a1b7-ed826dfe41f3")
 	)
 	(label "DSI.D1_P"
-		(at 311.15 209.55 0)
+		(at 311.15 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5891,7 +5779,7 @@
 		)
 		(uuid "a639f51a-b5d0-4df8-ad87-edca456131a4")
 	)
-	(label "DSI_TE"
+	(label "DSI.TE"
 		(at 158.75 162.56 0)
 		(effects
 			(font
@@ -5912,7 +5800,7 @@
 		(uuid "c85fdd26-7cb3-49dc-b054-f32a72c6b650")
 	)
 	(label "DSI.CK_P"
-		(at 311.15 196.85 0)
+		(at 311.15 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5922,7 +5810,7 @@
 		(uuid "cb2476c8-b778-40ad-a925-4b08211d100a")
 	)
 	(label "DSI.D0_P"
-		(at 311.15 203.2 0)
+		(at 311.15 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5931,7 +5819,7 @@
 		)
 		(uuid "ce5794c1-a5cd-4e22-9e2d-d7d8be099d79")
 	)
-	(label "DSI_RESETn"
+	(label "DSI.RESET"
 		(at 311.15 238.76 0)
 		(effects
 			(font
@@ -5942,7 +5830,7 @@
 		(uuid "cfb2a5d7-1076-450e-9f18-e982ff9c6732")
 	)
 	(label "DSI.D1_N"
-		(at 311.15 212.09 0)
+		(at 311.15 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5951,7 +5839,7 @@
 		)
 		(uuid "f0c1b222-2066-4def-b2a2-1a2db7b38d82")
 	)
-	(label "DSI_PWR_ON"
+	(label "DSI_PWR_EN"
 		(at 330.2 54.61 0)
 		(effects
 			(font
@@ -5971,8 +5859,19 @@
 		)
 		(uuid "f62d6aa4-5bee-400c-a0e2-fd4d2d47596e")
 	)
-	(hierarchical_label "DSI_PWR_ON"
-		(shape input)
+	(hierarchical_label "TP_SCL"
+		(shape output)
+		(at 325.12 224.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10d0bba9-47ed-452f-9d49-781e38cd31bd")
+	)
+	(hierarchical_label "DSI_PWR_EN"
+		(shape output)
 		(at 382.27 238.76 0)
 		(effects
 			(font
@@ -5982,8 +5881,8 @@
 		)
 		(uuid "3eb6d843-9971-4a69-b8f9-b5ab47cc751c")
 	)
-	(hierarchical_label "DSI_TP_INT"
-		(shape output)
+	(hierarchical_label "TP_INT"
+		(shape input)
 		(at 382.27 234.95 0)
 		(effects
 			(font
@@ -5993,29 +5892,73 @@
 		)
 		(uuid "46be0a6f-b503-47de-822e-f840277f14a0")
 	)
-	(hierarchical_label "DSI"
+	(hierarchical_label "DSI_CK_P"
 		(shape bidirectional)
-		(at 330.2 194.31 0)
+		(at 325.12 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "76e6a9fa-e4c8-47a0-a318-38cdf30f1462")
+		(uuid "5b432e93-2d40-4fec-b183-357a3d10a14d")
 	)
-	(hierarchical_label "I2C5"
+	(hierarchical_label "DSI_D0_N"
 		(shape bidirectional)
-		(at 330.2 219.71 0)
+		(at 325.12 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e70367e9-4487-499d-8f03-ef0c7e22bcf3")
+		(uuid "8bb6c532-4cef-4e9a-a4cb-1ec469eb374f")
 	)
-	(hierarchical_label "DSI_RESETn"
+	(hierarchical_label "DSI_CK_N"
+		(shape bidirectional)
+		(at 325.12 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a48935ee-1239-4c8e-8cc2-460aee6eb394")
+	)
+	(hierarchical_label "DSI_D1_P"
+		(shape bidirectional)
+		(at 325.12 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c722d198-fd4f-40a0-865d-e1c20c3a6485")
+	)
+	(hierarchical_label "TP_SDA"
+		(shape bidirectional)
+		(at 325.12 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7ee3ef2-41c7-48f6-b327-e34cc73d7102")
+	)
+	(hierarchical_label "DSI_D1_N"
+		(shape bidirectional)
+		(at 325.12 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e14db096-bb58-48b3-bb9e-9730d9d8e5dc")
+	)
+	(hierarchical_label "DSI_RESET"
 		(shape output)
 		(at 325.12 238.76 0)
 		(effects
@@ -6037,7 +5980,7 @@
 		)
 		(uuid "f4cbb53b-514f-423c-9a73-e646f625f5e0")
 	)
-	(hierarchical_label "DSI_TP_RESET"
+	(hierarchical_label "TP_RESET"
 		(shape output)
 		(at 382.27 231.14 0)
 		(effects
@@ -6047,6 +5990,17 @@
 			(justify left)
 		)
 		(uuid "fd59ce2d-b5b0-4eb6-a128-84e142e20fd2")
+	)
+	(hierarchical_label "DSI_D0_P"
+		(shape bidirectional)
+		(at 325.12 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff5b3c5d-7be0-4a80-a1b6-2f5fe571e3e9")
 	)
 	(symbol
 		(lib_id "XWatch_Rev1.0:STM32U5G9NJH6Q")
