@@ -2190,6 +2190,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VOUT1/VOUT2 不用：\n只留电容焊盘，不接负载"
+		(exclude_from_sim no)
+		(at 147.32 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c1045b5-5eef-4581-a3ce-211728666a4f")
+	)
 	(text "Open-Drain, Active-Low Alert Output. "
 		(exclude_from_sim no)
 		(at 221.488 106.426 0)
@@ -3160,6 +3170,17 @@
 		)
 		(uuid "91b97dd2-0e10-4492-b026-6f6fada34c58")
 	)
+	(hierarchical_label "PWR_INT_N"
+		(shape output)
+		(at 241.3 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b836ad86-3331-4352-aa97-1cde7003c96f")
+	)
 	(hierarchical_label "PWR_SCL"
 		(shape input)
 		(at 217.17 95.25 0)
@@ -3473,7 +3494,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0882f82d-0419-4e84-a3c9-5d29accd5b2e")
 		(property "Reference" "C13"
 			(at 123.952 90.424 0)
@@ -4168,7 +4189,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "34065ce1-f13b-4d8d-9d92-89ca4545d6a8")
 		(property "Reference" "C12"
 			(at 123.952 78.994 0)
