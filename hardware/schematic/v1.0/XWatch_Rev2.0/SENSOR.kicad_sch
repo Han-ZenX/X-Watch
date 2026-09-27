@@ -5,6 +5,327 @@
 	(uuid "e0437f8f-af43-4c94-91c8-42c5b4026c09")
 	(paper "A4")
 	(lib_symbols
+		(symbol "XWatch_Rev2.0:DRV2605LDGSR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DRV2605LDGSR"
+				(at 0 -9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev2.0:DRV2605LDGSR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2005142220_Texas-Instruments-DRV2605LDGSR_C527464.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 1 2V~5.2V 500uA I2C Yes VSSOP-10-0.5mm Brushed DC Motor Drivers ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C527464"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "DRV2605LDGSR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C527464 DRV2605LDGSR Texas Instruments VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DRV2605LDGSR_0_1"
+				(circle
+					(center -11.43 6.35)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.192 -7.62) (xy 12.2911 -7.6102) (xy 12.3864 -7.5813) (xy 12.4742 -7.5344) (xy 12.5512 -7.4712)
+						(xy 12.6144 -7.3942) (xy 12.6613 -7.3064) (xy 12.6902 -7.2111) (xy 12.7 -7.112) (xy 12.6902 7.2111)
+						(xy 12.6613 7.3064) (xy 12.6144 7.3942) (xy 12.5512 7.4712) (xy 12.4742 7.5344) (xy 12.3864 7.5813)
+						(xy 12.2911 7.6102) (xy 12.192 7.62) (xy -12.2911 7.6102) (xy -12.3864 7.5813) (xy -12.4742 7.5344)
+						(xy -12.5512 7.4712) (xy -12.6144 7.3942) (xy -12.6613 7.3064) (xy -12.6902 7.2111) (xy -12.7 7.112)
+						(xy -12.6902 -7.2111) (xy -12.6613 -7.3064) (xy -12.6144 -7.3942) (xy -12.5512 -7.4712) (xy -12.4742 -7.5344)
+						(xy -12.3864 -7.5813) (xy -12.2911 -7.6102) (xy -12.192 -7.62) (xy 12.192 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DRV2605LDGSR_1_1"
+				(pin passive line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "REG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "IN/TRIG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "VDD/NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XWatch_Rev2.0:LIS2MDLTR"
 			(pin_names
 				(offset 1.016)
@@ -2066,13 +2387,23 @@
 	)
 	(text "\n3D磁传感器"
 		(exclude_from_sim no)
-		(at 87.884 146.304 0)
+		(at 94.234 124.714 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "606cd467-f25e-4463-9092-4f7ebc3c4112")
+	)
+	(text "触觉驱动芯片"
+		(exclude_from_sim no)
+		(at 102.108 168.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff908f63-9021-4b34-841c-9c34e20c563d")
 	)
 	(junction
 		(at 223.52 128.27)
@@ -2414,7 +2745,7 @@
 	)
 	(symbol
 		(lib_id "XWatch_Rev2.0:LIS2MDLTR")
-		(at 87.63 135.89 0)
+		(at 93.98 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2425,7 +2756,7 @@
 		(fields_autoplaced yes)
 		(uuid "90cd7b5a-9253-449e-bc62-dfc38119199a")
 		(property "Reference" "U7"
-			(at 87.63 121.92 0)
+			(at 93.98 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2435,7 +2766,7 @@
 			)
 		)
 		(property "Value" "LIS2MDLTR"
-			(at 87.63 124.46 0)
+			(at 93.98 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2445,7 +2776,7 @@
 			)
 		)
 		(property "Footprint" "XWatch_Rev2.0:LIS2MDLTR"
-			(at 87.63 135.89 0)
+			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2456,7 +2787,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2111191730_STMicroelectronics-LIS2MDLTR_C919695.pdf"
-			(at 87.63 135.89 0)
+			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,7 +2798,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 1.71V~3.6V 16bit 200uA I2C、SPI ±5mT ±5mT LGA-12(2x2) 3D Magnetic Sensors ROHS"
-			(at 87.63 135.89 0)
+			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2478,7 +2809,7 @@
 			)
 		)
 		(property "LCSC" "C919695"
-			(at 87.63 135.89 0)
+			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2489,7 +2820,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 87.63 135.89 0)
+			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2500,7 +2831,7 @@
 			)
 		)
 		(property "Manufacturer Part" "LIS2MDLTR"
-			(at 87.63 135.89 0)
+			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2678,6 +3009,143 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/0fbd71dc-4ace-4821-a549-b0309b8febde"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev2.0:DRV2605LDGSR")
+		(at 102.87 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95f0329e-43c2-4d2a-8c78-71d812580afc")
+		(property "Reference" "U12"
+			(at 102.87 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV2605LDGSR"
+			(at 102.87 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev2.0:DRV2605LDGSR"
+			(at 102.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2005142220_Texas-Instruments-DRV2605LDGSR_C527464.pdf"
+			(at 102.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1 2V~5.2V 500uA I2C Yes VSSOP-10-0.5mm Brushed DC Motor Drivers ROHS"
+			(at 102.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C527464"
+			(at 102.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 102.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "DRV2605LDGSR"
+			(at 102.87 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "866d692d-c206-43e2-8dd2-0bd232cf5f07")
+		)
+		(pin "2"
+			(uuid "79c945f3-bba6-42c6-b80f-86799ce29f05")
+		)
+		(pin "8"
+			(uuid "7aa05a41-192a-4905-a670-13ce90446fff")
+		)
+		(pin "7"
+			(uuid "896bb6a9-ac45-40f9-947e-3c80e3e90fad")
+		)
+		(pin "1"
+			(uuid "84489d92-5d23-456c-91b7-083dec0341af")
+		)
+		(pin "4"
+			(uuid "511a4533-5e71-4fcb-b0a8-c0693e0fd9f6")
+		)
+		(pin "5"
+			(uuid "4e013a62-fff5-4be5-a193-93a842f1c189")
+		)
+		(pin "10"
+			(uuid "f7563a07-30ef-412c-a573-3574a624188b")
+		)
+		(pin "3"
+			(uuid "f3e6c0e7-c992-43ba-987a-b4ea71eb2a31")
+		)
+		(pin "9"
+			(uuid "23336666-51a9-4825-bcf1-50d9d7891f3a")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/0fbd71dc-4ace-4821-a549-b0309b8febde"
+					(reference "U12")
 					(unit 1)
 				)
 			)
