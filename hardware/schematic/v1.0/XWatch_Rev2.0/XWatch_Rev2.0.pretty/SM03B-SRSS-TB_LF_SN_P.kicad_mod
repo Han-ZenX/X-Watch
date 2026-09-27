@@ -1,0 +1,181 @@
+(footprint "SM03B-SRSS-TB_LF_SN_P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-25℃~+85℃ 1 1A 1mm 1x3P 2.9mm 3 3P 4.32mm 50V 5mm Auxiliary Solder Pin Copper alloy PA SH Surface Mount, Right Angle Tin UL94V-0 White SMD,P=1mm,卧贴 Wire To Board Connector ROHS")
+	(tags "C160403 CONN-SMD_SM03B-SRSS-TB-LF-SN-P JST SM03B-SRSS-TB(LF)(SN)")
+	(property "Reference" "REF**"
+		(at 0 -3.712517 0)
+		(layer "F.SilkS")
+		(uuid "72c5e715-cbcb-4a8a-89d3-309384b8fe64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 3.93751 0)
+		(layer "F.Fab")
+		(uuid "f299412c-efa8-48c8-8144-ae11febb0fe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JST-SM03B-SRSS-TB-LF-SN_C160403.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57fcea00-951a-46ef-8fbd-0ef5b7e4db2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-25℃~+85℃ 1 1A 1mm 1x3P 2.9mm 3 3P 4.32mm 50V 5mm Auxiliary Solder Pin Copper alloy PA SH Surface Mount, Right Angle Tin UL94V-0 White SMD,P=1mm,卧贴 Wire To Board Connector ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a4429a5-f9cc-48e5-a237-e3813a59e713")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C160403"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0eb1a76b-e6cc-4dab-b751-09a2c9d9d9a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -1.612519)
+		(end -2.5 0.706349)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2822f6f3-9ade-487d-8137-3cdaca6fe0f7")
+	)
+	(fp_line
+		(start -2.5 -1.612519)
+		(end -1.531137 -1.612519)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c7a9b22-6590-4cf6-9c29-e1f54333ed34")
+	)
+	(fp_line
+		(start -2.36982 -1.612519)
+		(end -2.5 -1.612519)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5cb4029-fe05-405d-8bde-44189f7e456d")
+	)
+	(fp_line
+		(start -1.318844 2.63746)
+		(end 1.31887 2.63746)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e47d74da-b894-4f4b-add1-4af6d4734b29")
+	)
+	(fp_line
+		(start 1.531137 -1.612519)
+		(end 2.5 -1.612519)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e64d822c-6112-4fb8-85ce-cdb5e92f7b02")
+	)
+	(fp_line
+		(start 2.5 -1.612519)
+		(end 2.5 0.706349)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab1d01de-c150-4731-bcab-049754fe82d4")
+	)
+	(fp_circle
+		(center -1.999869 -2)
+		(end -1.683639 -2)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f3515a60-28fd-4b61-831b-a732229cd286")
+	)
+	(pad "1" smd rect
+		(at -1 -1.937512)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce99ed47-433d-4233-bb32-93e86a4e8166")
+	)
+	(pad "2" smd rect
+		(at 0.000127 -1.937512)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "16aa5125-a2b4-4713-8b7d-995e5e3d6a49")
+	)
+	(pad "3" smd rect
+		(at 1.000125 -1.937512)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c188a61b-36fc-44a9-9464-ab657f07f1bf")
+	)
+	(pad "4" smd rect
+		(at 2.3 1.937512)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "02b05f39-9df3-42c0-85e1-d64a83d01f34")
+	)
+	(pad "5" smd rect
+		(at -2.3 1.937512)
+		(size 1.5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa3e965a-9497-47a3-9823-4426e157d07c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/SM03B-SRSS-TB_LF_SN_P.wrl"
+		(offset
+			(xyz -1 -0.35 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
