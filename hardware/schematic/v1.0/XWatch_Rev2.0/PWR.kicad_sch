@@ -2667,6 +2667,12 @@
 		(uuid "8e3007c5-5750-4a7f-affb-a3911e7e3e23")
 	)
 	(junction
+		(at 128.27 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90a96f8d-008a-4157-a928-1da47b11ebd2")
+	)
+	(junction
 		(at 132.08 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2691,6 +2697,12 @@
 		(uuid "b0c14a76-a2fd-43cc-9334-074a8e02750e")
 	)
 	(junction
+		(at 120.65 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c01210ed-17bf-46eb-a3bf-91d457167146")
+	)
+	(junction
 		(at 128.27 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2702,11 +2714,15 @@
 		(color 0 0 0 0)
 		(uuid "db408e4e-c1ef-4a66-b25a-fdb3173a90bd")
 	)
-	(junction
-		(at 120.65 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e76e9139-d1f4-482d-9340-f0adc5b784db")
+	(wire
+		(pts
+			(xy 128.27 128.27) (xy 128.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0650dbd1-8b88-4521-81bc-b87d3412e648")
 	)
 	(wire
 		(pts
@@ -2857,6 +2873,16 @@
 			(type default)
 		)
 		(uuid "313c425b-fe83-4f5a-8e52-990cc94ae32a")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.57) (xy 128.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3288e30e-dadc-4cd3-9363-1cfbe8400e4e")
 	)
 	(wire
 		(pts
@@ -3100,6 +3126,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 119.38) (xy 132.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7918ef87-055c-42bc-bb67-91f70ad919f1")
+	)
+	(wire
+		(pts
 			(xy 209.55 139.7) (xy 213.36 139.7)
 		)
 		(stroke
@@ -3300,6 +3336,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 115.57) (xy 128.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67dc6ce-17e9-4e59-afd3-d3aeb092b8c3")
+	)
+	(wire
+		(pts
 			(xy 62.23 41.91) (xy 62.23 43.18)
 		)
 		(stroke
@@ -3420,16 +3466,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 119.38) (xy 123.19 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4b1e3e-3b42-4215-9352-c97407f50288")
-	)
-	(wire
-		(pts
 			(xy 133.35 72.39) (xy 146.05 72.39)
 		)
 		(stroke
@@ -3487,6 +3523,16 @@
 			(type default)
 		)
 		(uuid "df73cba9-696b-4adb-b33b-531c1f246472")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.57) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22eb107-848e-4b22-8749-8ee4ca1765ee")
 	)
 	(wire
 		(pts
@@ -3602,9 +3648,20 @@
 		)
 		(uuid "2c67c291-5359-4606-ac97-bdbf2a88459e")
 	)
+	(hierarchical_label "PWR_RIN_N"
+		(shape output)
+		(at 132.08 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c7530a5-1fbb-4204-9529-4b97cb9b2527")
+	)
 	(hierarchical_label "PWR_CHG_EN_N"
 		(shape input)
-		(at 123.19 119.38 0)
+		(at 132.08 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4433,6 +4490,87 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/e10fc6fe-cee5-4ccf-ade7-f348522d306a"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev2.0:C")
+		(at 128.27 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1000c204-ba54-4066-a61b-1e52150d7b62")
+		(property "Reference" "C49"
+			(at 123.698 122.174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 121.92 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev2.0:GEN_C_0402"
+			(at 129.2352 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 128.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eec606eb-cd76-4a1e-a655-7d36fa8e619e")
+		)
+		(pin "2"
+			(uuid "de5f4bd6-570d-4510-9e4e-60f0794962d1")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/e10fc6fe-cee5-4ccf-ade7-f348522d306a"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -6094,10 +6232,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "64285f0a-93a4-43a1-b659-b3262a584f3c")
 		(property "Reference" "R3"
-			(at 123.19 121.9199 0)
+			(at 116.332 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6108,7 +6245,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 123.19 124.4599 0)
+			(at 114.554 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7599,6 +7736,86 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/e10fc6fe-cee5-4ccf-ade7-f348522d306a"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc0be48-a631-4e96-ab62-c501cf4efe9d")
+		(property "Reference" "#PWR0129"
+			(at 128.27 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.2699 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ba28344-afbe-44f3-aebe-7f0dc409c59f")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/e10fc6fe-cee5-4ccf-ade7-f348522d306a"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)

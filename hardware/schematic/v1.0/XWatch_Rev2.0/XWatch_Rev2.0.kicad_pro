@@ -652,7 +652,7 @@
         "uuid": "64425c00-526a-4829-b8a6-ed1dc1b19578"
       }
     ],
-    "used_designators": "U1-12,#FLG1-2,R1-12,L1-3,#PWR1-8,#PWR16,#PWR65-127,X1-2,C1-48,FB1",
+    "used_designators": "U1-12,R1-14,#FLG1-2,L1-3,#PWR1-9,#PWR16,#PWR55,#PWR65-131,X1-2,C1-49,FB1,SW1",
     "variants": []
   },
   "sheets": [
@@ -679,6 +679,10 @@
     [
       "0fbd71dc-4ace-4821-a549-b0309b8febde",
       "SENSOR"
+    ],
+    [
+      "1aeeaa91-c048-4b1a-b399-deef08efaa07",
+      "BUTTONS"
     ]
   ],
   "text_variables": {},

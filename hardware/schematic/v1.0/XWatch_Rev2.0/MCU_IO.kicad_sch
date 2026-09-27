@@ -4982,8 +4982,8 @@
 		)
 	)
 	(rectangle
-		(start 71.12 205.74)
-		(end 177.8 278.13)
+		(start 124.46 205.74)
+		(end 200.66 278.13)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -5006,7 +5006,7 @@
 		(uuid "4a148acc-f862-4d88-8c7d-728cdef327f3")
 	)
 	(rectangle
-		(start 185.42 205.74)
+		(start 205.74 205.74)
 		(end 292.1 278.13)
 		(stroke
 			(width 0.1524)
@@ -5049,7 +5049,7 @@
 	)
 	(text "BOOT0 加一个测试点，\n\nNRST 引到 SWD 接口，\n\nC48 要尽量贴近 R2 球放"
 		(exclude_from_sim no)
-		(at 266.192 173.228 0)
+		(at 266.446 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5079,7 +5079,7 @@
 	)
 	(text "PWR"
 		(exclude_from_sim no)
-		(at 77.216 213.614 0)
+		(at 129.286 212.344 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5121,7 +5121,7 @@
 	)
 	(text "PG13"
 		(exclude_from_sim no)
-		(at 80.264 225.298 0)
+		(at 132.334 224.028 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5141,7 +5141,7 @@
 	)
 	(text "SENSOR"
 		(exclude_from_sim no)
-		(at 191.516 213.614 0)
+		(at 209.296 212.344 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5153,7 +5153,7 @@
 	)
 	(text "PH8"
 		(exclude_from_sim no)
-		(at 194.564 225.298 0)
+		(at 212.344 224.028 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5163,7 +5163,7 @@
 	)
 	(text "PG14"
 		(exclude_from_sim no)
-		(at 80.264 228.092 0)
+		(at 132.334 226.822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5245,7 +5245,7 @@
 	)
 	(text "PH7"
 		(exclude_from_sim no)
-		(at 194.564 228.092 0)
+		(at 212.344 226.822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5419,7 +5419,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 228.6) (xy 97.79 228.6)
+			(xy 135.89 227.33) (xy 149.86 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5459,7 +5459,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 228.6) (xy 212.09 228.6)
+			(xy 215.9 227.33) (xy 229.87 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5639,7 +5639,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 226.06) (xy 97.79 226.06)
+			(xy 135.89 224.79) (xy 149.86 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5869,7 +5869,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 226.06) (xy 212.09 226.06)
+			(xy 215.9 224.79) (xy 229.87 224.79)
 		)
 		(stroke
 			(width 0)
@@ -5958,7 +5958,7 @@
 		(uuid "1eae6efa-c986-4925-8073-f14f6ab94443")
 	)
 	(label "I2C1.SCL"
-		(at 83.82 228.6 0)
+		(at 135.89 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6038,7 +6038,7 @@
 		(uuid "52cba859-a771-4edd-9f90-41547fd189f4")
 	)
 	(label "I2C3.SCL"
-		(at 198.12 228.6 0)
+		(at 215.9 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6048,7 +6048,7 @@
 		(uuid "5e4e8678-74c9-4c6d-a077-5cedc82f98dc")
 	)
 	(label "I2C3.SDA"
-		(at 198.12 226.06 0)
+		(at 215.9 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6158,7 +6158,7 @@
 		(uuid "c85fdd26-7cb3-49dc-b054-f32a72c6b650")
 	)
 	(label "I2C1.SDA"
-		(at 83.82 226.06 0)
+		(at 135.89 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6262,7 +6262,7 @@
 	)
 	(hierarchical_label "SENSOR_SCL"
 		(shape output)
-		(at 212.09 228.6 0)
+		(at 229.87 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6284,7 +6284,7 @@
 	)
 	(hierarchical_label "PWR_SDA"
 		(shape bidirectional)
-		(at 97.79 226.06 0)
+		(at 149.86 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6295,7 +6295,7 @@
 	)
 	(hierarchical_label "SENSOR_SDA"
 		(shape bidirectional)
-		(at 212.09 226.06 0)
+		(at 229.87 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6383,7 +6383,7 @@
 	)
 	(hierarchical_label "PWR_SCL"
 		(shape output)
-		(at 97.79 228.6 0)
+		(at 149.86 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)

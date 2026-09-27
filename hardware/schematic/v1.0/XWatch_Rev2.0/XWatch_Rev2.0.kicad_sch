@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 91.44 146.05)
+		(size 27.94 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1aeeaa91-c048-4b1a-b399-deef08efaa07")
+		(property "Sheetname" "BUTTONS"
+			(at 91.44 145.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BUTTONS.kicad_sch"
+			(at 91.44 180.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 166.37 106.68)
 		(size 25.4 31.75)
 		(exclude_from_sim no)
