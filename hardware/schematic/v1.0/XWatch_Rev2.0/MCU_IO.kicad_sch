@@ -5339,6 +5339,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 45.72) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec47d43-d210-40fa-a82c-65210383fe83")
+	)
+	(wire
+		(pts
 			(xy 311.15 224.79) (xy 325.12 224.79)
 		)
 		(stroke
@@ -5346,6 +5356,16 @@
 			(type default)
 		)
 		(uuid "0fee63da-8579-4f0d-a4c7-8fe2506eb7ca")
+	)
+	(wire
+		(pts
+			(xy 99.06 53.34) (xy 100.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0be33f-21c1-4681-a4f6-1129fc5a6c09")
 	)
 	(wire
 		(pts
@@ -5619,6 +5639,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 50.8) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d0b1dd-2af2-423d-bf85-6173b67363e5")
+	)
+	(wire
+		(pts
 			(xy 245.11 166.37) (xy 250.19 166.37)
 		)
 		(stroke
@@ -5706,6 +5736,16 @@
 			(type default)
 		)
 		(uuid "c23fb20e-0ea5-4214-8e96-73a833e4d9da")
+	)
+	(wire
+		(pts
+			(xy 99.06 48.26) (xy 100.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caef5656-92f3-4675-8832-8a37afa5b845")
 	)
 	(wire
 		(pts
@@ -6282,6 +6322,17 @@
 		)
 		(uuid "5b432e93-2d40-4fec-b183-357a3d10a14d")
 	)
+	(hierarchical_label "SW5"
+		(shape input)
+		(at 99.06 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7775ae4b-6023-4db4-837b-0d44f169754f")
+	)
 	(hierarchical_label "PWR_SDA"
 		(shape bidirectional)
 		(at 149.86 224.79 0)
@@ -6315,6 +6366,17 @@
 		)
 		(uuid "8bb6c532-4cef-4e9a-a4cb-1ec469eb374f")
 	)
+	(hierarchical_label "SW2"
+		(shape input)
+		(at 99.06 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0da2c15-ec0c-4c61-af42-f51b5d51b3f0")
+	)
 	(hierarchical_label "DSI_CK_N"
 		(shape bidirectional)
 		(at 325.12 213.36 0)
@@ -6325,6 +6387,17 @@
 			(justify left)
 		)
 		(uuid "a48935ee-1239-4c8e-8cc2-460aee6eb394")
+	)
+	(hierarchical_label "SW4"
+		(shape input)
+		(at 99.06 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c16afd8f-dd53-4eda-a875-c965fc95daba")
 	)
 	(hierarchical_label "DSI_D1_P"
 		(shape bidirectional)
@@ -6358,6 +6431,17 @@
 			(justify left)
 		)
 		(uuid "e14db096-bb58-48b3-bb9e-9730d9d8e5dc")
+	)
+	(hierarchical_label "SW3"
+		(shape input)
+		(at 99.06 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e32b3793-d238-4636-a974-a739f1b67924")
 	)
 	(hierarchical_label "DSI_RESET"
 		(shape output)

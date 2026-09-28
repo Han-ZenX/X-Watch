@@ -615,7 +615,7 @@
 		(uuid "fccd9892-53d0-4be1-8089-2db361c1f5fa")
 	)
 	(hierarchical_label "SW5"
-		(shape input)
+		(shape output)
 		(at 218.44 121.92 90)
 		(effects
 			(font
@@ -637,7 +637,7 @@
 		(uuid "5d2ffa70-6233-4d61-b5a3-6b785aa3373c")
 	)
 	(hierarchical_label "SW2"
-		(shape input)
+		(shape output)
 		(at 88.9 121.92 90)
 		(effects
 			(font
@@ -648,7 +648,7 @@
 		(uuid "6c45470c-9d09-4986-90f4-0682b808c622")
 	)
 	(hierarchical_label "SW4"
-		(shape input)
+		(shape output)
 		(at 185.42 121.92 90)
 		(effects
 			(font
@@ -659,7 +659,7 @@
 		(uuid "9e5f7537-7191-4ca4-a7c0-6cac14ab9a4b")
 	)
 	(hierarchical_label "SW3"
-		(shape input)
+		(shape output)
 		(at 142.24 121.92 90)
 		(effects
 			(font
