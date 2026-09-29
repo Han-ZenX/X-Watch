@@ -384,39 +384,149 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "左中 9 点"
+		(exclude_from_sim no)
+		(at 71.628 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "08919f6a-9b45-412e-8393-2e1f6de3157f")
+	)
+	(text "BACK"
+		(exclude_from_sim no)
+		(at 191.516 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22b64732-cf6e-4863-a3ba-8c892c8b0995")
+	)
+	(text "右下 4 点"
+		(exclude_from_sim no)
+		(at 182.626 150.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2733170a-2c6d-4007-b855-673aee255d9a")
+	)
+	(text "左上 10 点"
+		(exclude_from_sim no)
+		(at 111.76 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2bacbfe9-3948-46db-8ea3-ce8b6011faea")
+	)
+	(text "PWR·LIGHT"
+		(exclude_from_sim no)
+		(at 123.952 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5407e541-2e0b-4c59-ac29-d5e4c54ea158")
+	)
+	(text "START·OK"
+		(exclude_from_sim no)
+		(at 193.294 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56cad055-76fd-4312-a217-911ed6baca5d")
+	)
+	(text "右上 2 点"
+		(exclude_from_sim no)
+		(at 182.626 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a610470-802e-4db6-9705-48f08206d3ba")
+	)
+	(text "DOWN"
+		(exclude_from_sim no)
+		(at 120.904 151.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6dfa71ba-95d7-4e3f-bc80-54de84a412ff")
+	)
+	(text "UP·MENU"
+		(exclude_from_sim no)
+		(at 83.058 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abb99238-c2ce-4024-8dff-733832581b75")
+	)
+	(text "左下 8 点"
+		(exclude_from_sim no)
+		(at 110.236 151.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5d7c441-2250-40dc-b030-6c92c44032bd")
+	)
+	(text "网络 建议引脚 EXTI WKUP 备选引脚（同一 WKUP 编号）\nKEY_MCU（SW1） PA0 EXTI0 WKUP1 PB2、PE4\nSW2 PA1 EXTI1 WKUP3 PB6、PE6\nSW3 PA2 EXTI2 WKUP4 PB1、PB7\nSW4 PA3 EXTI3 WKUP5 PB8、PC5\nSW5 PA4 EXTI4 WKUP2 PC13、PE5"
+		(exclude_from_sim no)
+		(at 52.832 175.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5de4552-96df-44f0-810c-0bb1a3e3011a")
+	)
 	(junction
-		(at 133.35 97.79)
+		(at 121.92 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "177aa15b-96a9-4286-a27d-5e1a143475be")
 	)
 	(junction
-		(at 190.5 140.97)
+		(at 191.77 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25dc3829-a707-44c3-a209-77036c35afe0")
 	)
 	(junction
-		(at 93.98 140.97)
+		(at 82.55 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35540773-46d9-4a72-bbbd-6ef5a45cfc1f")
 	)
 	(junction
-		(at 147.32 140.97)
+		(at 119.38 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47e31b83-d02d-4ec0-a8d4-6b20da597e58")
 	)
 	(junction
-		(at 223.52 140.97)
+		(at 190.5 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db037e64-d2bc-4fd2-8b8c-9a126ef42325")
 	)
 	(wire
 		(pts
-			(xy 213.36 123.19) (xy 213.36 124.46)
+			(xy 180.34 124.46) (xy 180.34 125.73)
 		)
 		(stroke
 			(width 0)
@@ -426,7 +536,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 128.27 81.28)
+			(xy 116.84 39.37) (xy 116.84 41.91)
 		)
 		(stroke
 			(width 0)
@@ -436,7 +546,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 88.9 124.46)
+			(xy 77.47 86.36) (xy 77.47 88.9)
 		)
 		(stroke
 			(width 0)
@@ -446,7 +556,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 123.19) (xy 93.98 124.46)
+			(xy 82.55 87.63) (xy 82.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -456,7 +566,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 123.19) (xy 180.34 124.46)
+			(xy 181.61 41.91) (xy 181.61 43.18)
 		)
 		(stroke
 			(width 0)
@@ -466,7 +576,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 95.25) (xy 133.35 97.79)
+			(xy 121.92 55.88) (xy 121.92 58.42)
 		)
 		(stroke
 			(width 0)
@@ -476,7 +586,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 80.01) (xy 133.35 81.28)
+			(xy 121.92 40.64) (xy 121.92 41.91)
 		)
 		(stroke
 			(width 0)
@@ -486,7 +596,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 138.43) (xy 147.32 140.97)
+			(xy 119.38 140.97) (xy 119.38 143.51)
 		)
 		(stroke
 			(width 0)
@@ -496,7 +606,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 123.19) (xy 223.52 124.46)
+			(xy 190.5 124.46) (xy 190.5 125.73)
 		)
 		(stroke
 			(width 0)
@@ -506,7 +616,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 80.01) (xy 123.19 81.28)
+			(xy 111.76 40.64) (xy 111.76 41.91)
 		)
 		(stroke
 			(width 0)
@@ -516,7 +626,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 138.43) (xy 93.98 140.97)
+			(xy 82.55 102.87) (xy 82.55 105.41)
 		)
 		(stroke
 			(width 0)
@@ -526,7 +636,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 138.43) (xy 223.52 140.97)
+			(xy 190.5 139.7) (xy 190.5 142.24)
 		)
 		(stroke
 			(width 0)
@@ -536,7 +646,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 121.92) (xy 218.44 124.46)
+			(xy 185.42 123.19) (xy 185.42 125.73)
 		)
 		(stroke
 			(width 0)
@@ -546,7 +656,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 138.43) (xy 190.5 140.97)
+			(xy 191.77 57.15) (xy 191.77 59.69)
 		)
 		(stroke
 			(width 0)
@@ -556,7 +666,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 123.19) (xy 137.16 124.46)
+			(xy 109.22 125.73) (xy 109.22 127)
 		)
 		(stroke
 			(width 0)
@@ -566,7 +676,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 123.19) (xy 147.32 124.46)
+			(xy 119.38 125.73) (xy 119.38 127)
 		)
 		(stroke
 			(width 0)
@@ -576,7 +686,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 123.19) (xy 83.82 124.46)
+			(xy 72.39 87.63) (xy 72.39 88.9)
 		)
 		(stroke
 			(width 0)
@@ -586,7 +696,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 121.92) (xy 142.24 124.46)
+			(xy 114.3 124.46) (xy 114.3 127)
 		)
 		(stroke
 			(width 0)
@@ -596,7 +706,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 121.92) (xy 185.42 124.46)
+			(xy 186.69 40.64) (xy 186.69 43.18)
 		)
 		(stroke
 			(width 0)
@@ -606,7 +716,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 123.19) (xy 190.5 124.46)
+			(xy 191.77 41.91) (xy 191.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -616,7 +726,7 @@
 	)
 	(hierarchical_label "SW5"
 		(shape output)
-		(at 218.44 121.92 90)
+		(at 185.42 123.19 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -627,7 +737,7 @@
 	)
 	(hierarchical_label "SW1"
 		(shape input)
-		(at 128.27 78.74 90)
+		(at 116.84 39.37 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -638,7 +748,7 @@
 	)
 	(hierarchical_label "SW2"
 		(shape output)
-		(at 88.9 121.92 90)
+		(at 77.47 86.36 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -649,7 +759,7 @@
 	)
 	(hierarchical_label "SW4"
 		(shape output)
-		(at 185.42 121.92 90)
+		(at 186.69 40.64 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -660,7 +770,7 @@
 	)
 	(hierarchical_label "SW3"
 		(shape output)
-		(at 142.24 121.92 90)
+		(at 114.3 124.46 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -671,7 +781,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 140.97 90)
+		(at 119.38 143.51 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -682,7 +792,7 @@
 		(fields_autoplaced yes)
 		(uuid "09419a25-169d-4f77-be81-bd266c3d8ffe")
 		(property "Reference" "#PWR0137"
-			(at 153.67 140.97 0)
+			(at 125.73 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -693,7 +803,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 140.9701 90)
+			(at 123.19 143.5101 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -705,7 +815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 140.97 0)
+			(at 119.38 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -716,7 +826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 140.97 0)
+			(at 119.38 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -727,7 +837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 140.97 0)
+			(at 119.38 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -751,7 +861,7 @@
 	)
 	(symbol
 		(lib_id "XWatch_Rev2.0:EVPAEDB2A")
-		(at 88.9 133.35 0)
+		(at 77.47 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -762,7 +872,7 @@
 		(fields_autoplaced yes)
 		(uuid "1217f7a4-5de8-43d8-9b83-6359e6d1d113")
 		(property "Reference" "SW2"
-			(at 82.55 135.0009 0)
+			(at 71.12 99.4409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -773,7 +883,7 @@
 			)
 		)
 		(property "Value" "EVPAEDB2A"
-			(at 82.55 137.5409 0)
+			(at 71.12 101.9809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -784,7 +894,7 @@
 			)
 		)
 		(property "Footprint" "XWatch_Rev2.0:EVPAEDB2A"
-			(at 88.9 133.35 0)
+			(at 77.47 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -795,7 +905,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809121522_PANASONIC-EVPAEDB2A_C79150.pdf"
-			(at 88.9 133.35 0)
+			(at 77.47 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -806,7 +916,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 15V 2.6mm 2.9mm 200,000 Cycles 20mA 3N 4.5mm Rectangular Button SPST Surface Mount, Right Angle SMD,4.5x2.6mm Tactile Switches ROHS"
-			(at 88.9 133.35 0)
+			(at 77.47 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -817,7 +927,7 @@
 			)
 		)
 		(property "LCSC" "C79150"
-			(at 88.9 133.35 0)
+			(at 77.47 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -828,7 +938,7 @@
 			)
 		)
 		(property "Manufacturer" "PANASONIC"
-			(at 88.9 133.35 0)
+			(at 77.47 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -839,7 +949,7 @@
 			)
 		)
 		(property "Manufacturer Part" "EVPAEDB2A"
-			(at 88.9 133.35 0)
+			(at 77.47 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -875,7 +985,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 123.19 180)
+		(at 191.77 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -886,7 +996,7 @@
 		(fields_autoplaced yes)
 		(uuid "13985494-5c1b-4973-9325-80b9df48c944")
 		(property "Reference" "#PWR0139"
-			(at 190.5 116.84 0)
+			(at 191.77 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -897,7 +1007,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5001 119.38 90)
+			(at 191.7701 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -909,7 +1019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 123.19 0)
+			(at 191.77 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -920,7 +1030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 123.19 0)
+			(at 191.77 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -931,7 +1041,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 123.19 0)
+			(at 191.77 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -955,7 +1065,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 140.97 90)
+		(at 191.77 59.69 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -966,7 +1076,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a2c0ca7-f5b8-45f5-920f-bbf0e2ff68ee")
 		(property "Reference" "#PWR0140"
-			(at 196.85 140.97 0)
+			(at 198.12 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -977,7 +1087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 140.9701 90)
+			(at 195.58 59.6901 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -989,7 +1099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 140.97 0)
+			(at 191.77 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1000,7 +1110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 140.97 0)
+			(at 191.77 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1011,7 +1121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 140.97 0)
+			(at 191.77 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1035,7 +1145,7 @@
 	)
 	(symbol
 		(lib_id "XWatch_Rev2.0:EVPAEDB2A")
-		(at 218.44 133.35 0)
+		(at 185.42 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1046,7 +1156,7 @@
 		(fields_autoplaced yes)
 		(uuid "313c5f72-0de0-4e5d-bc97-125ccaddf7c8")
 		(property "Reference" "SW5"
-			(at 212.09 135.0009 0)
+			(at 179.07 136.2709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1057,7 +1167,7 @@
 			)
 		)
 		(property "Value" "EVPAEDB2A"
-			(at 212.09 137.5409 0)
+			(at 179.07 138.8109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1068,7 +1178,7 @@
 			)
 		)
 		(property "Footprint" "XWatch_Rev2.0:EVPAEDB2A"
-			(at 218.44 133.35 0)
+			(at 185.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1079,7 +1189,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809121522_PANASONIC-EVPAEDB2A_C79150.pdf"
-			(at 218.44 133.35 0)
+			(at 185.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1090,7 +1200,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 15V 2.6mm 2.9mm 200,000 Cycles 20mA 3N 4.5mm Rectangular Button SPST Surface Mount, Right Angle SMD,4.5x2.6mm Tactile Switches ROHS"
-			(at 218.44 133.35 0)
+			(at 185.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1101,7 +1211,7 @@
 			)
 		)
 		(property "LCSC" "C79150"
-			(at 218.44 133.35 0)
+			(at 185.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,7 +1222,7 @@
 			)
 		)
 		(property "Manufacturer" "PANASONIC"
-			(at 218.44 133.35 0)
+			(at 185.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1123,7 +1233,7 @@
 			)
 		)
 		(property "Manufacturer Part" "EVPAEDB2A"
-			(at 218.44 133.35 0)
+			(at 185.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1159,7 +1269,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 123.19 180)
+		(at 82.55 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1170,7 +1280,7 @@
 		(fields_autoplaced yes)
 		(uuid "38b6ee87-0113-4aae-8a40-747cf29b2689")
 		(property "Reference" "#PWR0133"
-			(at 93.98 116.84 0)
+			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1181,7 +1291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.9801 119.38 90)
+			(at 82.5501 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1193,7 +1303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 123.19 0)
+			(at 82.55 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1204,7 +1314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 123.19 0)
+			(at 82.55 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1215,7 +1325,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 123.19 0)
+			(at 82.55 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1239,7 +1349,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 123.19 180)
+		(at 190.5 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1250,7 +1360,7 @@
 		(fields_autoplaced yes)
 		(uuid "42837f42-5070-4737-bda6-c1250fc0185e")
 		(property "Reference" "#PWR0142"
-			(at 223.52 116.84 0)
+			(at 190.5 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1261,7 +1371,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.5201 119.38 90)
+			(at 190.5001 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1273,7 +1383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 123.19 0)
+			(at 190.5 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1284,7 +1394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 123.19 0)
+			(at 190.5 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1295,7 +1405,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 123.19 0)
+			(at 190.5 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1319,7 +1429,7 @@
 	)
 	(symbol
 		(lib_id "XWatch_Rev2.0:EVPAEDB2A")
-		(at 185.42 133.35 0)
+		(at 186.69 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1330,7 +1440,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fb56b5d-57bb-4070-8df4-f61e05257072")
 		(property "Reference" "SW4"
-			(at 179.07 135.0009 0)
+			(at 180.34 53.7209 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1341,7 +1451,7 @@
 			)
 		)
 		(property "Value" "EVPAEDB2A"
-			(at 179.07 137.5409 0)
+			(at 180.34 56.2609 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1352,7 +1462,7 @@
 			)
 		)
 		(property "Footprint" "XWatch_Rev2.0:EVPAEDB2A"
-			(at 185.42 133.35 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1363,7 +1473,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809121522_PANASONIC-EVPAEDB2A_C79150.pdf"
-			(at 185.42 133.35 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1374,7 +1484,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 15V 2.6mm 2.9mm 200,000 Cycles 20mA 3N 4.5mm Rectangular Button SPST Surface Mount, Right Angle SMD,4.5x2.6mm Tactile Switches ROHS"
-			(at 185.42 133.35 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1385,7 +1495,7 @@
 			)
 		)
 		(property "LCSC" "C79150"
-			(at 185.42 133.35 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1396,7 +1506,7 @@
 			)
 		)
 		(property "Manufacturer" "PANASONIC"
-			(at 185.42 133.35 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1407,7 +1517,7 @@
 			)
 		)
 		(property "Manufacturer Part" "EVPAEDB2A"
-			(at 185.42 133.35 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1553,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 123.19 180)
+		(at 181.61 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1454,7 +1564,7 @@
 		(fields_autoplaced yes)
 		(uuid "6dec34d8-73c4-489b-8805-6c8e1a50be50")
 		(property "Reference" "#PWR0138"
-			(at 180.34 116.84 0)
+			(at 181.61 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1465,7 +1575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.3401 119.38 90)
+			(at 181.6101 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1477,7 +1587,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 123.19 0)
+			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1488,7 +1598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 123.19 0)
+			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1499,7 +1609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 123.19 0)
+			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1523,7 +1633,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 80.01 180)
+		(at 111.76 40.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1534,7 +1644,7 @@
 		(fields_autoplaced yes)
 		(uuid "766b2a00-0bd5-46b1-a91a-1632aab200c5")
 		(property "Reference" "#PWR0130"
-			(at 123.19 73.66 0)
+			(at 111.76 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1545,7 +1655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.1901 76.2 90)
+			(at 111.7601 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1557,7 +1667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 80.01 0)
+			(at 111.76 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1568,7 +1678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 80.01 0)
+			(at 111.76 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1579,7 +1689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 80.01 0)
+			(at 111.76 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1603,7 +1713,7 @@
 	)
 	(symbol
 		(lib_id "XWatch_Rev2.0:EVPAEDB2A")
-		(at 142.24 133.35 0)
+		(at 114.3 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1614,7 +1724,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e154e54-a463-4e4d-9ebb-c87243c9a659")
 		(property "Reference" "SW3"
-			(at 135.89 135.0009 0)
+			(at 107.95 137.5409 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1625,7 +1735,7 @@
 			)
 		)
 		(property "Value" "EVPAEDB2A"
-			(at 135.89 137.5409 0)
+			(at 107.95 140.0809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1636,7 +1746,7 @@
 			)
 		)
 		(property "Footprint" "XWatch_Rev2.0:EVPAEDB2A"
-			(at 142.24 133.35 0)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1647,7 +1757,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809121522_PANASONIC-EVPAEDB2A_C79150.pdf"
-			(at 142.24 133.35 0)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1658,7 +1768,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 15V 2.6mm 2.9mm 200,000 Cycles 20mA 3N 4.5mm Rectangular Button SPST Surface Mount, Right Angle SMD,4.5x2.6mm Tactile Switches ROHS"
-			(at 142.24 133.35 0)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1669,7 +1779,7 @@
 			)
 		)
 		(property "LCSC" "C79150"
-			(at 142.24 133.35 0)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1680,7 +1790,7 @@
 			)
 		)
 		(property "Manufacturer" "PANASONIC"
-			(at 142.24 133.35 0)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1691,7 +1801,7 @@
 			)
 		)
 		(property "Manufacturer Part" "EVPAEDB2A"
-			(at 142.24 133.35 0)
+			(at 114.3 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1727,7 +1837,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 123.19 180)
+		(at 180.34 124.46 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1738,7 +1848,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac0888e0-c819-483f-a63b-1e4c4be8395c")
 		(property "Reference" "#PWR0141"
-			(at 213.36 116.84 0)
+			(at 180.34 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1749,7 +1859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.3601 119.38 90)
+			(at 180.3401 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1761,7 +1871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 123.19 0)
+			(at 180.34 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1772,7 +1882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 123.19 0)
+			(at 180.34 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1783,7 +1893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 123.19 0)
+			(at 180.34 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,7 +1917,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 123.19 180)
+		(at 109.22 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1818,7 +1928,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac6d2c91-f4ea-4d03-83cf-eb7933268a19")
 		(property "Reference" "#PWR0135"
-			(at 137.16 116.84 0)
+			(at 109.22 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1829,7 +1939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.1601 119.38 90)
+			(at 109.2201 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1841,7 +1951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 123.19 0)
+			(at 109.22 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,7 +1962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 123.19 0)
+			(at 109.22 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1863,7 +1973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 123.19 0)
+			(at 109.22 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1887,7 +1997,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 140.97 90)
+		(at 190.5 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1898,7 +2008,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4e65ad8-99ff-4aab-b38e-9f09acdad721")
 		(property "Reference" "#PWR0143"
-			(at 229.87 140.97 0)
+			(at 196.85 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +2019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 227.33 140.9701 90)
+			(at 194.31 142.2401 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1921,7 +2031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 140.97 0)
+			(at 190.5 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,7 +2042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 140.97 0)
+			(at 190.5 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +2053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 140.97 0)
+			(at 190.5 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1967,7 +2077,7 @@
 	)
 	(symbol
 		(lib_id "XWatch_Rev2.0:EVPAEDB2A")
-		(at 128.27 90.17 0)
+		(at 116.84 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1978,7 +2088,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7091779-694e-420b-af12-d790605512dc")
 		(property "Reference" "SW1"
-			(at 121.92 91.8209 0)
+			(at 110.49 52.4509 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1989,7 +2099,7 @@
 			)
 		)
 		(property "Value" "EVPAEDB2A"
-			(at 121.92 94.3609 0)
+			(at 110.49 54.9909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2000,7 +2110,7 @@
 			)
 		)
 		(property "Footprint" "XWatch_Rev2.0:EVPAEDB2A"
-			(at 128.27 90.17 0)
+			(at 116.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2011,7 +2121,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809121522_PANASONIC-EVPAEDB2A_C79150.pdf"
-			(at 128.27 90.17 0)
+			(at 116.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,7 +2132,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 15V 2.6mm 2.9mm 200,000 Cycles 20mA 3N 4.5mm Rectangular Button SPST Surface Mount, Right Angle SMD,4.5x2.6mm Tactile Switches ROHS"
-			(at 128.27 90.17 0)
+			(at 116.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2033,7 +2143,7 @@
 			)
 		)
 		(property "LCSC" "C79150"
-			(at 128.27 90.17 0)
+			(at 116.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2044,7 +2154,7 @@
 			)
 		)
 		(property "Manufacturer" "PANASONIC"
-			(at 128.27 90.17 0)
+			(at 116.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2055,7 +2165,7 @@
 			)
 		)
 		(property "Manufacturer Part" "EVPAEDB2A"
-			(at 128.27 90.17 0)
+			(at 116.84 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2091,7 +2201,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 140.97 90)
+		(at 82.55 105.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2102,7 +2212,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1d034e9-9731-445b-9439-d85e5a003564")
 		(property "Reference" "#PWR0134"
-			(at 100.33 140.97 0)
+			(at 88.9 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2113,7 +2223,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 140.9701 90)
+			(at 86.36 105.4101 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,7 +2235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 140.97 0)
+			(at 82.55 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,7 +2246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 140.97 0)
+			(at 82.55 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2147,7 +2257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 140.97 0)
+			(at 82.55 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2171,7 +2281,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 97.79 90)
+		(at 121.92 58.42 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2182,7 +2292,7 @@
 		(fields_autoplaced yes)
 		(uuid "c33fdddb-7908-4744-bfc0-e10aa6b74850")
 		(property "Reference" "#PWR055"
-			(at 139.7 97.79 0)
+			(at 128.27 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2193,7 +2303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 97.7901 90)
+			(at 125.73 58.4201 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2205,7 +2315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 97.79 0)
+			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,7 +2326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 97.79 0)
+			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2227,7 +2337,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 97.79 0)
+			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2251,7 +2361,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 123.19 180)
+		(at 119.38 125.73 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2262,7 +2372,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1b75d47-c966-4741-81e7-1b53ca2bc15a")
 		(property "Reference" "#PWR0136"
-			(at 147.32 116.84 0)
+			(at 119.38 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,7 +2383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.3201 119.38 90)
+			(at 119.3801 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2285,7 +2395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 123.19 0)
+			(at 119.38 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2296,7 +2406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 123.19 0)
+			(at 119.38 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2307,7 +2417,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 123.19 0)
+			(at 119.38 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2331,7 +2441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 123.19 180)
+		(at 72.39 87.63 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2342,7 +2452,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5eca979-ba03-44d4-bb2c-3da0f7626b9e")
 		(property "Reference" "#PWR0132"
-			(at 83.82 116.84 0)
+			(at 72.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +2463,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.8201 119.38 90)
+			(at 72.3901 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2365,7 +2475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 123.19 0)
+			(at 72.39 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2376,7 +2486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 123.19 0)
+			(at 72.39 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2387,7 +2497,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 123.19 0)
+			(at 72.39 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,7 +2521,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 80.01 180)
+		(at 121.92 40.64 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2422,7 +2532,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9527b01-8073-4dc0-8370-bfedc699140d")
 		(property "Reference" "#PWR0131"
-			(at 133.35 73.66 0)
+			(at 121.92 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2433,7 +2543,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.3501 76.2 90)
+			(at 121.9201 36.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2445,7 +2555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 80.01 0)
+			(at 121.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2456,7 +2566,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 80.01 0)
+			(at 121.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2467,7 +2577,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 80.01 0)
+			(at 121.92 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

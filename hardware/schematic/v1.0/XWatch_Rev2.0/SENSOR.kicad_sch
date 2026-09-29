@@ -2903,6 +2903,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I²C 地址 0x5A"
+		(exclude_from_sim no)
+		(at 121.158 181.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0cfb23f3-e0a9-4b4c-aafc-ae96a38e5f6d")
+	)
 	(text "说明\nINT1/INT2 默认推挽、高有效，不加外部上拉；\nINT1 上电期间不要被外部拉高（手册引脚说明）；\nSDX/SCX 接 GND，OSC_AUX/SDO_AUX 悬空。"
 		(exclude_from_sim no)
 		(at 72.644 28.448 0)
@@ -2922,6 +2932,16 @@
 			)
 		)
 		(uuid "2c94c843-81bf-4272-a610-a644accebb99")
+	)
+	(text "I²C 地址 0x57"
+		(exclude_from_sim no)
+		(at 223.52 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "310ae23b-56e3-4de4-a37f-ecdad426e190")
 	)
 	(text "内部 LDO 输出，只接电容"
 		(exclude_from_sim no)
@@ -2943,15 +2963,15 @@
 		)
 		(uuid "3b6cbddf-372c-4700-a9a0-4562aa9f7e4e")
 	)
-	(text "触觉驱动芯片"
+	(text "I²C 地址 0x5C"
 		(exclude_from_sim no)
-		(at 121.158 177.546 0)
+		(at 162.56 69.088 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "3c09688c-7cfc-4d1f-a477-214b575e4e28")
+		(uuid "53625f2a-110a-4f44-90de-9ba0e7d51b70")
 	)
 	(text "\n环境光传感器"
 		(exclude_from_sim no)
@@ -2973,15 +2993,15 @@
 		)
 		(uuid "687ca7d1-3481-4e0d-b879-34e0f0fed9b7")
 	)
-	(text "0x6A"
+	(text "I²C 地址 0x6A"
 		(exclude_from_sim no)
-		(at 74.168 70.104 0)
+		(at 74.422 70.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7d308f82-2a74-4811-b6be-1f41b04279a1")
+		(uuid "6a556ecd-a14f-439c-9be4-cf3950f91751")
 	)
 	(text "400 kHz 有充足余量"
 		(exclude_from_sim no)
@@ -2993,6 +3013,16 @@
 		)
 		(uuid "87e7e975-0cab-4668-8cc9-0eb8db989610")
 	)
+	(text "I²C 地址 0x1E"
+		(exclude_from_sim no)
+		(at 75.692 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92f65e86-a7b0-42b7-90ea-b288876a036e")
+	)
 	(text "INT# 开漏，低有效"
 		(exclude_from_sim no)
 		(at 217.932 95.758 0)
@@ -3003,15 +3033,15 @@
 		)
 		(uuid "a998987a-f809-4159-947d-b996d5adfaca")
 	)
-	(text "0x44"
+	(text "PPG 心率/血氧"
 		(exclude_from_sim no)
-		(at 164.846 119.634 0)
+		(at 223.774 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "b1092966-f040-43ca-b7df-b2c4b324af01")
+		(uuid "afa2476d-b78e-4e05-9268-1f8ddde8dd57")
 	)
 	(text "INT 为开漏，需上拉"
 		(exclude_from_sim no)
@@ -3043,16 +3073,6 @@
 		)
 		(uuid "d7647b3e-ad78-4da0-895d-bd3f2a689473")
 	)
-	(text "0x5C"
-		(exclude_from_sim no)
-		(at 162.814 68.834 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "da8543be-7111-4cbb-9c22-9fd257744ebc")
-	)
 	(text "说明\nADDR 可选 GND/VDD/SDA/SCL\n→ 0x44/0x45/0x46/0x47；\nINT 低有效，可设窗口阈值中断；\n感光面朝上，对准表壳透光窗。"
 		(exclude_from_sim no)
 		(at 164.592 131.318 0)
@@ -3063,15 +3083,15 @@
 		)
 		(uuid "e5df5ec0-fac8-44a9-bfdf-e2b343b10496")
 	)
-	(text "地址固定 0x1E"
+	(text "I²C 地址 0x44"
 		(exclude_from_sim no)
-		(at 75.946 121.412 0)
+		(at 164.338 119.634 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "e7eec597-c8cb-40f3-84f2-42cbe2c1728e")
+		(uuid "ebe11e0f-de0d-4bb0-973e-049277aa33d8")
 	)
 	(text "贴 10 脚 VDD；VBAT 走线 ≥0.3mm"
 		(exclude_from_sim no)
@@ -3092,6 +3112,16 @@
 			)
 		)
 		(uuid "f988e632-3762-4b5f-876d-2e091cc952b9")
+	)
+	(text "LRA 触觉驱动"
+		(exclude_from_sim no)
+		(at 121.158 177.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa891b05-0de6-45f0-bd87-38fd18aba919")
 	)
 	(junction
 		(at 146.05 171.45)
@@ -3913,6 +3943,17 @@
 		)
 		(uuid "026331ab-c6b3-42e6-a0da-b06af7f48789")
 	)
+	(hierarchical_label "LRA_P"
+		(shape output)
+		(at 137.16 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d0a0970-7dbf-4f04-9db1-3c067ebee9d9")
+	)
 	(hierarchical_label "SENSOR_SCL"
 		(shape input)
 		(at 50.8 99.06 180)
@@ -3956,6 +3997,17 @@
 			(justify left)
 		)
 		(uuid "51eb82bd-0399-46ee-8541-756997e0b035")
+	)
+	(hierarchical_label "LRA_N"
+		(shape output)
+		(at 137.16 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "556b4bd5-0dbd-4335-a142-ab0437178900")
 	)
 	(hierarchical_label "SENSOR_SDA"
 		(shape bidirectional)

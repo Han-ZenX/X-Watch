@@ -4865,6 +4865,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V8"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5302,6 +5441,12 @@
 		(uuid "6d7d086a-146a-44db-9bc2-e13e3239a419")
 	)
 	(junction
+		(at 96.52 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78001a73-37de-48bf-90af-29a3b810dd93")
+	)
+	(junction
 		(at 247.65 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5359,6 +5504,26 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 43.18) (xy 100.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1028e48e-0b53-46cb-9f5f-14ea37769dfa")
+	)
+	(wire
+		(pts
+			(xy 96.52 41.91) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bf250c3-c2fd-4712-bc9e-bc405a738272")
+	)
+	(wire
+		(pts
 			(xy 99.06 53.34) (xy 100.33 53.34)
 		)
 		(stroke
@@ -5396,6 +5561,16 @@
 			(type default)
 		)
 		(uuid "34aac503-6b53-4f07-8e89-2f596a63952e")
+	)
+	(wire
+		(pts
+			(xy 93.98 43.18) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfd532d-3f9a-4e58-8a70-0ba259373faa")
 	)
 	(wire
 		(pts
@@ -5927,6 +6102,16 @@
 		)
 		(uuid "f53269b7-6a69-4b03-8779-9a59ff516775")
 	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 96.52 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7527182-148f-4d65-b3f1-726ce11ebde1")
+	)
 	(label "DSI.RESET"
 		(at 158.75 55.88 0)
 		(effects
@@ -6321,6 +6506,17 @@
 			(justify left)
 		)
 		(uuid "5b432e93-2d40-4fec-b183-357a3d10a14d")
+	)
+	(hierarchical_label "SW1"
+		(shape input)
+		(at 93.98 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "693e6b4b-75b3-4eef-ba33-2244e0441808")
 	)
 	(hierarchical_label "SW5"
 		(shape input)
@@ -7495,6 +7691,87 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/999006d4-9c3b-4798-99ee-23f029574470"
 					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev2.0:R")
+		(at 96.52 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c156e48-a925-49f0-9f2d-465b8bd0ecee")
+		(property "Reference" "R18"
+			(at 98.044 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 98.044 40.132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev2.0:GEN_R_0201"
+			(at 94.742 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e5fc5f6-3ecc-42c7-bded-82459a380589")
+		)
+		(pin "2"
+			(uuid "9241f409-f78e-43ef-bef4-9d9570dd99bc")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/999006d4-9c3b-4798-99ee-23f029574470"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9419,6 +9696,83 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/999006d4-9c3b-4798-99ee-23f029574470"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 96.52 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4b7aaf5-6ada-4c65-8762-ad305b53b0ef")
+		(property "Reference" "#PWR0192"
+			(at 96.52 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 96.012 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 96.52 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32059aa6-b0a1-48da-a365-1034ce2a1e3b")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/999006d4-9c3b-4798-99ee-23f029574470"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
