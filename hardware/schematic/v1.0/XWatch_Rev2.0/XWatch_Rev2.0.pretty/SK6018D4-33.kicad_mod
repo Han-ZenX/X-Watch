@@ -1,0 +1,264 @@
+(footprint "SK6018D4-33"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃@(Ta) 1 3.3V 300mA 6.5V Enable Fixed Positive XDFN-4-EP(1x1) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS")
+	(tags "C2682758 SK6018D4-33 Suntek XDFN-4_L1.0-W1.0-P0.65-BL-EP")
+	(property "Reference" "REF**"
+		(at 0 -1.699872 0)
+		(layer "F.SilkS")
+		(uuid "7bb7f357-6a5c-43b6-9108-b77f57ba714b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 1.70024 0)
+		(layer "F.Fab")
+		(uuid "c61918e5-e06a-401e-9f86-0e803850c3d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2101081905_Suntek-SK6018D4-33_C2682758.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cb88009-fa24-4edd-8652-b64becd29f69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃@(Ta) 1 3.3V 300mA 6.5V Enable Fixed Positive XDFN-4-EP(1x1) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dde1ae0a-6575-49b0-aa1f-4cf84b9826d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2682758"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c7d3b8a-cf04-46e0-ace2-78bb054a3158")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.659867 -0.699872)
+		(end -0.659867 0.700126)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "87bdfba2-2caa-4040-97f0-d4d03b2f2638")
+	)
+	(fp_line
+		(start -0.659867 -0.699872)
+		(end -0.598195 -0.699872)
+		(stroke
+			(width 0.152)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d6c1af9-70ae-4b77-bd16-77f39a454f60")
+	)
+	(fp_line
+		(start -0.659867 0.700126)
+		(end -0.598 0.700126)
+		(stroke
+			(width 0.152)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d6fb332-134e-45ee-883c-3c89c1d772b8")
+	)
+	(fp_line
+		(start -0.052172 0.700126)
+		(end 0.052172 0.700126)
+		(stroke
+			(width 0.152)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f580e3c3-7394-4b73-9947-e362c0b58cec")
+	)
+	(fp_line
+		(start -0.052 -0.699872)
+		(end 0.052 -0.699872)
+		(stroke
+			(width 0.152)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4383d183-2da6-4672-af23-301a6504523c")
+	)
+	(fp_line
+		(start 0.598 0.700126)
+		(end 0.66 0.700126)
+		(stroke
+			(width 0.152)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4b92439-4832-4b81-8c06-9c1139c58904")
+	)
+	(fp_line
+		(start 0.598195 -0.699872)
+		(end 0.66 -0.699872)
+		(stroke
+			(width 0.152)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c22a8b0f-e7bb-43d2-92a0-5b1ac2249cbf")
+	)
+	(fp_line
+		(start 0.66 -0.699872)
+		(end 0.66 0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b40c954-3df5-4305-b964-8855d9856e20")
+	)
+	(fp_circle
+		(center -0.9 0.55)
+		(end -0.824 0.55)
+		(stroke
+			(width 0.152)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e6a7a5ff-764e-4e3d-99ac-bb6df4c4a3db")
+	)
+	(fp_circle
+		(center -0.35 0.500126)
+		(end -0.3 0.500126)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cef6a8f0-812c-48bb-9951-65808d62e73e")
+	)
+	(pad "1" smd custom
+		(at -0.32512 0.475234)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1 -0.075) (xy 0.1 0.175) (xy -0.1 0.175) (xy -0.1 -0.275) (xy -0.05 -0.225) (xy 0.1 -0.075)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "05c41870-1e46-46dd-a6be-e6917ceb0ed7")
+	)
+	(pad "2" smd custom
+		(at 0.32512 0.475234)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1 0.175) (xy -0.1 0.175) (xy -0.1 -0.075) (xy 0.05 -0.225) (xy 0.1 -0.225)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "dbf27f1d-f701-4669-9a34-a1c68534fcc6")
+	)
+	(pad "3" smd custom
+		(at 0.32512 -0.47498)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1 -0.17526) (xy -0.1 -0.17526) (xy -0.1 0.074828) (xy 0.05 0.224815) (xy 0.1 0.224841)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "df10f8be-7836-42e1-8607-d88c5992415d")
+	)
+	(pad "4" smd custom
+		(at -0.32512 -0.475234)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 -0.175) (xy 0.1 -0.175) (xy 0.1 0.075) (xy -0.05 0.225) (xy -0.1 0.225)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "66bbaa92-732b-4f82-b3e9-e61d5d1cfad6")
+	)
+	(pad "5" smd rect
+		(at 0 0 45)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "535d44c6-0597-41e1-9f6e-3d05b83b1a17")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/SK6018D4-33.wrl"
+		(offset
+			(xyz 0 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
