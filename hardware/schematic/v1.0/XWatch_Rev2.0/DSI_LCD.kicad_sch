@@ -758,6 +758,161 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XWatch_Rev2.0:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "XWatch_Rev2.0:GEN_C_0201"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XWatch_Rev2.0:R"
 			(pin_numbers
 				(hide yes)
@@ -1433,7 +1588,7 @@
 	)
 	(text "1.43\" 466x466 pixels DSI LCD\nZZ1"
 		(exclude_from_sim no)
-		(at 138.43 120.65 0)
+		(at 137.16 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1441,9 +1596,29 @@
 		)
 		(uuid "24425f53-19f2-443b-b800-c2599ed91fa4")
 	)
+	(text "IM0 = 0"
+		(exclude_from_sim no)
+		(at 155.702 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9eb7e860-d34b-4b5f-ad69-6ee227db0804")
+	)
+	(text "IM1 = 0"
+		(exclude_from_sim no)
+		(at 119.888 99.314 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f91ca62c-ae93-4381-b6c4-263b52367994")
+	)
 	(text_box "DWO DO0143FMST02"
 		(exclude_from_sim no)
-		(at 125.73 123.19 0)
+		(at 124.46 121.92 0)
 		(size 25.4 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1460,6 +1635,12 @@
 			)
 		)
 		(uuid "e6713961-3197-4c82-a34e-2dd95a3d670a")
+	)
+	(junction
+		(at 161.29 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06d4738c-5831-477f-84b2-11a140af516c")
 	)
 	(junction
 		(at 238.76 104.14)
@@ -1480,16 +1661,46 @@
 		(uuid "3596bd24-7c53-4193-812e-2724362ba4e4")
 	)
 	(junction
+		(at 176.53 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a48f001-4c28-4f2d-9e90-34ca4fae17b4")
+	)
+	(junction
+		(at 167.64 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f609b74-b022-4ae4-a999-dd44df22d023")
+	)
+	(junction
 		(at 147.32 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4f1c7382-597f-4599-93bc-07dd72da0a3e")
+		(uuid "a9b8ad40-a8f9-45ce-b92e-01e0e8e01fcd")
 	)
 	(junction
 		(at 135.89 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce25ab22-df6d-42e8-9303-9bc9fdcd5283")
+	)
+	(junction
+		(at 102.87 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d20b49c0-39b8-46c4-a0f8-0a55e0644c08")
+	)
+	(junction
+		(at 171.45 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3ed913e-95d3-4c08-abc9-08e0f7d3e584")
+	)
+	(junction
+		(at 171.45 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e046a7a2-190b-46c5-b2ec-0925daea1cbe")
 	)
 	(no_connect
 		(at 127 93.98)
@@ -1507,6 +1718,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 63.5) (xy 167.64 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09539fec-d493-4fc8-8ed1-7e17ce4b3949")
+	)
+	(wire
+		(pts
+			(xy 171.45 76.2) (xy 176.53 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a680e9e-2b87-4482-ae64-753bd319c365")
+	)
+	(wire
+		(pts
 			(xy 147.32 63.5) (xy 147.32 66.04)
 		)
 		(stroke
@@ -1517,7 +1748,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.43 110.49) (xy 140.97 113.03)
+			(xy 137.16 109.22) (xy 139.7 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1547,13 +1778,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 63.5) (xy 151.13 63.5)
+			(xy 147.32 63.5) (xy 161.29 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32fb33ed-7f1e-4bee-8e6a-8e539ffd879d")
+	)
+	(wire
+		(pts
+			(xy 171.45 81.28) (xy 171.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34374813-f79f-4bb7-b712-a0666fda8447")
 	)
 	(wire
 		(pts
@@ -1657,7 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 81.28) (xy 179.07 81.28)
+			(xy 147.32 81.28) (xy 171.45 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1697,6 +1938,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 63.5) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c8ba6d-a158-4dce-8827-644517b16a24")
+	)
+	(wire
+		(pts
 			(xy 120.65 68.58) (xy 127 68.58)
 		)
 		(stroke
@@ -1717,7 +1968,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 76.2) (xy 179.07 76.2)
+			(xy 102.87 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936d6a47-fea2-4815-82d7-0d87ba17f0dd")
+	)
+	(wire
+		(pts
+			(xy 147.32 76.2) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1757,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 88.9) (xy 127 88.9)
+			(xy 95.25 88.9) (xy 102.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1767,7 +2028,7 @@
 	)
 	(polyline
 		(pts
-			(xy 138.43 110.49) (xy 138.43 115.57)
+			(xy 137.16 109.22) (xy 137.16 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1804,6 +2065,16 @@
 			(type default)
 		)
 		(uuid "c6dc2308-8891-4445-a682-3fee4b8e2793")
+	)
+	(wire
+		(pts
+			(xy 176.53 76.2) (xy 185.42 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c904de8f-61df-4e70-8671-318f4fd305bd")
 	)
 	(wire
 		(pts
@@ -1847,13 +2118,23 @@
 	)
 	(polyline
 		(pts
-			(xy 135.89 113.03) (xy 138.43 110.49)
+			(xy 134.62 111.76) (xy 137.16 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db454be6-70a2-4dcf-a4e5-ef1193b43c98")
+	)
+	(wire
+		(pts
+			(xy 171.45 81.28) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e399316a-c7f7-40be-9b7d-45369d300a01")
 	)
 	(wire
 		(pts
@@ -1909,7 +2190,7 @@
 	)
 	(hierarchical_label "DSI_D1_P"
 		(shape bidirectional)
-		(at 86.36 106.68 0)
+		(at 41.91 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1975,7 +2256,7 @@
 	)
 	(hierarchical_label "DSI_D1_N"
 		(shape bidirectional)
-		(at 86.36 109.22 0)
+		(at 41.91 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2312,6 +2593,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 171.45 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12dd2c24-92f6-4256-a89b-a7ad9e80147c")
+		(property "Reference" "#PWR0203"
+			(at 171.45 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.4501 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "214fe9b0-55d2-4d9b-8ded-af90578321f5")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XWatch_Rev2.0:R")
 		(at 231.14 110.49 0)
 		(unit 1)
@@ -2479,6 +2840,87 @@
 		)
 	)
 	(symbol
+		(lib_id "XWatch_Rev2.0:C")
+		(at 167.64 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "242bb597-f392-4434-ae30-93fbef5ebba8")
+		(property "Reference" "C69"
+			(at 168.148 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 168.148 61.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev2.0:GEN_C_0402"
+			(at 168.6052 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "464984fa-9b84-4bc0-abf7-0b2273e7bc95")
+		)
+		(pin "2"
+			(uuid "afe5ecc1-39eb-4a09-9262-dc8522b9f2bb")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XWatch_Rev2.0:R")
 		(at 105.41 76.2 90)
 		(unit 1)
@@ -2635,8 +3077,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 99.06 88.9 0)
+		(lib_id "power:GND")
+		(at 167.64 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2644,9 +3086,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "333295e9-d136-4279-806b-8e67b8933b7c")
-		(property "Reference" "#PWR063"
-			(at 99.06 92.71 0)
+		(fields_autoplaced yes)
+		(uuid "2c3f9f66-aa42-4e52-8515-76de79d8eb6e")
+		(property "Reference" "#PWR0202"
+			(at 167.64 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2656,18 +3099,20 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 98.806 85.344 0)
+		(property "Value" "GND"
+			(at 167.6401 52.07 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 88.9 0)
+			(at 167.64 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2678,7 +3123,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 88.9 0)
+			(at 167.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0c1e578-0eaf-4c1b-a29e-ceb8b9701d9c")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 95.25 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "333295e9-d136-4279-806b-8e67b8933b7c")
+		(property "Reference" "#PWR063"
+			(at 95.25 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 94.996 85.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2689,7 +3211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 99.06 88.9 0)
+			(at 95.25 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,6 +3234,86 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b2b0a06-9908-4bc3-a812-1f8afa65d0b2")
+		(property "Reference" "#PWR0201"
+			(at 161.29 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.2901 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5897704e-afb9-4378-ab01-e6d4edc6552d")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -2898,7 +3500,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5f347212-3630-4f63-a789-c42bbc790d68")
 		(property "Reference" "R1"
 			(at 110.744 90.424 90)
@@ -2963,6 +3565,167 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6578f041-7cde-4083-b2bf-d4a3e372c72e")
+		(property "Reference" "#PWR0199"
+			(at 171.45 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.4499 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46b599e6-bc6f-49d5-bb98-0125222a05ec")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev2.0:C")
+		(at 161.29 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68f5ee91-8610-4641-a934-5c47d18f048d")
+		(property "Reference" "C70"
+			(at 156.718 57.404 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 154.94 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev2.0:GEN_C_0402"
+			(at 162.2552 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13f7eccd-2f66-42f5-acc3-a32c2ba16a41")
+		)
+		(pin "2"
+			(uuid "f39b43d1-7c75-4f92-82f8-51f8872b8356")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -3055,8 +3818,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 179.07 76.2 0)
+		(lib_id "XWatch_Rev2.0:C")
+		(at 102.87 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3064,30 +3827,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6c11e9b1-cf92-4de8-88c5-cb3d3db6e01d")
-		(property "Reference" "#PWR056"
-			(at 179.07 80.01 0)
-			(hide yes)
+		(uuid "6be70466-c146-444e-bd53-d8f40498cfb7")
+		(property "Reference" "C68"
+			(at 98.298 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+1V8"
-			(at 178.562 72.39 0)
+		(property "Value" "100nF"
+			(at 96.52 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 76.2 0)
+		(property "Footprint" "XWatch_Rev2.0:GEN_C_0402"
+			(at 103.8352 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3098,7 +3862,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 76.2 0)
+			(at 102.87 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "993463e8-842b-4ad7-8c02-119ec4af1c5d")
+		)
+		(pin "2"
+			(uuid "6cbc74fd-99df-4525-a707-d4eec98d7bde")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 185.42 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c11e9b1-cf92-4de8-88c5-cb3d3db6e01d")
+		(property "Reference" "#PWR056"
+			(at 185.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 184.912 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3109,7 +3953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 179.07 76.2 0)
+			(at 185.42 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,6 +4062,87 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev2.0:C")
+		(at 171.45 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7885469f-152f-4d66-9ea8-7c835665e323")
+		(property "Reference" "C67"
+			(at 171.958 84.328 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 171.958 88.646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev2.0:GEN_C_0402"
+			(at 172.4152 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ec17ba2-7904-46c9-8db3-298ea9440697")
+		)
+		(pin "2"
+			(uuid "43b12a5d-19f8-46d9-9dd9-2a427a172842")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -3479,6 +4404,168 @@
 		)
 	)
 	(symbol
+		(lib_id "XWatch_Rev2.0:C")
+		(at 171.45 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8db1860c-c247-4e1f-a920-e089595d69e3")
+		(property "Reference" "C72"
+			(at 166.878 70.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 165.1 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev2.0:GEN_C_0402"
+			(at 172.4152 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 171.45 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08e00d36-010f-4ffd-add9-25b524a269bb")
+		)
+		(pin "2"
+			(uuid "941e4235-1d57-4562-81ce-b7b94957594e")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev2.0:C")
+		(at 176.53 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1eb31fb-4413-45ba-a60a-e5355d80eca2")
+		(property "Reference" "C71"
+			(at 177.038 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 177.038 74.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev2.0:GEN_C_0402"
+			(at 177.4952 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b89ce5f8-5492-45f6-a8d5-33f1cd64681e")
+		)
+		(pin "2"
+			(uuid "8ff41f5a-9a4e-4b18-ae3c-8f7c8d793eab")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 99.06 270)
 		(unit 1)
@@ -3566,7 +4653,7 @@
 	)
 	(symbol
 		(lib_id "XWatch_Rev2.0:VSYS")
-		(at 151.13 63.5 0)
+		(at 177.8 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3577,7 +4664,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1e3ea80-e2fe-4e01-a1cb-a96e395ac4f1")
 		(property "Reference" "#PWR03"
-			(at 151.13 67.31 0)
+			(at 177.8 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,7 +4675,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 151.13 58.42 0)
+			(at 177.8 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3598,7 +4685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 63.5 0)
+			(at 177.8 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3609,7 +4696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 63.5 0)
+			(at 177.8 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +4707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VSYS\""
-			(at 151.13 63.5 0)
+			(at 177.8 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,6 +4805,86 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb500a59-3264-45be-abfd-6b130c442768")
+		(property "Reference" "#PWR0204"
+			(at 176.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.5301 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cea11950-f7d0-4e10-9be0-d6d34fb5a693")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -4181,6 +5348,86 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd17590-41f4-428e-b5dd-11e9e6b1994e")
+		(property "Reference" "#PWR0200"
+			(at 102.87 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.8699 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6240b8b6-7ec1-4248-b679-fa4ecc92c1f4")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/086d63d7-25af-47fa-acc4-e3e995b262f4"
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)
