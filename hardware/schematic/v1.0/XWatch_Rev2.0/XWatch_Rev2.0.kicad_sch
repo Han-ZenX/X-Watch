@@ -98,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 91.44 146.05)
-		(size 27.94 34.29)
+		(at 29.21 76.2)
+		(size 16.51 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "1aeeaa91-c048-4b1a-b399-deef08efaa07")
 		(property "Sheetname" "BUTTONS"
-			(at 91.44 145.3384 0)
+			(at 29.21 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "BUTTONS.kicad_sch"
-			(at 91.44 180.9246 0)
+			(at 29.21 98.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -133,6 +133,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SW4" output
+			(at 45.72 88.9 0)
+			(uuid "c4e340f7-6494-44f1-894d-c2be75444dc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW5" output
+			(at 45.72 91.44 0)
+			(uuid "f0f302bb-f4d6-4435-a0ea-e48bb48a8ef5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW1" input
+			(at 45.72 81.28 0)
+			(uuid "375d1f1f-f165-4e31-b223-139e4bff36e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW2" output
+			(at 45.72 83.82 0)
+			(uuid "ec5d70f8-2d64-448c-895b-50fc8bec609a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW3" output
+			(at 45.72 86.36 0)
+			(uuid "fb86cb54-e1b9-44cb-9eeb-fbf10aa192d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
