@@ -246,7 +246,7 @@
 		(uuid "d99a7b4f-302c-4839-8203-49acb04cd3e0")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/LPS27HHWTR.wrl"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/LPS27HHWTR.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

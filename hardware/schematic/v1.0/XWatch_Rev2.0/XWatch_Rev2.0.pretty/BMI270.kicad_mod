@@ -252,7 +252,7 @@
 		(uuid "45335545-d989-4c8f-ada7-5eeaa77c8322")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/BMI270.wrl"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/BMI270.wrl"
 		(offset
 			(xyz 0 0 0.21)
 		)

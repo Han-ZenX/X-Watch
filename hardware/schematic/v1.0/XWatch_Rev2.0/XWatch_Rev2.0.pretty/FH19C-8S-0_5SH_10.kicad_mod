@@ -299,7 +299,7 @@
 		(uuid "2e3f0e88-12af-4af0-87a5-42b5b5aa234c")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/FH19C-8S-0_5SH_10.wrl"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/FH19C-8S-0_5SH_10.wrl"
 		(offset
 			(xyz 6 2.5 0)
 		)

@@ -156,7 +156,7 @@
 		(uuid "a55573ac-04de-4b49-a71c-648e1c259b49")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/TPS62840DLCR.wrl"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/TPS62840DLCR.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

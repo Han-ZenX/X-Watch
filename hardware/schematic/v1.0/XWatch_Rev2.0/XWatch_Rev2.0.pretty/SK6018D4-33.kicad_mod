@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.699872 0)
 		(layer "F.SilkS")
-		(uuid "7bb7f357-6a5c-43b6-9108-b77f57ba714b")
+		(uuid "1073f07b-4043-4cd0-9c51-155dd8cb0437")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "~"
 		(at 0 1.70024 0)
 		(layer "F.Fab")
-		(uuid "c61918e5-e06a-401e-9f86-0e803850c3d1")
+		(uuid "2b2044cf-a9ab-4004-90e9-2142709617ef")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6cb88009-fa24-4edd-8652-b64becd29f69")
+		(uuid "c9fe114d-7370-4e1b-a079-e4abc339616e")
 		(effects
 			(font
 				(size 1 1)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dde1ae0a-6575-49b0-aa1f-4cf84b9826d1")
+		(uuid "2e025d02-e9ed-407c-8e82-419b36489ec6")
 		(effects
 			(font
 				(size 1 1)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3c7d3b8a-cf04-46e0-ace2-78bb054a3158")
+		(uuid "6cbc5c9c-f010-4ce9-a4a4-784c779fe6c3")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "87bdfba2-2caa-4040-97f0-d4d03b2f2638")
+		(uuid "a6a64f06-4693-4130-9c33-2e8f03804106")
 	)
 	(fp_line
 		(start -0.659867 -0.699872)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9d6c1af9-70ae-4b77-bd16-77f39a454f60")
+		(uuid "22a7363c-2346-4534-9de0-efbae8cfd291")
 	)
 	(fp_line
 		(start -0.659867 0.700126)
@@ -93,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6d6fb332-134e-45ee-883c-3c89c1d772b8")
+		(uuid "0a129978-f01a-4397-a79f-e7d6b9150516")
 	)
 	(fp_line
 		(start -0.052172 0.700126)
@@ -103,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f580e3c3-7394-4b73-9947-e362c0b58cec")
+		(uuid "9189f526-57ab-46c2-8097-15874c4f4675")
 	)
 	(fp_line
 		(start -0.052 -0.699872)
@@ -113,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4383d183-2da6-4672-af23-301a6504523c")
+		(uuid "d0a7bf72-0bcb-4d88-afd9-4c66b9168c54")
 	)
 	(fp_line
 		(start 0.598 0.700126)
@@ -123,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b4b92439-4832-4b81-8c06-9c1139c58904")
+		(uuid "a4ed2b1f-0e3b-4bfc-bb70-81df1c0ae1a1")
 	)
 	(fp_line
 		(start 0.598195 -0.699872)
@@ -133,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c22a8b0f-e7bb-43d2-92a0-5b1ac2249cbf")
+		(uuid "a4c126cc-cca5-43bf-937e-220082c25f6e")
 	)
 	(fp_line
 		(start 0.66 -0.699872)
@@ -143,7 +143,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6b40c954-3df5-4305-b964-8855d9856e20")
+		(uuid "7725070f-62f7-4f9f-b543-e2d68afca70d")
 	)
 	(fp_circle
 		(center -0.9 0.55)
@@ -154,7 +154,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "e6a7a5ff-764e-4e3d-99ac-bb6df4c4a3db")
+		(uuid "243eaed6-d917-41f6-b221-7b763fd85a08")
 	)
 	(fp_circle
 		(center -0.35 0.500126)
@@ -165,7 +165,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "cef6a8f0-812c-48bb-9951-65808d62e73e")
+		(uuid "b96ee171-2629-4d05-834d-5a69a4244832")
 	)
 	(pad "1" smd custom
 		(at -0.32512 0.475234)
@@ -184,7 +184,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "05c41870-1e46-46dd-a6be-e6917ceb0ed7")
+		(uuid "cc59e0af-0aef-42f1-9866-56218e94b042")
 	)
 	(pad "2" smd custom
 		(at 0.32512 0.475234)
@@ -203,7 +203,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "dbf27f1d-f701-4669-9a34-a1c68534fcc6")
+		(uuid "839de388-265e-4ccd-b4aa-cf5d9d918063")
 	)
 	(pad "3" smd custom
 		(at 0.32512 -0.47498)
@@ -222,7 +222,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "df10f8be-7836-42e1-8607-d88c5992415d")
+		(uuid "39acecc7-f084-40bd-ba1d-80b9030a7b55")
 	)
 	(pad "4" smd custom
 		(at -0.32512 -0.475234)
@@ -241,13 +241,13 @@
 				(fill yes)
 			)
 		)
-		(uuid "66bbaa92-732b-4f82-b3e9-e61d5d1cfad6")
+		(uuid "9ddcba83-955f-4545-9148-525c921d12d0")
 	)
 	(pad "5" smd rect
 		(at 0 0 45)
 		(size 0.45 0.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "535d44c6-0597-41e1-9f6e-3d05b83b1a17")
+		(uuid "dc16bcd8-d887-4a98-a527-4e2d8ead5ada")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/SK6018D4-33.wrl"

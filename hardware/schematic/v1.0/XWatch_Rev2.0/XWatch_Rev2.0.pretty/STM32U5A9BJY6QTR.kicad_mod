@@ -1420,7 +1420,7 @@
 		(uuid "02260d45-dad7-4e89-9edb-aec14119c33f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/STM32U5A9BJY6QTR.wrl"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/STM32U5A9BJY6QTR.wrl"
 		(offset
 			(xyz 0 0 0.75)
 		)

@@ -98,7 +98,7 @@
 		(uuid "acd3249a-b890-4a10-8804-c309db4c5e41")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/NX3215SA_32_768KHZ_EXS00A-MU00525.wrl"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/NX3215SA_32_768KHZ_EXS00A-MU00525.wrl"
 		(offset
 			(xyz 0 0 0.01)
 		)

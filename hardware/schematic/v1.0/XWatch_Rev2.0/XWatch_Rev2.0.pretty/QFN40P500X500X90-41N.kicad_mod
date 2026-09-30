@@ -411,7 +411,7 @@
 		(uuid "dbc9297b-8f8a-4fe1-ad03-ddb484c99a3b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/nRF52833-QDAA-R.stp"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/nRF52833-QDAA-R.stp"
 		(offset
 			(xyz 0 0 0)
 		)

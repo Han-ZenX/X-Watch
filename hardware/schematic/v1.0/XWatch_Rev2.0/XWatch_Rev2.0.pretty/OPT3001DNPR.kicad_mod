@@ -230,7 +230,7 @@
 		(uuid "58305fcc-c719-4d5b-a2a7-f56d9b251ba3")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/OPT3001DNPR.wrl"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/OPT3001DNPR.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

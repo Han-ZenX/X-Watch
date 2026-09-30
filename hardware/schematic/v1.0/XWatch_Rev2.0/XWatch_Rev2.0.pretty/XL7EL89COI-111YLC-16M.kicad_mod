@@ -32,7 +32,7 @@
   (pad "3" smd rect (at 0.7 -0.55) (size 0.9 0.8) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "313eac97-a830-408d-9677-2f2672aaaf93"))
   (pad "4" smd rect (at -0.7 -0.55) (size 0.9 0.8) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "3d7984f1-d1a4-4dc6-9710-0ef9d92a234e"))
   (pad "1" smd rect (at -0.7 0.55) (size 0.9 0.8) (layers "F.Cu" "F.Mask" "F.Paste") (uuid "7de26404-06a5-469f-961a-0ceb62b29dc4"))
-  (model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/XL7EL89COI-111YLC-16M.wrl"
+  (model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/XL7EL89COI-111YLC-16M.wrl"
     (offset (xyz 0 0 0.01))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

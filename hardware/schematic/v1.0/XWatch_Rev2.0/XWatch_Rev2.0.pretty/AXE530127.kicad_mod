@@ -371,7 +371,7 @@
 		(uuid "950c4225-9652-4c8c-9090-ac3183887c6a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/AXE530127.wrl"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/AXE530127.wrl"
 		(offset
 			(xyz 0 0 0.02)
 		)

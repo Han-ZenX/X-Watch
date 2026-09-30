@@ -250,7 +250,7 @@
 		(uuid "ea6c2f43-e649-4f2d-a25a-4b9ea30768b0")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/XWatch_Rev1.0.3dshapes/LIS2MDLTR.wrl"
+	(model "${KIPRJMOD}/XWatch_Rev2.0.3dshapes/LIS2MDLTR.wrl"
 		(offset
 			(xyz 0 0 0.24)
 		)
