@@ -4361,17 +4361,6 @@
 		)
 		(uuid "91b97dd2-0e10-4492-b026-6f6fada34c58")
 	)
-	(hierarchical_label "PWR_INT_N"
-		(shape output)
-		(at 241.3 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b836ad86-3331-4352-aa97-1cde7003c96f")
-	)
 	(hierarchical_label "PWR_SCL"
 		(shape input)
 		(at 217.17 95.25 0)
