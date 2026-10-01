@@ -2124,17 +2124,6 @@
 		)
 		(uuid "2a124c6a-dfef-4111-b2b1-7ae08ca25b10")
 	)
-	(hierarchical_label "DSI_D1_P"
-		(shape bidirectional)
-		(at 29.21 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52335919-f28e-4bc6-85ca-c9f1bc7a556a")
-	)
 	(hierarchical_label "TP_SCL"
 		(shape input)
 		(at 113.03 74.93 180)
@@ -2200,17 +2189,6 @@
 			(justify right)
 		)
 		(uuid "89206549-629e-4c7e-8444-32db1b027ab3")
-	)
-	(hierarchical_label "DSI_D1_N"
-		(shape bidirectional)
-		(at 29.21 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "961daa2d-a8c5-4dc3-8ea9-979cb27b151f")
 	)
 	(hierarchical_label "DSI_PWR_EN"
 		(shape input)

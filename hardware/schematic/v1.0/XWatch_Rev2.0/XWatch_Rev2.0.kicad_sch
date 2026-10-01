@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 114.3 101.6)
-		(size 16.51 33.02)
+		(size 16.51 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "DSI_LCD.kicad_sch"
-			(at 114.3 135.2046 0)
+			(at 114.3 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +41,116 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DSI_D0_N" bidirectional
+			(at 114.3 109.22 180)
+			(uuid "0d11ac73-e02a-49bf-bc33-ac85c20badf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_CK_N" bidirectional
+			(at 114.3 114.3 180)
+			(uuid "be16d203-3cff-4242-9e95-3d1a88cecd54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_CK_P" bidirectional
+			(at 114.3 111.76 180)
+			(uuid "b486d21f-3f06-418e-8d4c-e69a5a000da1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_RESET" input
+			(at 114.3 119.38 180)
+			(uuid "f95a85b8-1bf9-4079-8f2a-ccf912825442")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_TE" input
+			(at 114.3 121.92 180)
+			(uuid "1fcfb0ee-5464-47c2-8efa-53910ed5f660")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_SDA" bidirectional
+			(at 114.3 124.46 180)
+			(uuid "56c6c388-4645-41b3-8eba-7592065dfa09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_INT" output
+			(at 114.3 129.54 180)
+			(uuid "8d03e67a-dc52-4c56-82e4-93a3f1c55051")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_PWR_EN" input
+			(at 114.3 116.84 180)
+			(uuid "182211e6-7445-4dbb-87c8-e903a7f807b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_D0_P" bidirectional
+			(at 114.3 106.68 180)
+			(uuid "227aef6d-5aac-45f3-8c3a-39683b222e69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_RESET" input
+			(at 114.3 132.08 180)
+			(uuid "bd4d9555-92a3-4938-aac6-cb781ef74145")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_SCL" input
+			(at 114.3 127 180)
+			(uuid "45fa2378-12f0-4372-a985-d59a3afeea2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
