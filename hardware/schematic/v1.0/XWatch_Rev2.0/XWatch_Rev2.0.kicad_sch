@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 114.3 101.6)
+		(at 102.87 19.05)
 		(size 16.51 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "086d63d7-25af-47fa-acc4-e3e995b262f4")
 		(property "Sheetname" "DSI_LCD"
-			(at 114.3 100.8884 0)
+			(at 102.87 18.3384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "DSI_LCD.kicad_sch"
-			(at 114.3 137.7446 0)
+			(at 102.87 55.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44,7 +44,7 @@
 			)
 		)
 		(pin "DSI_D0_N" bidirectional
-			(at 114.3 109.22 180)
+			(at 102.87 26.67 180)
 			(uuid "0d11ac73-e02a-49bf-bc33-ac85c20badf4")
 			(effects
 				(font
@@ -54,7 +54,7 @@
 			)
 		)
 		(pin "DSI_CK_N" bidirectional
-			(at 114.3 114.3 180)
+			(at 102.87 31.75 180)
 			(uuid "be16d203-3cff-4242-9e95-3d1a88cecd54")
 			(effects
 				(font
@@ -64,7 +64,7 @@
 			)
 		)
 		(pin "DSI_CK_P" bidirectional
-			(at 114.3 111.76 180)
+			(at 102.87 29.21 180)
 			(uuid "b486d21f-3f06-418e-8d4c-e69a5a000da1")
 			(effects
 				(font
@@ -74,7 +74,7 @@
 			)
 		)
 		(pin "DSI_RESET" input
-			(at 114.3 119.38 180)
+			(at 102.87 36.83 180)
 			(uuid "f95a85b8-1bf9-4079-8f2a-ccf912825442")
 			(effects
 				(font
@@ -84,7 +84,7 @@
 			)
 		)
 		(pin "DSI_TE" input
-			(at 114.3 121.92 180)
+			(at 102.87 39.37 180)
 			(uuid "1fcfb0ee-5464-47c2-8efa-53910ed5f660")
 			(effects
 				(font
@@ -94,7 +94,7 @@
 			)
 		)
 		(pin "TP_SDA" bidirectional
-			(at 114.3 124.46 180)
+			(at 102.87 41.91 180)
 			(uuid "56c6c388-4645-41b3-8eba-7592065dfa09")
 			(effects
 				(font
@@ -104,7 +104,7 @@
 			)
 		)
 		(pin "TP_INT" output
-			(at 114.3 129.54 180)
+			(at 102.87 46.99 180)
 			(uuid "8d03e67a-dc52-4c56-82e4-93a3f1c55051")
 			(effects
 				(font
@@ -114,7 +114,7 @@
 			)
 		)
 		(pin "DSI_PWR_EN" input
-			(at 114.3 116.84 180)
+			(at 102.87 34.29 180)
 			(uuid "182211e6-7445-4dbb-87c8-e903a7f807b4")
 			(effects
 				(font
@@ -124,7 +124,7 @@
 			)
 		)
 		(pin "DSI_D0_P" bidirectional
-			(at 114.3 106.68 180)
+			(at 102.87 24.13 180)
 			(uuid "227aef6d-5aac-45f3-8c3a-39683b222e69")
 			(effects
 				(font
@@ -134,7 +134,7 @@
 			)
 		)
 		(pin "TP_RESET" input
-			(at 114.3 132.08 180)
+			(at 102.87 49.53 180)
 			(uuid "bd4d9555-92a3-4938-aac6-cb781ef74145")
 			(effects
 				(font
@@ -144,7 +144,7 @@
 			)
 		)
 		(pin "TP_SCL" input
-			(at 114.3 127 180)
+			(at 102.87 44.45 180)
 			(uuid "45fa2378-12f0-4372-a985-d59a3afeea2b")
 			(effects
 				(font
@@ -208,7 +208,7 @@
 		)
 	)
 	(sheet
-		(at 182.88 58.42)
+		(at 93.98 80.01)
 		(size 12.7 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -224,7 +224,7 @@
 		)
 		(uuid "125e4917-8e4b-4c3c-b97a-1a7c420b5ab5")
 		(property "Sheetname" "MEMORY"
-			(at 182.88 57.7084 0)
+			(at 93.98 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -235,7 +235,7 @@
 			)
 		)
 		(property "Sheetfile" "MEMORY.kicad_sch"
-			(at 182.88 81.8646 0)
+			(at 93.98 103.4546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -246,7 +246,7 @@
 			)
 		)
 		(pin "OSPI_IO1" input
-			(at 182.88 66.04 180)
+			(at 93.98 87.63 180)
 			(uuid "58ba9e72-c72c-4f46-a60e-d8063bfcf1e1")
 			(effects
 				(font
@@ -256,7 +256,7 @@
 			)
 		)
 		(pin "OSPI_IO2" input
-			(at 182.88 68.58 180)
+			(at 93.98 90.17 180)
 			(uuid "95bb8159-b9b2-4313-ac5d-edba30a9bde5")
 			(effects
 				(font
@@ -266,7 +266,7 @@
 			)
 		)
 		(pin "OSPI_IO0" input
-			(at 182.88 63.5 180)
+			(at 93.98 85.09 180)
 			(uuid "c674682e-c6d1-4914-a5ce-d8d0310c87a4")
 			(effects
 				(font
@@ -276,7 +276,7 @@
 			)
 		)
 		(pin "OSPI_IO3" input
-			(at 182.88 71.12 180)
+			(at 93.98 92.71 180)
 			(uuid "1d32e577-f9b3-40f4-aac4-ad01d9ef5a46")
 			(effects
 				(font
@@ -286,7 +286,7 @@
 			)
 		)
 		(pin "OSPI_NCS" input
-			(at 182.88 73.66 180)
+			(at 93.98 95.25 180)
 			(uuid "8fd8fca5-538a-4c17-ab45-acc897643287")
 			(effects
 				(font
@@ -296,7 +296,7 @@
 			)
 		)
 		(pin "OSPI_CLK" input
-			(at 182.88 76.2 180)
+			(at 93.98 97.79 180)
 			(uuid "0bc14646-4874-4585-b4ed-f29ef4fc23c8")
 			(effects
 				(font
@@ -456,7 +456,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 158.75)
+		(at 95.25 113.03)
 		(size 20.32 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -472,7 +472,7 @@
 		)
 		(uuid "77598b17-7755-4f85-a007-50934971418a")
 		(property "Sheetname" "BLE"
-			(at 101.6 158.0384 0)
+			(at 95.25 112.3184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -483,7 +483,7 @@
 			)
 		)
 		(property "Sheetfile" "BLE.kicad_sch"
-			(at 101.6 179.6546 0)
+			(at 95.25 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -503,7 +503,7 @@
 	)
 	(sheet
 		(at 57.15 76.2)
-		(size 26.67 35.56)
+		(size 26.67 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -529,7 +529,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_IO.kicad_sch"
-			(at 57.15 112.3446 0)
+			(at 57.15 135.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -589,6 +589,66 @@
 				(justify right)
 			)
 		)
+		(pin "OSPI_IO1" output
+			(at 83.82 87.63 0)
+			(uuid "4a1aeb30-8ef4-4ad0-8e27-b3571de0e4e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI_IO3" output
+			(at 83.82 92.71 0)
+			(uuid "f6f797e7-c50a-4607-882c-49093c1dba5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI_IO0" output
+			(at 83.82 85.09 0)
+			(uuid "e6d15f18-8954-488f-80aa-a0aed1642284")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI_IO2" output
+			(at 83.82 90.17 0)
+			(uuid "db9801a2-944d-4c06-8bcc-98276971e42e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI_CLK" output
+			(at 83.82 97.79 0)
+			(uuid "5d4b967d-1113-4ec8-bc48-1e9a81347d30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI_NCS" output
+			(at 83.82 95.25 0)
+			(uuid "921fa841-382b-48ac-be85-f6692f809f14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578"
@@ -598,7 +658,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 119.38)
+		(at 125.73 142.24)
 		(size 26.67 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -614,7 +674,7 @@
 		)
 		(uuid "e10fc6fe-cee5-4ccf-ade7-f348522d306a")
 		(property "Sheetname" "PWR"
-			(at 57.15 118.6684 0)
+			(at 125.73 141.5284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -625,7 +685,7 @@
 			)
 		)
 		(property "Sheetfile" "PWR.kicad_sch"
-			(at 57.15 147.9046 0)
+			(at 125.73 170.7646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
