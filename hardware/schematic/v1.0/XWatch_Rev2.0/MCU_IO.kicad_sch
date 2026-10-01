@@ -4554,6 +4554,203 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XWatch_Rev2.0:RB520S-30"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RB520S-30"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev2.0:RB520S-30_C7502701"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311171118_hongjiacheng-RB520S-30_C7502701.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1A 1uA 200mA 30V 600mV@200mA Standalone SOD-523 Schottky Diodes ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C7502701"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "hongjiacheng"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "RB520S-30"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C7502701 RB520S-30 SOD-523_L1.2-W0.8-LS1.6-RD hongjiacheng"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RB520S-30_0_1"
+				(polyline
+					(pts
+						(xy -1.778 1.27) (xy -1.778 1.778) (xy -1.27 1.778) (xy -1.27 -1.778) (xy -0.762 -1.778) (xy -0.762 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RB520S-30_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XWatch_Rev2.0:TXM16M0004252CBCEO00T"
 			(pin_names
 				(offset 1.016)
@@ -5145,6 +5342,18 @@
 		(uuid "4a148acc-f862-4d88-8c7d-728cdef327f3")
 	)
 	(rectangle
+		(start 43.18 205.74)
+		(end 119.38 278.13)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4dce4e78-f0d1-44e2-b3c5-e02eec85e2ba")
+	)
+	(rectangle
 		(start 205.74 205.74)
 		(end 292.1 278.13)
 		(stroke
@@ -5215,6 +5424,18 @@
 			)
 		)
 		(uuid "2c307a9a-5464-4ce3-9da9-76a5ae104b0a")
+	)
+	(text "BUTTONS"
+		(exclude_from_sim no)
+		(at 49.784 214.376 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "46cc951b-b05d-4fc3-abd9-136a8d1eb38a")
 	)
 	(text "PWR"
 		(exclude_from_sim no)
@@ -5454,6 +5675,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 50.8) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010e3518-77d0-4f0d-8ae7-c90a9648a98b")
+	)
+	(wire
+		(pts
 			(xy 367.03 231.14) (xy 382.27 231.14)
 		)
 		(stroke
@@ -5461,6 +5692,26 @@
 			(type default)
 		)
 		(uuid "02fb05f5-38e6-48d0-8d29-cf8d55fa755d")
+	)
+	(wire
+		(pts
+			(xy 74.93 43.18) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d8d723-6966-4939-ac0e-9ba794a182b4")
+	)
+	(wire
+		(pts
+			(xy 92.71 48.26) (xy 100.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046fbe32-a6ae-4d88-984c-dd8ca0c36873")
 	)
 	(wire
 		(pts
@@ -5474,6 +5725,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 45.72) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf87004-74e9-43f0-993b-c45477821f5b")
+	)
+	(wire
+		(pts
 			(xy 247.65 118.11) (xy 247.65 123.19)
 		)
 		(stroke
@@ -5481,16 +5742,6 @@
 			(type default)
 		)
 		(uuid "0dc34dc0-2b9c-4d33-bffb-bfded88a8fb2")
-	)
-	(wire
-		(pts
-			(xy 99.06 45.72) (xy 100.33 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ec47d43-d210-40fa-a82c-65210383fe83")
 	)
 	(wire
 		(pts
@@ -5524,16 +5775,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 53.34) (xy 100.33 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e0be33f-21c1-4681-a4f6-1129fc5a6c09")
-	)
-	(wire
-		(pts
 			(xy 325.12 238.76) (xy 311.15 238.76)
 		)
 		(stroke
@@ -5541,6 +5782,16 @@
 			(type default)
 		)
 		(uuid "32eeaad3-54cd-440c-a171-6f470245d637")
+	)
+	(wire
+		(pts
+			(xy 60.96 234.95) (xy 74.93 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f7c98f-89b1-4cd2-8127-20c247843d9d")
 	)
 	(wire
 		(pts
@@ -5561,16 +5812,6 @@
 			(type default)
 		)
 		(uuid "34aac503-6b53-4f07-8e89-2f596a63952e")
-	)
-	(wire
-		(pts
-			(xy 93.98 43.18) (xy 96.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bfd532d-3f9a-4e58-8a70-0ba259373faa")
 	)
 	(wire
 		(pts
@@ -5704,6 +5945,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 53.34) (xy 100.33 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dcbd999-8231-479e-a365-b60f8080c034")
+	)
+	(wire
+		(pts
 			(xy 327.66 153.67) (xy 342.9 153.67)
 		)
 		(stroke
@@ -5734,6 +5985,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 238.76) (xy 74.93 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8126ef9e-51e0-446a-a06e-297b3dbf6cab")
+	)
+	(wire
+		(pts
 			(xy 156.21 109.22) (xy 170.18 109.22)
 		)
 		(stroke
@@ -5751,6 +6012,16 @@
 			(type default)
 		)
 		(uuid "837cfc1a-2b0c-4257-903e-8bacbfe55a9a")
+	)
+	(wire
+		(pts
+			(xy 60.96 227.33) (xy 74.93 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a1cfab-3f73-42c3-848f-2f20f288cd86")
 	)
 	(wire
 		(pts
@@ -5814,13 +6085,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 50.8) (xy 100.33 50.8)
+			(xy 60.96 231.14) (xy 74.93 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9d0b1dd-2af2-423d-bf85-6173b67363e5")
+		(uuid "a80ddd1d-11a2-4575-823f-15d4da510120")
 	)
 	(wire
 		(pts
@@ -5914,13 +6185,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 48.26) (xy 100.33 48.26)
+			(xy 60.96 223.52) (xy 74.93 223.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "caef5656-92f3-4675-8832-8a37afa5b845")
+		(uuid "cbdae8e1-d9f6-4d96-a79e-f6b41888cda6")
 	)
 	(wire
 		(pts
@@ -6051,6 +6322,16 @@
 			(type default)
 		)
 		(uuid "ed87d471-276c-4ecd-ba52-e5a229ee6576")
+	)
+	(wire
+		(pts
+			(xy 90.17 43.18) (xy 96.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddce365-ff8f-49d2-9e61-8a1a19fb3657")
 	)
 	(wire
 		(pts
@@ -6202,6 +6483,16 @@
 		)
 		(uuid "2b7a81d8-1beb-4bdc-821f-a04aaebf2199")
 	)
+	(label "SW2"
+		(at 92.71 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cf2b62a-1544-4361-9121-e5905df3967f")
+	)
 	(label "DSI_PWR_EN"
 		(at 367.03 238.76 0)
 		(effects
@@ -6211,6 +6502,16 @@
 			(justify left bottom)
 		)
 		(uuid "3736735b-5d91-4493-98f2-b6ca785a036d")
+	)
+	(label "SW4"
+		(at 92.71 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fbfbfc0-24f3-4d0e-a00a-03a7a78d25db")
 	)
 	(label "DSI_TP_RESET"
 		(at 367.03 231.14 0)
@@ -6231,6 +6532,16 @@
 			(justify left bottom)
 		)
 		(uuid "40ba8273-2d51-484d-9188-8d3e8c4bbe78")
+	)
+	(label "SW3"
+		(at 62.23 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ada32ad-6b53-4a00-933e-15f63dac2638")
 	)
 	(label "DSI.D0_N"
 		(at 311.15 200.66 0)
@@ -6312,6 +6623,16 @@
 		)
 		(uuid "712aff16-d865-4b51-8bb8-769310af72d5")
 	)
+	(label "SW2"
+		(at 62.23 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7372ff13-1916-4f31-8c7b-583bb42679ca")
+	)
 	(label "DSI.D0_N"
 		(at 330.2 143.51 0)
 		(effects
@@ -6321,6 +6642,26 @@
 			(justify left bottom)
 		)
 		(uuid "813e2186-fc8b-404d-a898-ca5282328420")
+	)
+	(label "SW5"
+		(at 92.71 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85d5d947-224f-4a41-8930-e66d0157a285")
+	)
+	(label "SW3"
+		(at 92.71 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94f89694-eef7-4907-bdb6-0cc6784d92c7")
 	)
 	(label "DSI.D1_N"
 		(at 330.2 148.59 0)
@@ -6362,6 +6703,16 @@
 		)
 		(uuid "a639f51a-b5d0-4df8-ad87-edca456131a4")
 	)
+	(label "SW1"
+		(at 74.93 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b85452ea-c997-4ae1-94e4-5a89d06ac13b")
+	)
 	(label "DSI.TE"
 		(at 158.75 162.56 0)
 		(effects
@@ -6371,6 +6722,16 @@
 			(justify left bottom)
 		)
 		(uuid "c2e6ea76-2b02-4f1d-bcd3-efb1063f45cf")
+	)
+	(label "SW5"
+		(at 62.23 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3ea0395-4b8f-4fe8-88ff-6c509fbc00c5")
 	)
 	(label "DSI_TP_INT"
 		(at 367.03 234.95 0)
@@ -6422,6 +6783,26 @@
 		)
 		(uuid "cfb2a5d7-1076-450e-9f18-e982ff9c6732")
 	)
+	(label "SW1"
+		(at 62.23 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfd3168c-fffd-4362-8d70-125aeb3262af")
+	)
+	(label "SW4"
+		(at 62.23 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e30a8053-2216-467b-ba8d-b7afbc8badd2")
+	)
 	(label "DSI.D1_N"
 		(at 311.15 207.01 0)
 		(effects
@@ -6463,6 +6844,17 @@
 		)
 		(uuid "10d0bba9-47ed-452f-9d49-781e38cd31bd")
 	)
+	(hierarchical_label "SW1"
+		(shape input)
+		(at 74.93 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "204ab6cd-95d5-4d66-97cb-dd0b0de8b0e8")
+	)
 	(hierarchical_label "DSI_PWR_EN"
 		(shape output)
 		(at 382.27 238.76 0)
@@ -6484,6 +6876,17 @@
 			(justify left)
 		)
 		(uuid "46be0a6f-b503-47de-822e-f840277f14a0")
+	)
+	(hierarchical_label "SW2"
+		(shape input)
+		(at 74.93 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f9811eb-9c9b-44dd-8d88-9457ad12d8d3")
 	)
 	(hierarchical_label "SENSOR_SCL"
 		(shape output)
@@ -6507,27 +6910,16 @@
 		)
 		(uuid "5b432e93-2d40-4fec-b183-357a3d10a14d")
 	)
-	(hierarchical_label "SW1"
-		(shape input)
-		(at 93.98 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "693e6b4b-75b3-4eef-ba33-2244e0441808")
-	)
 	(hierarchical_label "SW5"
 		(shape input)
-		(at 99.06 53.34 180)
+		(at 74.93 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "7775ae4b-6023-4db4-837b-0d44f169754f")
+		(uuid "70edd5db-cc6d-4840-ae24-9fcb86ce2cf4")
 	)
 	(hierarchical_label "PWR_SDA"
 		(shape bidirectional)
@@ -6562,16 +6954,27 @@
 		)
 		(uuid "8bb6c532-4cef-4e9a-a4cb-1ec469eb374f")
 	)
-	(hierarchical_label "SW2"
+	(hierarchical_label "SW4"
 		(shape input)
-		(at 99.06 45.72 180)
+		(at 74.93 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "a0da2c15-ec0c-4c61-af42-f51b5d51b3f0")
+		(uuid "904434e0-5fa4-4103-ab62-934b03887cbe")
+	)
+	(hierarchical_label "SW3"
+		(shape input)
+		(at 74.93 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d8413bb-e0e7-4a48-b2f9-af3021476560")
 	)
 	(hierarchical_label "DSI_CK_N"
 		(shape bidirectional)
@@ -6583,17 +6986,6 @@
 			(justify left)
 		)
 		(uuid "a48935ee-1239-4c8e-8cc2-460aee6eb394")
-	)
-	(hierarchical_label "SW4"
-		(shape input)
-		(at 99.06 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c16afd8f-dd53-4eda-a875-c965fc95daba")
 	)
 	(hierarchical_label "DSI_D1_P"
 		(shape bidirectional)
@@ -6627,17 +7019,6 @@
 			(justify left)
 		)
 		(uuid "e14db096-bb58-48b3-bb9e-9730d9d8e5dc")
-	)
-	(hierarchical_label "SW3"
-		(shape input)
-		(at 99.06 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e32b3793-d238-4636-a974-a739f1b67924")
 	)
 	(hierarchical_label "DSI_RESET"
 		(shape output)
@@ -9616,6 +9997,119 @@
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/999006d4-9c3b-4798-99ee-23f029574470"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev2.0:RB520S-30")
+		(at 85.09 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9910016d-f257-42a1-a066-6172f3259625")
+		(property "Reference" "D1"
+			(at 85.09 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RB520S-30"
+			(at 85.09 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev2.0:RB520S-30_C7502701"
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311171118_hongjiacheng-RB520S-30_C7502701.pdf"
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1A 1uA 200mA 30V 600mV@200mA Standalone SOD-523 Schottky Diodes ROHS"
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7502701"
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RB520S-30"
+			(at 85.09 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c571d4ea-47bb-4aa3-8468-e7828ae4b35c")
+		)
+		(pin "2"
+			(uuid "79e4ca2e-bfd2-467b-89aa-9e9a44849793")
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/999006d4-9c3b-4798-99ee-23f029574470"
+					(reference "D1")
 					(unit 1)
 				)
 			)

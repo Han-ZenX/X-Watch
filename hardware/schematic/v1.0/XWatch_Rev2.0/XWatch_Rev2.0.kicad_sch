@@ -98,8 +98,8 @@
 		)
 	)
 	(sheet
-		(at 29.21 76.2)
-		(size 16.51 21.59)
+		(at 59.69 52.07)
+		(size 21.59 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -114,7 +114,7 @@
 		)
 		(uuid "1aeeaa91-c048-4b1a-b399-deef08efaa07")
 		(property "Sheetname" "BUTTONS"
-			(at 29.21 75.4884 0)
+			(at 58.9784 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +125,7 @@
 			)
 		)
 		(property "Sheetfile" "BUTTONS.kicad_sch"
-			(at 29.21 98.3746 0)
+			(at 81.8646 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -136,53 +136,53 @@
 			)
 		)
 		(pin "SW4" output
-			(at 45.72 88.9 0)
+			(at 68.58 68.58 270)
 			(uuid "c4e340f7-6494-44f1-894d-c2be75444dc1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SW5" output
-			(at 45.72 91.44 0)
+			(at 66.04 68.58 270)
 			(uuid "f0f302bb-f4d6-4435-a0ea-e48bb48a8ef5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SW1" input
-			(at 45.72 81.28 0)
+			(at 76.2 68.58 270)
 			(uuid "375d1f1f-f165-4e31-b223-139e4bff36e5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SW2" output
-			(at 45.72 83.82 0)
+			(at 73.66 68.58 270)
 			(uuid "ec5d70f8-2d64-448c-895b-50fc8bec609a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SW3" output
-			(at 45.72 86.36 0)
+			(at 71.12 68.58 270)
 			(uuid "fb86cb54-e1b9-44cb-9eeb-fbf10aa192d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -275,6 +275,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SW1" input
+			(at 76.2 76.2 90)
+			(uuid "b49c3e68-0ae5-4b2b-b541-c5e4df31ad5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW4" input
+			(at 68.58 76.2 90)
+			(uuid "b93a93e9-37d5-4b13-877a-1c72909fd5b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW2" input
+			(at 73.66 76.2 90)
+			(uuid "9bd2e0dd-691a-464f-b8f8-d1c996547dc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW3" input
+			(at 71.12 76.2 90)
+			(uuid "5f7bce60-4bed-492f-a2f9-9d2a4225c85c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW5" input
+			(at 66.04 76.2 90)
+			(uuid "d626b063-a9a3-4958-91c3-0198f3a55224")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
