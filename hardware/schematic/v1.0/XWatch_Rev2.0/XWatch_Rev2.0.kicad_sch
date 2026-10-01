@@ -98,6 +98,52 @@
 		)
 	)
 	(sheet
+		(at 182.88 58.42)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "125e4917-8e4b-4c3c-b97a-1a7c420b5ab5")
+		(property "Sheetname" "MEMORY"
+			(at 182.88 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MEMORY.kicad_sch"
+			(at 182.88 81.8646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 59.69 52.07)
 		(size 21.59 16.51)
 		(exclude_from_sim no)
