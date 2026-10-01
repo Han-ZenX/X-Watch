@@ -396,6 +396,52 @@
 		)
 	)
 	(sheet
+		(at 101.6 158.75)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "77598b17-7755-4f85-a007-50934971418a")
+		(property "Sheetname" "BLE"
+			(at 101.6 158.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLE.kicad_sch"
+			(at 101.6 179.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "XWatch_Rev2.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 57.15 76.2)
 		(size 26.67 35.56)
 		(exclude_from_sim no)
