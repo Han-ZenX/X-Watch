@@ -456,7 +456,7 @@
 		)
 	)
 	(sheet
-		(at 95.25 113.03)
+		(at 93.98 114.3)
 		(size 20.32 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -472,7 +472,7 @@
 		)
 		(uuid "77598b17-7755-4f85-a007-50934971418a")
 		(property "Sheetname" "BLE"
-			(at 95.25 112.3184 0)
+			(at 93.98 113.5884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -483,7 +483,7 @@
 			)
 		)
 		(property "Sheetfile" "BLE.kicad_sch"
-			(at 95.25 133.9346 0)
+			(at 93.98 135.2046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
