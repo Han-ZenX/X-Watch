@@ -245,6 +245,66 @@
 				(justify left top)
 			)
 		)
+		(pin "OSPI_IO1" input
+			(at 182.88 66.04 180)
+			(uuid "58ba9e72-c72c-4f46-a60e-d8063bfcf1e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_IO2" input
+			(at 182.88 68.58 180)
+			(uuid "95bb8159-b9b2-4313-ac5d-edba30a9bde5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_IO0" input
+			(at 182.88 63.5 180)
+			(uuid "c674682e-c6d1-4914-a5ce-d8d0310c87a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_IO3" input
+			(at 182.88 71.12 180)
+			(uuid "1d32e577-f9b3-40f4-aac4-ad01d9ef5a46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_NCS" input
+			(at 182.88 73.66 180)
+			(uuid "8fd8fca5-538a-4c17-ab45-acc897643287")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI_CLK" input
+			(at 182.88 76.2 180)
+			(uuid "0bc14646-4874-4585-b4ed-f29ef4fc23c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "XWatch_Rev2.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578"
