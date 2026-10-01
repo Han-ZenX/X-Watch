@@ -858,6 +858,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "128Mbit = 16MB"
+		(exclude_from_sim no)
+		(at 132.334 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9ae4e5b6-8696-4b5d-805c-f40a7aeda9c6")
+	)
 	(junction
 		(at 99.06 86.36)
 		(diameter 0)

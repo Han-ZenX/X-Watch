@@ -659,7 +659,7 @@
 	)
 	(sheet
 		(at 125.73 142.24)
-		(size 26.67 27.94)
+		(size 26.67 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -685,7 +685,7 @@
 			)
 		)
 		(property "Sheetfile" "PWR.kicad_sch"
-			(at 125.73 170.7646 0)
+			(at 125.73 165.6846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -693,6 +693,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "FG_ALRT_N" output
+			(at 152.4 153.67 0)
+			(uuid "363762b4-2d7a-42c7-82c6-cd7aebb14a9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_SCL" input
+			(at 152.4 146.05 0)
+			(uuid "3103c2f0-5dff-4ca0-98d1-2f1d0cafdf25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_RIN_N" output
+			(at 152.4 156.21 0)
+			(uuid "578e33fc-33a7-48f8-a69c-b250becca535")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_CHG_EN_N" input
+			(at 152.4 158.75 0)
+			(uuid "0e6416f4-bca6-4ae8-afc6-295f5821e928")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EN_3V3" input
+			(at 152.4 161.29 0)
+			(uuid "777a9abd-a61d-4837-bcd8-b0fb42d76f63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_SDA" bidirectional
+			(at 152.4 148.59 0)
+			(uuid "38a9456e-be15-49e9-92be-1139b0b23860")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_INT_N" output
+			(at 152.4 151.13 0)
+			(uuid "abd70b0b-7694-4087-ae43-88f1cb9250e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

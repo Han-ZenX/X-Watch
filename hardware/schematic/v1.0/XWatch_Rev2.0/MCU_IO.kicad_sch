@@ -5377,6 +5377,36 @@
 		)
 		(uuid "db7feca4-814d-4103-9fb8-25d6fca3e31a")
 	)
+	(text "PE10"
+		(exclude_from_sim no)
+		(at 174.752 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c5aec7f-9514-4678-a39a-d99baaa08191")
+	)
+	(text "PE15"
+		(exclude_from_sim no)
+		(at 56.896 276.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e90e9df-7357-4a93-b0cf-72a646a2d3ab")
+	)
+	(text "PE13"
+		(exclude_from_sim no)
+		(at 56.896 268.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17c9116e-34c1-4e05-9d2f-b615127e5b03")
+	)
 	(text "PF11"
 		(exclude_from_sim no)
 		(at 174.244 161.798 0)
@@ -5386,6 +5416,16 @@
 			)
 		)
 		(uuid "1edf5b58-181f-47e8-8280-af4b162683bc")
+	)
+	(text "PE13"
+		(exclude_from_sim no)
+		(at 174.752 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "223353f4-129b-4dbc-bbe6-b631a5640ff1")
 	)
 	(text "PI6"
 		(exclude_from_sim no)
@@ -5437,6 +5477,26 @@
 		)
 		(uuid "2c307a9a-5464-4ce3-9da9-76a5ae104b0a")
 	)
+	(text "PA0"
+		(exclude_from_sim no)
+		(at 57.15 223.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35c0e238-6040-4a87-9a94-1201ea706ed3")
+	)
+	(text "PE12"
+		(exclude_from_sim no)
+		(at 56.896 265.176 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b9d9b4d-76a2-4ce8-81d5-e09454261ac7")
+	)
 	(text "BUTTONS"
 		(exclude_from_sim no)
 		(at 49.784 214.376 0)
@@ -5448,6 +5508,16 @@
 			(justify left bottom)
 		)
 		(uuid "46cc951b-b05d-4fc3-abd9-136a8d1eb38a")
+	)
+	(text "PA3"
+		(exclude_from_sim no)
+		(at 57.15 234.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ae8a575-2226-42fb-9a33-ebac9c6cd064")
 	)
 	(text "PWR"
 		(exclude_from_sim no)
@@ -5470,6 +5540,16 @@
 			)
 		)
 		(uuid "572dad4c-2a13-4837-80f3-34ebaae7c5fa")
+	)
+	(text "PE10"
+		(exclude_from_sim no)
+		(at 56.896 257.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5959f6d9-3587-48d3-a9f7-b2d6f9f7ae20")
 	)
 	(text "PH8"
 		(exclude_from_sim no)
@@ -5501,6 +5581,16 @@
 		)
 		(uuid "6494e9bf-d874-4894-a9ed-b5a57f988c41")
 	)
+	(text "PE14"
+		(exclude_from_sim no)
+		(at 174.752 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66bc5d72-0a10-40e5-ab7b-db90ea48c26c")
+	)
 	(text "PI6"
 		(exclude_from_sim no)
 		(at 346.456 56.388 0)
@@ -5522,6 +5612,16 @@
 			(justify left bottom)
 		)
 		(uuid "6f5283e2-8404-4c5d-aef0-049d6c5cf752")
+	)
+	(text "PE11"
+		(exclude_from_sim no)
+		(at 174.752 116.332 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73887470-53c6-408f-89ab-810c6944eca0")
 	)
 	(text "PH8"
 		(exclude_from_sim no)
@@ -5553,6 +5653,36 @@
 		)
 		(uuid "83c4b371-ce03-440f-9380-7107dd6b3d77")
 	)
+	(text "PE11"
+		(exclude_from_sim no)
+		(at 56.896 261.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a47f1bc-ff0b-4ffe-8fb0-cb099637ad2b")
+	)
+	(text "PE15"
+		(exclude_from_sim no)
+		(at 174.752 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8aa15229-890a-403c-b781-81a3244a9c3e")
+	)
+	(text "PA4"
+		(exclude_from_sim no)
+		(at 57.15 238.252 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8cde0d9d-eb7e-4d65-b935-1436614d8695")
+	)
 	(text "PG14"
 		(exclude_from_sim no)
 		(at 250.698 76.962 0)
@@ -5562,6 +5692,26 @@
 			)
 		)
 		(uuid "a391946b-d5b7-43df-a040-01a9ace72c78")
+	)
+	(text "PA2"
+		(exclude_from_sim no)
+		(at 57.15 230.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4a989de-4939-447d-932f-830312b3033e")
+	)
+	(text "PA1"
+		(exclude_from_sim no)
+		(at 57.15 226.822 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4f16e11-739b-4aeb-83ac-77943782519c")
 	)
 	(text "PD5"
 		(exclude_from_sim no)
@@ -5604,6 +5754,16 @@
 			)
 		)
 		(uuid "b80609af-c532-404d-a65c-d3e822031694")
+	)
+	(text "PE14"
+		(exclude_from_sim no)
+		(at 56.896 272.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc4da963-1e62-46fd-9304-6593caf1e05a")
 	)
 	(text "PH4"
 		(exclude_from_sim no)
@@ -5656,6 +5816,16 @@
 			)
 		)
 		(uuid "f616cf45-bf26-4975-bf2c-63f2d153eb93")
+	)
+	(text "PE12"
+		(exclude_from_sim no)
+		(at 174.752 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6d8f803-5fb4-4b11-a463-5e753cf77917")
 	)
 	(text "PI5"
 		(exclude_from_sim no)
