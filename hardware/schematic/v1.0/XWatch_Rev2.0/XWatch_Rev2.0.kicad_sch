@@ -162,8 +162,8 @@
 		)
 	)
 	(sheet
-		(at 135.89 60.96)
-		(size 22.86 26.67)
+		(at 135.89 63.5)
+		(size 22.86 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -178,7 +178,7 @@
 		)
 		(uuid "0fbd71dc-4ace-4821-a549-b0309b8febde")
 		(property "Sheetname" "SENSOR"
-			(at 135.89 60.2484 0)
+			(at 135.89 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -189,7 +189,7 @@
 			)
 		)
 		(property "Sheetfile" "SENSOR.kicad_sch"
-			(at 135.89 88.2146 0)
+			(at 135.89 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -197,6 +197,136 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ALS_INT_N" output
+			(at 135.89 68.58 180)
+			(uuid "5b12dc8b-9b9e-4b5c-a8cc-b2080fc712e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT2" output
+			(at 135.89 71.12 180)
+			(uuid "74c5bae8-7d2e-4949-b700-48cfefbd5b2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_SCL" input
+			(at 135.89 73.66 180)
+			(uuid "e9a5fa90-680a-4a91-b8c9-9f75e9161e94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG_DRDY" output
+			(at 135.89 76.2 180)
+			(uuid "128271ee-e861-4448-829d-7c4911e71ded")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG_C1" output
+			(at 135.89 78.74 180)
+			(uuid "ee989bbe-e74f-4404-a815-d84a408abb36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BARO_INT" output
+			(at 135.89 81.28 180)
+			(uuid "91ffb1d0-2608-4a67-b9af-b590d5a50898")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LRA_N" output
+			(at 135.89 83.82 180)
+			(uuid "aab8f61c-d6fe-4132-886b-88f41870436e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT1" output
+			(at 135.89 86.36 180)
+			(uuid "a587a209-a34c-45f0-980b-ebb434f8f9d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HAPTIC_EN" input
+			(at 135.89 88.9 180)
+			(uuid "f4fa6de9-d946-4695-b3fe-6c7ab2b49aa4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LRA_P" output
+			(at 135.89 91.44 180)
+			(uuid "d8be935b-dd6b-4980-aa87-dcf03079fc6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_REG" input
+			(at 135.89 93.98 180)
+			(uuid "45b7366f-6441-4f52-8d2a-4a0aefd9c51d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PPG_INT_N" output
+			(at 135.89 96.52 180)
+			(uuid "b821f12a-74c9-4b74-8ab6-f495b6e1c0d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SENSOR_SDA" bidirectional
+			(at 135.89 99.06 180)
+			(uuid "4ab5ac31-fed0-4c3b-a598-0e0ca6d42de8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
