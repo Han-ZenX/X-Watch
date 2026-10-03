@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 102.87 19.05)
+		(at 90.17 63.5)
 		(size 16.51 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "086d63d7-25af-47fa-acc4-e3e995b262f4")
 		(property "Sheetname" "DSI_LCD"
-			(at 102.87 18.3384 0)
+			(at 90.17 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "DSI_LCD.kicad_sch"
-			(at 102.87 55.1946 0)
+			(at 90.17 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44,113 +44,113 @@
 			)
 		)
 		(pin "DSI_D0_N" bidirectional
-			(at 102.87 26.67 180)
+			(at 106.68 71.12 0)
 			(uuid "0d11ac73-e02a-49bf-bc33-ac85c20badf4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DSI_CK_N" bidirectional
-			(at 102.87 31.75 180)
+			(at 106.68 76.2 0)
 			(uuid "be16d203-3cff-4242-9e95-3d1a88cecd54")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DSI_CK_P" bidirectional
-			(at 102.87 29.21 180)
+			(at 106.68 73.66 0)
 			(uuid "b486d21f-3f06-418e-8d4c-e69a5a000da1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DSI_RESET" input
-			(at 102.87 36.83 180)
+			(at 106.68 81.28 0)
 			(uuid "f95a85b8-1bf9-4079-8f2a-ccf912825442")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DSI_TE" input
-			(at 102.87 39.37 180)
+			(at 106.68 83.82 0)
 			(uuid "1fcfb0ee-5464-47c2-8efa-53910ed5f660")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TP_SDA" bidirectional
-			(at 102.87 41.91 180)
+			(at 106.68 86.36 0)
 			(uuid "56c6c388-4645-41b3-8eba-7592065dfa09")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TP_INT" output
-			(at 102.87 46.99 180)
+			(at 106.68 91.44 0)
 			(uuid "8d03e67a-dc52-4c56-82e4-93a3f1c55051")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DSI_PWR_EN" input
-			(at 102.87 34.29 180)
+			(at 106.68 78.74 0)
 			(uuid "182211e6-7445-4dbb-87c8-e903a7f807b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "DSI_D0_P" bidirectional
-			(at 102.87 24.13 180)
+			(at 106.68 68.58 0)
 			(uuid "227aef6d-5aac-45f3-8c3a-39683b222e69")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TP_RESET" input
-			(at 102.87 49.53 180)
+			(at 106.68 93.98 0)
 			(uuid "bd4d9555-92a3-4938-aac6-cb781ef74145")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "TP_SCL" input
-			(at 102.87 44.45 180)
+			(at 106.68 88.9 0)
 			(uuid "45fa2378-12f0-4372-a985-d59a3afeea2b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -162,7 +162,7 @@
 		)
 	)
 	(sheet
-		(at 135.89 63.5)
+		(at 154.94 92.71)
 		(size 22.86 50.8)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -178,7 +178,7 @@
 		)
 		(uuid "0fbd71dc-4ace-4821-a549-b0309b8febde")
 		(property "Sheetname" "SENSOR"
-			(at 135.89 62.7884 0)
+			(at 154.94 91.9984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -189,7 +189,7 @@
 			)
 		)
 		(property "Sheetfile" "SENSOR.kicad_sch"
-			(at 135.89 114.8846 0)
+			(at 154.94 144.0946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -200,7 +200,7 @@
 			)
 		)
 		(pin "ALS_INT_N" output
-			(at 135.89 68.58 180)
+			(at 154.94 97.79 180)
 			(uuid "5b12dc8b-9b9e-4b5c-a8cc-b2080fc712e0")
 			(effects
 				(font
@@ -210,7 +210,7 @@
 			)
 		)
 		(pin "IMU_INT2" output
-			(at 135.89 71.12 180)
+			(at 154.94 100.33 180)
 			(uuid "74c5bae8-7d2e-4949-b700-48cfefbd5b2d")
 			(effects
 				(font
@@ -220,7 +220,7 @@
 			)
 		)
 		(pin "SENSOR_SCL" input
-			(at 135.89 73.66 180)
+			(at 154.94 102.87 180)
 			(uuid "e9a5fa90-680a-4a91-b8c9-9f75e9161e94")
 			(effects
 				(font
@@ -230,7 +230,7 @@
 			)
 		)
 		(pin "MAG_DRDY" output
-			(at 135.89 76.2 180)
+			(at 154.94 105.41 180)
 			(uuid "128271ee-e861-4448-829d-7c4911e71ded")
 			(effects
 				(font
@@ -240,7 +240,7 @@
 			)
 		)
 		(pin "MAG_C1" output
-			(at 135.89 78.74 180)
+			(at 154.94 107.95 180)
 			(uuid "ee989bbe-e74f-4404-a815-d84a408abb36")
 			(effects
 				(font
@@ -250,7 +250,7 @@
 			)
 		)
 		(pin "BARO_INT" output
-			(at 135.89 81.28 180)
+			(at 154.94 110.49 180)
 			(uuid "91ffb1d0-2608-4a67-b9af-b590d5a50898")
 			(effects
 				(font
@@ -260,7 +260,7 @@
 			)
 		)
 		(pin "LRA_N" output
-			(at 135.89 83.82 180)
+			(at 154.94 113.03 180)
 			(uuid "aab8f61c-d6fe-4132-886b-88f41870436e")
 			(effects
 				(font
@@ -270,7 +270,7 @@
 			)
 		)
 		(pin "IMU_INT1" output
-			(at 135.89 86.36 180)
+			(at 154.94 115.57 180)
 			(uuid "a587a209-a34c-45f0-980b-ebb434f8f9d7")
 			(effects
 				(font
@@ -280,7 +280,7 @@
 			)
 		)
 		(pin "HAPTIC_EN" input
-			(at 135.89 88.9 180)
+			(at 154.94 118.11 180)
 			(uuid "f4fa6de9-d946-4695-b3fe-6c7ab2b49aa4")
 			(effects
 				(font
@@ -290,7 +290,7 @@
 			)
 		)
 		(pin "LRA_P" output
-			(at 135.89 91.44 180)
+			(at 154.94 120.65 180)
 			(uuid "d8be935b-dd6b-4980-aa87-dcf03079fc6f")
 			(effects
 				(font
@@ -300,7 +300,7 @@
 			)
 		)
 		(pin "DRV_REG" input
-			(at 135.89 93.98 180)
+			(at 154.94 123.19 180)
 			(uuid "45b7366f-6441-4f52-8d2a-4a0aefd9c51d")
 			(effects
 				(font
@@ -310,7 +310,7 @@
 			)
 		)
 		(pin "PPG_INT_N" output
-			(at 135.89 96.52 180)
+			(at 154.94 125.73 180)
 			(uuid "b821f12a-74c9-4b74-8ab6-f495b6e1c0d0")
 			(effects
 				(font
@@ -320,7 +320,7 @@
 			)
 		)
 		(pin "SENSOR_SDA" bidirectional
-			(at 135.89 99.06 180)
+			(at 154.94 128.27 180)
 			(uuid "4ab5ac31-fed0-4c3b-a598-0e0ca6d42de8")
 			(effects
 				(font
@@ -338,8 +338,8 @@
 		)
 	)
 	(sheet
-		(at 93.98 80.01)
-		(size 12.7 22.86)
+		(at 154.94 63.5)
+		(size 13.97 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -354,7 +354,7 @@
 		)
 		(uuid "125e4917-8e4b-4c3c-b97a-1a7c420b5ab5")
 		(property "Sheetname" "MEMORY"
-			(at 93.98 79.2984 0)
+			(at 154.94 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -365,7 +365,7 @@
 			)
 		)
 		(property "Sheetfile" "MEMORY.kicad_sch"
-			(at 93.98 103.4546 0)
+			(at 154.94 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -376,7 +376,7 @@
 			)
 		)
 		(pin "OSPI_IO1" input
-			(at 93.98 87.63 180)
+			(at 154.94 71.12 180)
 			(uuid "58ba9e72-c72c-4f46-a60e-d8063bfcf1e1")
 			(effects
 				(font
@@ -386,7 +386,7 @@
 			)
 		)
 		(pin "OSPI_IO2" input
-			(at 93.98 90.17 180)
+			(at 154.94 73.66 180)
 			(uuid "95bb8159-b9b2-4313-ac5d-edba30a9bde5")
 			(effects
 				(font
@@ -396,7 +396,7 @@
 			)
 		)
 		(pin "OSPI_IO0" input
-			(at 93.98 85.09 180)
+			(at 154.94 68.58 180)
 			(uuid "c674682e-c6d1-4914-a5ce-d8d0310c87a4")
 			(effects
 				(font
@@ -406,7 +406,7 @@
 			)
 		)
 		(pin "OSPI_IO3" input
-			(at 93.98 92.71 180)
+			(at 154.94 76.2 180)
 			(uuid "1d32e577-f9b3-40f4-aac4-ad01d9ef5a46")
 			(effects
 				(font
@@ -416,7 +416,7 @@
 			)
 		)
 		(pin "OSPI_NCS" input
-			(at 93.98 95.25 180)
+			(at 154.94 78.74 180)
 			(uuid "8fd8fca5-538a-4c17-ab45-acc897643287")
 			(effects
 				(font
@@ -426,7 +426,7 @@
 			)
 		)
 		(pin "OSPI_CLK" input
-			(at 93.98 97.79 180)
+			(at 154.94 81.28 180)
 			(uuid "0bc14646-4874-4585-b4ed-f29ef4fc23c8")
 			(effects
 				(font
@@ -444,7 +444,7 @@
 		)
 	)
 	(sheet
-		(at 59.69 52.07)
+		(at 120.65 34.29)
 		(size 21.59 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -460,7 +460,7 @@
 		)
 		(uuid "1aeeaa91-c048-4b1a-b399-deef08efaa07")
 		(property "Sheetname" "BUTTONS"
-			(at 58.9784 68.58 90)
+			(at 119.9384 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -471,7 +471,7 @@
 			)
 		)
 		(property "Sheetfile" "BUTTONS.kicad_sch"
-			(at 81.8646 68.58 90)
+			(at 142.8246 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -482,7 +482,7 @@
 			)
 		)
 		(pin "SW4" output
-			(at 68.58 68.58 270)
+			(at 129.54 50.8 270)
 			(uuid "c4e340f7-6494-44f1-894d-c2be75444dc1")
 			(effects
 				(font
@@ -492,7 +492,7 @@
 			)
 		)
 		(pin "SW5" output
-			(at 66.04 68.58 270)
+			(at 127 50.8 270)
 			(uuid "f0f302bb-f4d6-4435-a0ea-e48bb48a8ef5")
 			(effects
 				(font
@@ -502,7 +502,7 @@
 			)
 		)
 		(pin "SW1" input
-			(at 76.2 68.58 270)
+			(at 137.16 50.8 270)
 			(uuid "375d1f1f-f165-4e31-b223-139e4bff36e5")
 			(effects
 				(font
@@ -512,7 +512,7 @@
 			)
 		)
 		(pin "SW2" output
-			(at 73.66 68.58 270)
+			(at 134.62 50.8 270)
 			(uuid "ec5d70f8-2d64-448c-895b-50fc8bec609a")
 			(effects
 				(font
@@ -522,7 +522,7 @@
 			)
 		)
 		(pin "SW3" output
-			(at 71.12 68.58 270)
+			(at 132.08 50.8 270)
 			(uuid "fb86cb54-e1b9-44cb-9eeb-fbf10aa192d7")
 			(effects
 				(font
@@ -540,7 +540,7 @@
 		)
 	)
 	(sheet
-		(at 166.37 106.68)
+		(at 207.01 62.23)
 		(size 25.4 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -556,7 +556,7 @@
 		)
 		(uuid "5f76f669-41b1-42cd-8059-9799495ebdfe")
 		(property "Sheetname" "MCU_PWR"
-			(at 166.37 105.9684 0)
+			(at 207.01 61.5184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -567,7 +567,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_PWR.kicad_sch"
-			(at 166.37 139.0146 0)
+			(at 207.01 94.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -586,7 +586,7 @@
 		)
 	)
 	(sheet
-		(at 93.98 114.3)
+		(at 207.01 101.6)
 		(size 20.32 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -602,7 +602,7 @@
 		)
 		(uuid "77598b17-7755-4f85-a007-50934971418a")
 		(property "Sheetname" "BLE"
-			(at 93.98 113.5884 0)
+			(at 207.01 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -613,7 +613,7 @@
 			)
 		)
 		(property "Sheetfile" "BLE.kicad_sch"
-			(at 93.98 135.2046 0)
+			(at 207.01 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -632,8 +632,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 76.2)
-		(size 26.67 58.42)
+		(at 115.57 59.69)
+		(size 33.02 78.74)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -648,7 +648,7 @@
 		)
 		(uuid "999006d4-9c3b-4798-99ee-23f029574470")
 		(property "Sheetname" "MCU_IO"
-			(at 57.15 75.4884 0)
+			(at 115.57 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -659,7 +659,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU_IO.kicad_sch"
-			(at 57.15 135.2046 0)
+			(at 115.57 139.0146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -670,7 +670,7 @@
 			)
 		)
 		(pin "SW1" input
-			(at 76.2 76.2 90)
+			(at 137.16 59.69 90)
 			(uuid "b49c3e68-0ae5-4b2b-b541-c5e4df31ad5e")
 			(effects
 				(font
@@ -680,7 +680,7 @@
 			)
 		)
 		(pin "SW4" input
-			(at 68.58 76.2 90)
+			(at 129.54 59.69 90)
 			(uuid "b93a93e9-37d5-4b13-877a-1c72909fd5b1")
 			(effects
 				(font
@@ -690,7 +690,7 @@
 			)
 		)
 		(pin "SW2" input
-			(at 73.66 76.2 90)
+			(at 134.62 59.69 90)
 			(uuid "9bd2e0dd-691a-464f-b8f8-d1c996547dc8")
 			(effects
 				(font
@@ -700,7 +700,7 @@
 			)
 		)
 		(pin "SW3" input
-			(at 71.12 76.2 90)
+			(at 132.08 59.69 90)
 			(uuid "5f7bce60-4bed-492f-a2f9-9d2a4225c85c")
 			(effects
 				(font
@@ -710,7 +710,7 @@
 			)
 		)
 		(pin "SW5" input
-			(at 66.04 76.2 90)
+			(at 127 59.69 90)
 			(uuid "d626b063-a9a3-4958-91c3-0198f3a55224")
 			(effects
 				(font
@@ -720,7 +720,7 @@
 			)
 		)
 		(pin "OSPI_IO1" output
-			(at 83.82 87.63 0)
+			(at 148.59 71.12 0)
 			(uuid "4a1aeb30-8ef4-4ad0-8e27-b3571de0e4e8")
 			(effects
 				(font
@@ -730,7 +730,7 @@
 			)
 		)
 		(pin "OSPI_IO3" output
-			(at 83.82 92.71 0)
+			(at 148.59 76.2 0)
 			(uuid "f6f797e7-c50a-4607-882c-49093c1dba5f")
 			(effects
 				(font
@@ -740,7 +740,7 @@
 			)
 		)
 		(pin "OSPI_IO0" output
-			(at 83.82 85.09 0)
+			(at 148.59 68.58 0)
 			(uuid "e6d15f18-8954-488f-80aa-a0aed1642284")
 			(effects
 				(font
@@ -750,7 +750,7 @@
 			)
 		)
 		(pin "OSPI_IO2" output
-			(at 83.82 90.17 0)
+			(at 148.59 73.66 0)
 			(uuid "db9801a2-944d-4c06-8bcc-98276971e42e")
 			(effects
 				(font
@@ -760,7 +760,7 @@
 			)
 		)
 		(pin "OSPI_CLK" output
-			(at 83.82 97.79 0)
+			(at 148.59 81.28 0)
 			(uuid "5d4b967d-1113-4ec8-bc48-1e9a81347d30")
 			(effects
 				(font
@@ -770,13 +770,123 @@
 			)
 		)
 		(pin "OSPI_NCS" output
-			(at 83.82 95.25 0)
+			(at 148.59 78.74 0)
 			(uuid "921fa841-382b-48ac-be85-f6692f809f14")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DSI_CK_N" bidirectional
+			(at 115.57 76.2 180)
+			(uuid "67e79496-be45-496d-9051-ffc392656c43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_D0_N" bidirectional
+			(at 115.57 71.12 180)
+			(uuid "820c8226-548a-4bff-bdfe-f51210681750")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_CK_P" bidirectional
+			(at 115.57 73.66 180)
+			(uuid "55794919-613c-410e-b1fb-29087913f3cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_SDA" bidirectional
+			(at 115.57 86.36 180)
+			(uuid "c43e2f93-d41c-45a7-834c-a8e75dfc361a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_RESET" output
+			(at 115.57 93.98 180)
+			(uuid "5c36d141-6c9a-4b28-92c5-efc964d9f8c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_RESET" output
+			(at 115.57 81.28 180)
+			(uuid "7f13f994-2d48-498b-b662-0adcbcf21cc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_D0_P" bidirectional
+			(at 115.57 68.58 180)
+			(uuid "f2485612-5293-4bbc-aca9-eb50589dbedc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_TE" input
+			(at 115.57 83.82 180)
+			(uuid "63e18cda-207d-436d-bb25-e1115c5f9a57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI_PWR_EN" output
+			(at 115.57 78.74 180)
+			(uuid "7ef68e45-2c60-481e-bc75-d7809d998a8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_INT" input
+			(at 115.57 91.44 180)
+			(uuid "3f2dce85-1674-44d5-9220-59de6636e6f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP_SCL" output
+			(at 115.57 88.9 180)
+			(uuid "416e36d9-5423-4bdc-8bb4-860beaa4cea1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -788,8 +898,8 @@
 		)
 	)
 	(sheet
-		(at 125.73 142.24)
-		(size 26.67 22.86)
+		(at 83.82 105.41)
+		(size 22.86 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -804,7 +914,7 @@
 		)
 		(uuid "e10fc6fe-cee5-4ccf-ade7-f348522d306a")
 		(property "Sheetname" "PWR"
-			(at 125.73 141.5284 0)
+			(at 83.82 104.6984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -815,7 +925,7 @@
 			)
 		)
 		(property "Sheetfile" "PWR.kicad_sch"
-			(at 125.73 165.6846 0)
+			(at 83.82 128.8546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -826,7 +936,7 @@
 			)
 		)
 		(pin "FG_ALRT_N" output
-			(at 152.4 153.67 0)
+			(at 106.68 116.84 0)
 			(uuid "363762b4-2d7a-42c7-82c6-cd7aebb14a9a")
 			(effects
 				(font
@@ -836,7 +946,7 @@
 			)
 		)
 		(pin "PWR_SCL" input
-			(at 152.4 146.05 0)
+			(at 106.68 109.22 0)
 			(uuid "3103c2f0-5dff-4ca0-98d1-2f1d0cafdf25")
 			(effects
 				(font
@@ -846,7 +956,7 @@
 			)
 		)
 		(pin "PWR_RIN_N" output
-			(at 152.4 156.21 0)
+			(at 106.68 119.38 0)
 			(uuid "578e33fc-33a7-48f8-a69c-b250becca535")
 			(effects
 				(font
@@ -856,7 +966,7 @@
 			)
 		)
 		(pin "PWR_CHG_EN_N" input
-			(at 152.4 158.75 0)
+			(at 106.68 121.92 0)
 			(uuid "0e6416f4-bca6-4ae8-afc6-295f5821e928")
 			(effects
 				(font
@@ -866,7 +976,7 @@
 			)
 		)
 		(pin "EN_3V3" input
-			(at 152.4 161.29 0)
+			(at 106.68 124.46 0)
 			(uuid "777a9abd-a61d-4837-bcd8-b0fb42d76f63")
 			(effects
 				(font
@@ -876,7 +986,7 @@
 			)
 		)
 		(pin "PWR_SDA" bidirectional
-			(at 152.4 148.59 0)
+			(at 106.68 111.76 0)
 			(uuid "38a9456e-be15-49e9-92be-1139b0b23860")
 			(effects
 				(font
@@ -886,7 +996,7 @@
 			)
 		)
 		(pin "PWR_INT_N" output
-			(at 152.4 151.13 0)
+			(at 106.68 114.3 0)
 			(uuid "abd70b0b-7694-4087-ae43-88f1cb9250e0")
 			(effects
 				(font
