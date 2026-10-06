@@ -5989,6 +5989,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 236.22) (xy 149.86 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "304c45dd-3ef2-4eb2-92f7-1d7c04e4d4fb")
+	)
+	(wire
+		(pts
 			(xy 325.12 238.76) (xy 311.15 238.76)
 		)
 		(stroke
@@ -6326,6 +6336,16 @@
 			(type default)
 		)
 		(uuid "96962c67-3dd6-4e29-ad42-01d99483e4fa")
+	)
+	(wire
+		(pts
+			(xy 135.89 233.68) (xy 149.86 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9815dc94-b621-48df-bf4d-f86418fa1262")
 	)
 	(wire
 		(pts
@@ -6777,6 +6797,16 @@
 		)
 		(uuid "12ceac27-35a1-4533-8978-1e5acd3c1b61")
 	)
+	(label "PWR_INT_N"
+		(at 135.89 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14c83af8-d226-4097-8ed3-978eeccc6505")
+	)
 	(label "I2C3.SDA"
 		(at 254 100.33 0)
 		(effects
@@ -7006,6 +7036,16 @@
 			(justify left bottom)
 		)
 		(uuid "7372ff13-1916-4f31-8c7b-583bb42679ca")
+	)
+	(label "FG_ALRT_N"
+		(at 135.89 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "765fefa7-ef30-481d-9942-cf5b759e56cd")
 	)
 	(label "OSPI.NCS"
 		(at 158.75 116.84 0)
@@ -7267,6 +7307,17 @@
 		)
 		(uuid "f62d6aa4-5bee-400c-a0e2-fd4d2d47596e")
 	)
+	(hierarchical_label "PWR_INT_N"
+		(shape input)
+		(at 149.86 236.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "109cd01f-8b50-4650-b9dd-cf08c65b4061")
+	)
 	(hierarchical_label "TP_SCL"
 		(shape output)
 		(at 325.12 224.79 0)
@@ -7497,6 +7548,17 @@
 			(justify left)
 		)
 		(uuid "c722d198-fd4f-40a0-865d-e1c20c3a6485")
+	)
+	(hierarchical_label "FG_ALRT_N"
+		(shape input)
+		(at 149.86 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c874bb6f-dfcd-4948-9b87-ee786b8c1d2c")
 	)
 	(hierarchical_label "TP_SDA"
 		(shape bidirectional)
