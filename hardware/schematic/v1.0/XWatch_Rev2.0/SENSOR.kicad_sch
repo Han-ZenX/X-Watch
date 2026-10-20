@@ -3208,18 +3208,6 @@
 		(uuid "ccd920f2-4a43-4216-a6d0-74b91be03f8a")
 	)
 	(junction
-		(at 45.72 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfb542ed-18b5-4e71-80c8-80c05c41ce93")
-	)
-	(junction
-		(at 104.14 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5c56ef5-d155-4be8-acf5-277e079cc70c")
-	)
-	(junction
 		(at 147.32 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3420,16 +3408,6 @@
 			(type default)
 		)
 		(uuid "2ccceeeb-9071-4f22-a91b-2b55d78acd59")
-	)
-	(wire
-		(pts
-			(xy 43.18 109.22) (xy 45.72 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d165a76-963c-4d55-b8bf-d49e4144df06")
 	)
 	(wire
 		(pts
@@ -3753,16 +3731,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 161.29) (xy 104.14 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be344428-a80f-43d9-9b24-35ad3c5eed0a")
-	)
-	(wire
-		(pts
 			(xy 45.72 109.22) (xy 50.8 109.22)
 		)
 		(stroke
@@ -3931,17 +3899,6 @@
 			(justify left)
 		)
 		(uuid "01b146df-d149-4f91-9821-906e9be00302")
-	)
-	(hierarchical_label "MAG_C1"
-		(shape output)
-		(at 43.18 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "026331ab-c6b3-42e6-a0da-b06af7f48789")
 	)
 	(hierarchical_label "LRA_P"
 		(shape output)
@@ -4129,17 +4086,6 @@
 			(justify right)
 		)
 		(uuid "ac29c5cc-7633-4aa8-a0ea-e6cdb5326719")
-	)
-	(hierarchical_label "DRV_REG"
-		(shape input)
-		(at 99.06 161.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0551a5e-900b-44c5-9db8-33d71e87aa83")
 	)
 	(hierarchical_label "PPG_INT_N"
 		(shape output)
