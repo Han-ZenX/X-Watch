@@ -1,0 +1,28 @@
+{
+  "symbol_pins_checked": 208,
+  "footprint_pads_checked": 208,
+  "all_match_ST": true,
+  "schematic_cache_matches": true,
+  "net_connectivity_unchanged": true,
+  "net_groups": 487,
+  "erc_before": 554,
+  "erc_after": 591,
+  "new_erc_kinds": {
+    "pin_not_driven": 3,
+    "power_pin_not_driven": 34,
+    "multiple_net_names": 13
+  },
+  "corrected_pins_unconnected": [
+    [
+      "N24",
+      "unconnected-(U15C-VREF--PadN24)",
+      1
+    ],
+    [
+      "N26",
+      "unconnected-(U15C-VSSA-PadN26)",
+      1
+    ]
+  ],
+  "pcb_contains_WLCSP208_instance": false
+}

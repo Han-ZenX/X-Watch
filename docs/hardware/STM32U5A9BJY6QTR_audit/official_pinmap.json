@@ -1,0 +1,1042 @@
+{
+  "G20": {
+    "name": "PE2",
+    "type": "I/O",
+    "page": 115
+  },
+  "E22": {
+    "name": "PE3",
+    "type": "I/O",
+    "page": 115
+  },
+  "F21": {
+    "name": "PE4",
+    "type": "I/O",
+    "page": 115
+  },
+  "G22": {
+    "name": "PE5",
+    "type": "I/O",
+    "page": 116
+  },
+  "C24": {
+    "name": "PE6",
+    "type": "I/O",
+    "page": 116
+  },
+  "B25": {
+    "name": "VBAT",
+    "type": "S",
+    "page": 116
+  },
+  "B11": {
+    "name": "VSS",
+    "type": "S",
+    "page": 116
+  },
+  "D23": {
+    "name": "PC13",
+    "type": "I/O",
+    "page": 116
+  },
+  "C26": {
+    "name": "PC14-OSC32_IN(PC14)",
+    "type": "I/O",
+    "page": 116
+  },
+  "D25": {
+    "name": "PC15-OSC32_OUT(PC15)",
+    "type": "I/O",
+    "page": 117
+  },
+  "H19": {
+    "name": "PF0",
+    "type": "I/O",
+    "page": 117
+  },
+  "H21": {
+    "name": "PF1",
+    "type": "I/O",
+    "page": 117
+  },
+  "J20": {
+    "name": "PF2",
+    "type": "I/O",
+    "page": 117
+  },
+  "K23": {
+    "name": "PF3",
+    "type": "I/O",
+    "page": 117
+  },
+  "J22": {
+    "name": "PF4",
+    "type": "I/O",
+    "page": 118
+  },
+  "K21": {
+    "name": "PF5",
+    "type": "I/O",
+    "page": 118
+  },
+  "B15": {
+    "name": "VSS",
+    "type": "S",
+    "page": 118
+  },
+  "L26": {
+    "name": "VDD",
+    "type": "S",
+    "page": 118
+  },
+  "J16": {
+    "name": "PF6",
+    "type": "I/O",
+    "page": 118
+  },
+  "J14": {
+    "name": "PF7",
+    "type": "I/O",
+    "page": 118
+  },
+  "K19": {
+    "name": "PF8",
+    "type": "I/O",
+    "page": 119
+  },
+  "L20": {
+    "name": "PF9",
+    "type": "I/O",
+    "page": 119
+  },
+  "L22": {
+    "name": "PF10",
+    "type": "I/O",
+    "page": 119
+  },
+  "M23": {
+    "name": "PH0-OSC_IN(PH0)",
+    "type": "I/O",
+    "page": 119
+  },
+  "M25": {
+    "name": "PH1-OSC_OUT(PH1)",
+    "type": "I/O",
+    "page": 119
+  },
+  "M21": {
+    "name": "NRST",
+    "type": "I-O",
+    "page": 119
+  },
+  "K17": {
+    "name": "PC0",
+    "type": "I/O",
+    "page": 120
+  },
+  "K15": {
+    "name": "PC1",
+    "type": "I/O",
+    "page": 120
+  },
+  "L18": {
+    "name": "PC2",
+    "type": "I/O",
+    "page": 121
+  },
+  "M19": {
+    "name": "PC3",
+    "type": "I/O",
+    "page": 121
+  },
+  "N26": {
+    "name": "VSSA",
+    "type": "S",
+    "page": 121
+  },
+  "N24": {
+    "name": "VREF-",
+    "type": "S",
+    "page": 121
+  },
+  "P25": {
+    "name": "VREF+",
+    "type": "S",
+    "page": 121
+  },
+  "R26": {
+    "name": "VDDA",
+    "type": "S",
+    "page": 121
+  },
+  "N22": {
+    "name": "PA0",
+    "type": "I/O",
+    "page": 122
+  },
+  "L16": {
+    "name": "PA1",
+    "type": "I/O",
+    "page": 122
+  },
+  "M17": {
+    "name": "PA2",
+    "type": "I/O",
+    "page": 123
+  },
+  "P23": {
+    "name": "PA3",
+    "type": "I/O",
+    "page": 123
+  },
+  "B23": {
+    "name": "VSS",
+    "type": "S",
+    "page": 123
+  },
+  "T25": {
+    "name": "VDD",
+    "type": "S",
+    "page": 123
+  },
+  "N20": {
+    "name": "PA4",
+    "type": "I/O",
+    "page": 123
+  },
+  "P21": {
+    "name": "PA5",
+    "type": "I/O",
+    "page": 124
+  },
+  "N18": {
+    "name": "PA6",
+    "type": "I/O",
+    "page": 124
+  },
+  "R22": {
+    "name": "PA7",
+    "type": "I/O",
+    "page": 125
+  },
+  "T23": {
+    "name": "PC4",
+    "type": "I/O",
+    "page": 125
+  },
+  "P19": {
+    "name": "PC5",
+    "type": "I/O",
+    "page": 125
+  },
+  "H13": {
+    "name": "PB0",
+    "type": "I/O",
+    "page": 126
+  },
+  "L14": {
+    "name": "PB1",
+    "type": "I/O",
+    "page": 126
+  },
+  "M15": {
+    "name": "PB2",
+    "type": "I/O",
+    "page": 127
+  },
+  "N16": {
+    "name": "PF11",
+    "type": "I/O",
+    "page": 127
+  },
+  "T21": {
+    "name": "PF12",
+    "type": "I/O",
+    "page": 127
+  },
+  "B5": {
+    "name": "VSS",
+    "type": "S",
+    "page": 127
+  },
+  "T19": {
+    "name": "VDD",
+    "type": "S",
+    "page": 127
+  },
+  "P17": {
+    "name": "PF13",
+    "type": "I/O",
+    "page": 127
+  },
+  "K13": {
+    "name": "PF14",
+    "type": "I/O",
+    "page": 128
+  },
+  "R18": {
+    "name": "PF15",
+    "type": "I/O",
+    "page": 128
+  },
+  "H11": {
+    "name": "PG0",
+    "type": "I/O",
+    "page": 128
+  },
+  "J12": {
+    "name": "PG1",
+    "type": "I/O",
+    "page": 128
+  },
+  "L12": {
+    "name": "PE7",
+    "type": "I/O",
+    "page": 128
+  },
+  "N14": {
+    "name": "PE8",
+    "type": "I/O",
+    "page": 128
+  },
+  "T17": {
+    "name": "PE9",
+    "type": "I/O",
+    "page": 129
+  },
+  "E4": {
+    "name": "VSS",
+    "type": "S",
+    "page": 129
+  },
+  "T15": {
+    "name": "VDD",
+    "type": "S",
+    "page": 129
+  },
+  "M13": {
+    "name": "PE10",
+    "type": "I/O",
+    "page": 129
+  },
+  "P15": {
+    "name": "PE11",
+    "type": "I/O",
+    "page": 129
+  },
+  "R14": {
+    "name": "PE12",
+    "type": "I/O",
+    "page": 130
+  },
+  "N12": {
+    "name": "PE13",
+    "type": "I/O",
+    "page": 130
+  },
+  "P13": {
+    "name": "PE14",
+    "type": "I/O",
+    "page": 130
+  },
+  "R12": {
+    "name": "PE15",
+    "type": "I/O",
+    "page": 130
+  },
+  "T13": {
+    "name": "PB10",
+    "type": "I/O",
+    "page": 131
+  },
+  "R10": {
+    "name": "PB11",
+    "type": "I/O",
+    "page": 131
+  },
+  "T11": {
+    "name": "VLXSMPS",
+    "type": "S",
+    "page": 131
+  },
+  "T9": {
+    "name": "VDDSMPS",
+    "type": "S",
+    "page": 131
+  },
+  "R8": {
+    "name": "VSSSMPS",
+    "type": "S",
+    "page": 131
+  },
+  "T3": {
+    "name": "VDD11",
+    "type": "S",
+    "page": 131
+  },
+  "F3": {
+    "name": "VSS",
+    "type": "S",
+    "page": 132
+  },
+  "P1": {
+    "name": "VDD",
+    "type": "S",
+    "page": 132
+  },
+  "T1": {
+    "name": "VDD",
+    "type": "S",
+    "page": 132
+  },
+  "T5": {
+    "name": "PB12",
+    "type": "I/O",
+    "page": 132
+  },
+  "T7": {
+    "name": "PB13",
+    "type": "I/O",
+    "page": 132
+  },
+  "R6": {
+    "name": "PB14",
+    "type": "I/O",
+    "page": 133
+  },
+  "P11": {
+    "name": "PB15",
+    "type": "I/O",
+    "page": 133
+  },
+  "G24": {
+    "name": "VDDDSI",
+    "type": "S",
+    "page": 133
+  },
+  "J24": {
+    "name": "VDD11DSI",
+    "type": "S",
+    "page": 133
+  },
+  "E26": {
+    "name": "DSI_D0P",
+    "type": "I/O",
+    "page": 133
+  },
+  "F25": {
+    "name": "DSI_D0N",
+    "type": "I/O",
+    "page": 134
+  },
+  "E24": {
+    "name": "VSSDSI",
+    "type": "S",
+    "page": 134
+  },
+  "H23": {
+    "name": "VSSDSI",
+    "type": "S",
+    "page": 134
+  },
+  "G26": {
+    "name": "DSI_CKP",
+    "type": "I/O",
+    "page": 134
+  },
+  "H25": {
+    "name": "DSI_CKN",
+    "type": "I/O",
+    "page": 134
+  },
+  "J26": {
+    "name": "DSI_D1P",
+    "type": "I/O",
+    "page": 134
+  },
+  "K25": {
+    "name": "DSI_D1N",
+    "type": "I/O",
+    "page": 134
+  },
+  "F23": {
+    "name": "VSSDSI",
+    "type": "S",
+    "page": 134
+  },
+  "P9": {
+    "name": "PD8",
+    "type": "I/O",
+    "page": 134
+  },
+  "P7": {
+    "name": "PD9",
+    "type": "I/O",
+    "page": 134
+  },
+  "P5": {
+    "name": "PD10",
+    "type": "I/O",
+    "page": 135
+  },
+  "M11": {
+    "name": "PD11",
+    "type": "I/O",
+    "page": 135
+  },
+  "L10": {
+    "name": "PD12",
+    "type": "I/O",
+    "page": 135
+  },
+  "K11": {
+    "name": "PD13",
+    "type": "I/O",
+    "page": 136
+  },
+  "G4": {
+    "name": "VSS",
+    "type": "S",
+    "page": 136
+  },
+  "R2": {
+    "name": "VDD",
+    "type": "S",
+    "page": 136
+  },
+  "N10": {
+    "name": "PD14",
+    "type": "I/O",
+    "page": 136
+  },
+  "K9": {
+    "name": "PD15",
+    "type": "I/O",
+    "page": 136
+  },
+  "F9": {
+    "name": "PG2",
+    "type": "I/O",
+    "page": 136
+  },
+  "H9": {
+    "name": "PG3",
+    "type": "I/O",
+    "page": 137
+  },
+  "J10": {
+    "name": "PG4",
+    "type": "I/O",
+    "page": 137
+  },
+  "G12": {
+    "name": "PG5",
+    "type": "I/O",
+    "page": 137
+  },
+  "G10": {
+    "name": "PG6",
+    "type": "I/O",
+    "page": 137
+  },
+  "G14": {
+    "name": "PG7",
+    "type": "I/O",
+    "page": 137
+  },
+  "F11": {
+    "name": "PG8",
+    "type": "I/O",
+    "page": 138
+  },
+  "N4": {
+    "name": "VSS",
+    "type": "S",
+    "page": 138
+  },
+  "E2": {
+    "name": "VDDIO2",
+    "type": "S",
+    "page": 138
+  },
+  "D5": {
+    "name": "PC6",
+    "type": "I/O",
+    "page": 138
+  },
+  "D3": {
+    "name": "PC7",
+    "type": "I/O",
+    "page": 138
+  },
+  "D7": {
+    "name": "PC8",
+    "type": "I/O",
+    "page": 139
+  },
+  "D9": {
+    "name": "PC9",
+    "type": "I/O",
+    "page": 139
+  },
+  "C8": {
+    "name": "PA8",
+    "type": "I/O",
+    "page": 139
+  },
+  "C6": {
+    "name": "PA9",
+    "type": "I/O",
+    "page": 140
+  },
+  "C4": {
+    "name": "PA10",
+    "type": "I/O",
+    "page": 140
+  },
+  "D1": {
+    "name": "VDD11USB",
+    "type": "S",
+    "page": 140
+  },
+  "C2": {
+    "name": "PA11",
+    "type": "I/O",
+    "page": 140
+  },
+  "B1": {
+    "name": "PA12",
+    "type": "I/O",
+    "page": 141
+  },
+  "B3": {
+    "name": "PA13(JTMS/SWDIO)",
+    "type": "I/O",
+    "page": 141
+  },
+  "P3": {
+    "name": "VSS",
+    "type": "S",
+    "page": 141
+  },
+  "A2": {
+    "name": "VDDUSB",
+    "type": "S",
+    "page": 141
+  },
+  "R16": {
+    "name": "VSS",
+    "type": "S",
+    "page": 141
+  },
+  "A6": {
+    "name": "VDD",
+    "type": "S",
+    "page": 141
+  },
+  "D11": {
+    "name": "PA14(JTCK/SWCLK)",
+    "type": "I/O",
+    "page": 141
+  },
+  "A8": {
+    "name": "PA15(JTDI)",
+    "type": "I/O",
+    "page": 142
+  },
+  "B9": {
+    "name": "PC10",
+    "type": "I/O",
+    "page": 142
+  },
+  "C10": {
+    "name": "PC11",
+    "type": "I/O",
+    "page": 143
+  },
+  "E14": {
+    "name": "PC12",
+    "type": "I/O",
+    "page": 143
+  },
+  "F15": {
+    "name": "PD0",
+    "type": "I/O",
+    "page": 143
+  },
+  "A10": {
+    "name": "PD1",
+    "type": "I/O",
+    "page": 144
+  },
+  "D13": {
+    "name": "PD2",
+    "type": "I/O",
+    "page": 144
+  },
+  "C12": {
+    "name": "PD3",
+    "type": "I/O",
+    "page": 144
+  },
+  "D15": {
+    "name": "PD4",
+    "type": "I/O",
+    "page": 145
+  },
+  "E16": {
+    "name": "PD5",
+    "type": "I/O",
+    "page": 145
+  },
+  "R20": {
+    "name": "VSS",
+    "type": "S",
+    "page": 145
+  },
+  "A12": {
+    "name": "VDD",
+    "type": "S",
+    "page": 145
+  },
+  "F17": {
+    "name": "PD6",
+    "type": "I/O",
+    "page": 145
+  },
+  "C14": {
+    "name": "PD7",
+    "type": "I/O",
+    "page": 146
+  },
+  "B13": {
+    "name": "PG9",
+    "type": "I/O",
+    "page": 146
+  },
+  "F19": {
+    "name": "PG10",
+    "type": "I/O",
+    "page": 146
+  },
+  "E18": {
+    "name": "PG11",
+    "type": "I/O",
+    "page": 147
+  },
+  "D17": {
+    "name": "PG12",
+    "type": "I/O",
+    "page": 147
+  },
+  "A14": {
+    "name": "PG13",
+    "type": "I/O",
+    "page": 147
+  },
+  "C16": {
+    "name": "PG14",
+    "type": "I/O",
+    "page": 147
+  },
+  "R24": {
+    "name": "VSS",
+    "type": "S",
+    "page": 147
+  },
+  "A16": {
+    "name": "VDDIO2",
+    "type": "S",
+    "page": 147
+  },
+  "H17": {
+    "name": "PG15",
+    "type": "I/O",
+    "page": 148
+  },
+  "B17": {
+    "name": "PB3(JTDO/TRACESWO)",
+    "type": "I/O",
+    "page": 148
+  },
+  "G18": {
+    "name": "PB4(NJTRST)",
+    "type": "I/O",
+    "page": 149
+  },
+  "C18": {
+    "name": "PB5",
+    "type": "I/O",
+    "page": 150
+  },
+  "A18": {
+    "name": "PB6",
+    "type": "I/O",
+    "page": 150
+  },
+  "D19": {
+    "name": "PB7",
+    "type": "I/O",
+    "page": 151
+  },
+  "E20": {
+    "name": "PH3-BOOT0",
+    "type": "I/O",
+    "page": 151
+  },
+  "B19": {
+    "name": "PB8",
+    "type": "I/O",
+    "page": 151
+  },
+  "C20": {
+    "name": "PB9",
+    "type": "I/O",
+    "page": 152
+  },
+  "A20": {
+    "name": "PE0",
+    "type": "I/O",
+    "page": 152
+  },
+  "B21": {
+    "name": "PE1",
+    "type": "I/O",
+    "page": 152
+  },
+  "A22": {
+    "name": "VDD11",
+    "type": "S",
+    "page": 152
+  },
+  "R4": {
+    "name": "VSS",
+    "type": "S",
+    "page": 153
+  },
+  "A24": {
+    "name": "VDD",
+    "type": "S",
+    "page": 153
+  },
+  "A26": {
+    "name": "VDD",
+    "type": "S",
+    "page": 153
+  },
+  "A4": {
+    "name": "VDD11",
+    "type": "S",
+    "page": 153
+  },
+  "B7": {
+    "name": "PH2",
+    "type": "I/O",
+    "page": 153
+  },
+  "E10": {
+    "name": "PH4",
+    "type": "I/O",
+    "page": 153
+  },
+  "F13": {
+    "name": "PH5",
+    "type": "I/O",
+    "page": 153
+  },
+  "H15": {
+    "name": "PH6",
+    "type": "I/O",
+    "page": 153
+  },
+  "E12": {
+    "name": "PH7",
+    "type": "I/O",
+    "page": 153
+  },
+  "G16": {
+    "name": "PH8",
+    "type": "I/O",
+    "page": 154
+  },
+  "M9": {
+    "name": "PH9",
+    "type": "I/O",
+    "page": 154
+  },
+  "H3": {
+    "name": "VSS",
+    "type": "S",
+    "page": 154
+  },
+  "F1": {
+    "name": "VDD",
+    "type": "S",
+    "page": 154
+  },
+  "N6": {
+    "name": "PH10",
+    "type": "I/O",
+    "page": 154
+  },
+  "N8": {
+    "name": "PH11",
+    "type": "I/O",
+    "page": 154
+  },
+  "M5": {
+    "name": "PH12",
+    "type": "I/O",
+    "page": 155
+  },
+  "M7": {
+    "name": "PH13",
+    "type": "I/O",
+    "page": 155
+  },
+  "J4": {
+    "name": "VSS",
+    "type": "S",
+    "page": 155
+  },
+  "G2": {
+    "name": "VDD",
+    "type": "S",
+    "page": 155
+  },
+  "L6": {
+    "name": "PH14",
+    "type": "I/O",
+    "page": 155
+  },
+  "L8": {
+    "name": "PH15",
+    "type": "I/O",
+    "page": 155
+  },
+  "K7": {
+    "name": "PI0",
+    "type": "I/O",
+    "page": 156
+  },
+  "K5": {
+    "name": "PI1",
+    "type": "I/O",
+    "page": 156
+  },
+  "K3": {
+    "name": "VSS",
+    "type": "S",
+    "page": 156
+  },
+  "H1": {
+    "name": "VDD",
+    "type": "S",
+    "page": 156
+  },
+  "J6": {
+    "name": "PI2",
+    "type": "I/O",
+    "page": 156
+  },
+  "K1": {
+    "name": "PI3",
+    "type": "I/O",
+    "page": 156
+  },
+  "J2": {
+    "name": "PI4",
+    "type": "I/O",
+    "page": 157
+  },
+  "C22": {
+    "name": "PI5",
+    "type": "I/O",
+    "page": 157
+  },
+  "D21": {
+    "name": "PI6",
+    "type": "I/O",
+    "page": 157
+  },
+  "J18": {
+    "name": "PI7",
+    "type": "I/O",
+    "page": 157
+  },
+  "J8": {
+    "name": "PI8",
+    "type": "I/O",
+    "page": 157
+  },
+  "L24": {
+    "name": "VSS",
+    "type": "S",
+    "page": 157
+  },
+  "L2": {
+    "name": "VDD",
+    "type": "S",
+    "page": 157
+  },
+  "H5": {
+    "name": "PI9",
+    "type": "I/O",
+    "page": 157
+  },
+  "H7": {
+    "name": "PI10",
+    "type": "I/O",
+    "page": 157
+  },
+  "G6": {
+    "name": "PI11",
+    "type": "I/O",
+    "page": 158
+  },
+  "G8": {
+    "name": "PI12",
+    "type": "I/O",
+    "page": 158
+  },
+  "L4": {
+    "name": "VSS",
+    "type": "S",
+    "page": 158
+  },
+  "M1": {
+    "name": "VDD",
+    "type": "S",
+    "page": 158
+  },
+  "F7": {
+    "name": "PI13",
+    "type": "I/O",
+    "page": 158
+  },
+  "F5": {
+    "name": "PI14",
+    "type": "I/O",
+    "page": 158
+  },
+  "E8": {
+    "name": "PI15",
+    "type": "I/O",
+    "page": 158
+  },
+  "E6": {
+    "name": "PJ0",
+    "type": "I/O",
+    "page": 158
+  },
+  "M3": {
+    "name": "VSS",
+    "type": "S",
+    "page": 158
+  },
+  "N2": {
+    "name": "VDD",
+    "type": "S",
+    "page": 158
+  }
+}

@@ -1,0 +1,856 @@
+[
+  {
+    "description": "Input pin not driven by any Output pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 N24 [VREF-, Input, Line]",
+        "pos": {
+          "x": 0.1016,
+          "y": 0.762
+        },
+        "uuid": "4ff6dc01-0378-4046-ad39-5fbbca063bed"
+      }
+    ],
+    "severity": "error",
+    "type": "pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 N26 [VSSA, Power input, Line]",
+        "pos": {
+          "x": 0.1524,
+          "y": 0.762
+        },
+        "uuid": "e66c1b3c-543a-4a96-8be4-b54582d311e6"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input pin not driven by any Output pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 M21 [NRST, Input, Line]",
+        "pos": {
+          "x": 2.2987,
+          "y": 0.4445
+        },
+        "uuid": "6d503d8c-8ab8-49e8-a880-45b8549cb0dc"
+      }
+    ],
+    "severity": "error",
+    "type": "pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 B25 [VBAT, Power input, Line]",
+        "pos": {
+          "x": 2.2987,
+          "y": 0.5461
+        },
+        "uuid": "74cf9912-bb05-446b-8fe3-15be4bb63540"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 T11 [VLXSMPS, Power input, Line]",
+        "pos": {
+          "x": 2.2987,
+          "y": 0.5715
+        },
+        "uuid": "d590df19-cf6f-464d-b62f-d78dcaa74a71"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input pin not driven by any Output pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 P25 [VREF+, Input, Line]",
+        "pos": {
+          "x": 2.2987,
+          "y": 0.5969
+        },
+        "uuid": "32a984ab-f375-4237-97ff-e381a110a87c"
+      }
+    ],
+    "severity": "error",
+    "type": "pin_not_driven"
+  },
+  {
+    "description": "OSPI.CLK 和 OSPI_CLK 都连接到同一项上; 将使用 OSPI.CLK 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'OSPI.CLK'",
+        "pos": {
+          "x": 1.0414,
+          "y": 0.6731
+        },
+        "uuid": "8578fc64-db05-442e-b6ab-64d1a4e202ea"
+      },
+      {
+        "description": "层次标签 'OSPI_CLK'",
+        "pos": {
+          "x": 0.7493,
+          "y": 2.5781
+        },
+        "uuid": "81635b33-bac4-4076-90f0-b6fdf9953290"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "OSPI.IO2 和 OSPI_IO2 都连接到同一项上; 将使用 OSPI.IO2 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'OSPI.IO2'",
+        "pos": {
+          "x": 0.6223,
+          "y": 2.7305
+        },
+        "uuid": "0c5b1e0d-4010-48a8-9362-5d9ae14f3e1c"
+      },
+      {
+        "description": "层次标签 'OSPI_IO2'",
+        "pos": {
+          "x": 0.7493,
+          "y": 2.7305
+        },
+        "uuid": "b02f1898-1dad-467e-a3fd-2738082592b2"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "OSPI.IO3 和 OSPI_IO3 都连接到同一项上; 将使用 OSPI.IO3 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'OSPI.IO3'",
+        "pos": {
+          "x": 1.0414,
+          "y": 0.8001
+        },
+        "uuid": "49288700-c159-4ad3-9908-2d8ebe5f88e0"
+      },
+      {
+        "description": "层次标签 'OSPI_IO3'",
+        "pos": {
+          "x": 0.7493,
+          "y": 2.7686
+        },
+        "uuid": "916c4dc6-0bfa-4576-8d02-dc1b0e519998"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "I2C1.SCL 和 PWR_SCL 都连接到同一项上; 将使用 I2C1.SCL 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'I2C1.SCL'",
+        "pos": {
+          "x": 1.3589,
+          "y": 2.2733
+        },
+        "uuid": "250e63ef-e7f4-4f4c-b2fd-c79b3c2a8300"
+      },
+      {
+        "description": "层次标签 'PWR_SCL'",
+        "pos": {
+          "x": 1.4986,
+          "y": 2.2733
+        },
+        "uuid": "f67ec2a4-2cd0-4cb0-9f48-4035d910f696"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "I2C3.SCL 和 SENSOR_SCL 都连接到同一项上; 将使用 I2C3.SCL 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'I2C3.SCL'",
+        "pos": {
+          "x": 1.4732,
+          "y": 1.3081
+        },
+        "uuid": "a3262aca-45f9-44e8-a463-c9e14da076a9"
+      },
+      {
+        "description": "层次标签 'SENSOR_SCL'",
+        "pos": {
+          "x": 2.2987,
+          "y": 2.2733
+        },
+        "uuid": "5b0d15ce-c462-477d-ba5e-2431c43a7ff2"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "DSI.D0_P 和 DSI_D0_P 都连接到同一项上; 将使用 DSI.D0_P 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'DSI.D0_P'",
+        "pos": {
+          "x": 2.1717,
+          "y": 0.7493
+        },
+        "uuid": "d3347985-d211-4c19-ad65-889bff58cf0b"
+      },
+      {
+        "description": "层次标签 'DSI_D0_P'",
+        "pos": {
+          "x": 3.2512,
+          "y": 1.9812
+        },
+        "uuid": "ff5b3c5d-7be0-4a80-a1b6-2f5fe571e3e9"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "DSI.D0_N 和 DSI_D0_N 都连接到同一项上; 将使用 DSI.D0_N 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'DSI.D0_N'",
+        "pos": {
+          "x": 3.1115,
+          "y": 2.0066
+        },
+        "uuid": "4d390502-79c9-4e17-a815-036156f368ce"
+      },
+      {
+        "description": "层次标签 'DSI_D0_N'",
+        "pos": {
+          "x": 3.2512,
+          "y": 2.0066
+        },
+        "uuid": "8bb6c532-4cef-4e9a-a4cb-1ec469eb374f"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "DSI.D1_P 和 DSI_D1_P 都连接到同一项上; 将使用 DSI.D1_P 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'DSI.D1_P'",
+        "pos": {
+          "x": 2.1717,
+          "y": 0.8001
+        },
+        "uuid": "4262c33c-805d-4b22-9509-a7ece8526cf7"
+      },
+      {
+        "description": "层次标签 'DSI_D1_P'",
+        "pos": {
+          "x": 3.2512,
+          "y": 2.0447
+        },
+        "uuid": "c722d198-fd4f-40a0-865d-e1c20c3a6485"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "DSI.CK_N 和 DSI_CK_N 都连接到同一项上; 将使用 DSI.CK_N 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'DSI.CK_N'",
+        "pos": {
+          "x": 2.1717,
+          "y": 0.6731
+        },
+        "uuid": "0b876030-b561-4239-8af0-cc94cae8e4b1"
+      },
+      {
+        "description": "层次标签 'DSI_CK_N'",
+        "pos": {
+          "x": 3.2512,
+          "y": 2.1336
+        },
+        "uuid": "a48935ee-1239-4c8e-8cc2-460aee6eb394"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "I2C5.SDA 和 TP_SDA 都连接到同一项上; 将使用 I2C5.SDA 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'I2C5.SDA'",
+        "pos": {
+          "x": 3.1115,
+          "y": 2.2225
+        },
+        "uuid": "1eae6efa-c986-4925-8073-f14f6ab94443"
+      },
+      {
+        "description": "层次标签 'TP_SDA'",
+        "pos": {
+          "x": 3.2512,
+          "y": 2.2225
+        },
+        "uuid": "d7ee3ef2-41c7-48f6-b327-e34cc73d7102"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "DSI.TE 和 DSI_TE 都连接到同一项上; 将使用 DSI.TE 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'DSI.TE'",
+        "pos": {
+          "x": 3.1115,
+          "y": 2.3241
+        },
+        "uuid": "2b7a81d8-1beb-4bdc-821f-a04aaebf2199"
+      },
+      {
+        "description": "层次标签 'DSI_TE'",
+        "pos": {
+          "x": 3.2512,
+          "y": 2.3241
+        },
+        "uuid": "f4cbb53b-514f-423c-9a73-e646f625f5e0"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "DSI.RESET 和 DSI_RESET 都连接到同一项上; 将使用 DSI.RESET 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'DSI.RESET'",
+        "pos": {
+          "x": 1.3716,
+          "y": -1.0414
+        },
+        "uuid": "032df0ff-2fe7-4c8e-b301-e8827bf25573"
+      },
+      {
+        "description": "层次标签 'DSI_RESET'",
+        "pos": {
+          "x": 3.2512,
+          "y": 2.3876
+        },
+        "uuid": "f414eb72-7d94-463c-8457-951202ca78d3"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "DSI_TP_RESET 和 TP_RESET 都连接到同一项上; 将使用 DSI_TP_RESET 作为网表中的网络名称",
+    "items": [
+      {
+        "description": "标签 'DSI_TP_RESET'",
+        "pos": {
+          "x": 3.6703,
+          "y": 2.3114
+        },
+        "uuid": "4067a27c-6c06-4e83-85a8-9b0bd694a059"
+      },
+      {
+        "description": "层次标签 'TP_RESET'",
+        "pos": {
+          "x": 3.8227,
+          "y": 2.3114
+        },
+        "uuid": "fd59ce2d-b5b0-4eb6-a128-84e142e20fd2"
+      }
+    ],
+    "severity": "warning",
+    "type": "multiple_net_names"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 A2 [VDDUSB, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.5969
+        },
+        "uuid": "ca58122d-ce7f-4726-91c1-f03523438997"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 T9 [VDDSMPS, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.6223
+        },
+        "uuid": "30df99c5-081c-4d01-a797-8b537b20a518"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 E2 [VDDIO2, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.6477
+        },
+        "uuid": "ef463b0e-5c39-4ead-b420-bf2533da8a98"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 A16 [VDDIO2, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.6731
+        },
+        "uuid": "314e51fd-dbb0-4cf9-95b6-228f320140ae"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 G24 [VDDDSI, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.6985
+        },
+        "uuid": "032f4aec-14f3-4d6d-9d4d-350dd2895e55"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 R26 [VDDA, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.7239
+        },
+        "uuid": "61249f7d-a301-479f-b9cc-05ce456d401b"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 D1 [VDD11USB, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.7493
+        },
+        "uuid": "0aa245a1-8b8c-4798-a226-ea46973d0f02"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 J24 [VDD11DSI, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.7747
+        },
+        "uuid": "d79e6f65-9f2e-4468-813c-a48f7c7a5b5c"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 T3 [VDD11, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.8001
+        },
+        "uuid": "24ae603f-edd1-4a7f-85ec-bc06f71eaf4d"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 A22 [VDD11, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.8255
+        },
+        "uuid": "26f5927f-ffc4-4211-80e8-0e22cdbd56ab"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 A4 [VDD11, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.8509
+        },
+        "uuid": "5eb0a0c1-5b96-4ccd-b3a7-f8eaeee5ec30"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 T25 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.8763
+        },
+        "uuid": "9f60fd68-dafc-4010-a671-f714c47c23fb"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 T19 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.9017
+        },
+        "uuid": "08cc01b4-ea5a-4f36-bb08-64e4d8c6e1ad"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 T15 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.9271
+        },
+        "uuid": "d7582476-c376-4e5b-932d-2a35eaf2f489"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 T1 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.9525
+        },
+        "uuid": "4c8ca283-2c0d-4911-b3a2-6816ced17cec"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 R2 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 0.9779
+        },
+        "uuid": "6e8ebeb2-3281-47fa-8e03-eca51a9020cb"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 P1 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.0033
+        },
+        "uuid": "8818c242-3943-4646-b9a9-46ece4b97df0"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 N2 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.0287
+        },
+        "uuid": "5d1e4747-0f75-4349-94af-66ecb47810b8"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 M1 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.0541
+        },
+        "uuid": "628f2a01-1e3b-4ce5-a4cf-4e128e8fc3c5"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 L26 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.0795
+        },
+        "uuid": "be108b24-cd64-4ae7-93fb-59339eb279fe"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 L2 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.1049
+        },
+        "uuid": "c51ffea0-ab45-41be-a233-fa30a954bd84"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 H1 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.1303
+        },
+        "uuid": "06ef723e-2094-4cf1-b859-b768cf766a27"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 G2 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.1557
+        },
+        "uuid": "a4b9d614-9904-4be1-a0b8-9d4e1ded970e"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 F1 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.1811
+        },
+        "uuid": "d7680e9d-6e9d-4fbf-951c-f31d7e134a76"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 A26 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.2065
+        },
+        "uuid": "3ed4f33f-9902-4c8c-85ae-eb87cf660e4c"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 A24 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.2319
+        },
+        "uuid": "cc7ffc35-dcdb-4fc9-ba5b-8e81a2120f15"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 A12 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.2573
+        },
+        "uuid": "35b7afd1-dcd2-4e9c-8eba-97e71f3936e2"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 A6 [VDD, Power input, Line]",
+        "pos": {
+          "x": -0.127,
+          "y": 1.2827
+        },
+        "uuid": "46c9e779-b177-4329-80a9-b936a4ab5262"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 R8 [VSSSMPS, Power input, Line]",
+        "pos": {
+          "x": 0.254,
+          "y": 0.6604
+        },
+        "uuid": "a855685a-99ec-4b07-a12d-e01612e95960"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 E24 [VSSDSI, Power input, Line]",
+        "pos": {
+          "x": 0.254,
+          "y": 0.7366
+        },
+        "uuid": "b5339160-2cdd-4ea1-91d6-25ab9c261bcd"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  },
+  {
+    "description": "Input Power pin not driven by any Output Power pins",
+    "items": [
+      {
+        "description": "Symbol U15 引脚 B5 [VSS, Power input, Line]",
+        "pos": {
+          "x": 0.254,
+          "y": 1.2192
+        },
+        "uuid": "c9ff1e3c-5d74-48ed-bf08-9d2c2f7adab0"
+      }
+    ],
+    "severity": "error",
+    "type": "power_pin_not_driven"
+  }
+]

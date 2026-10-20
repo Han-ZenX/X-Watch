@@ -1,0 +1,48 @@
+{
+  "part": "STM32U5A9BJY6QTR",
+  "source": "ST DS13543 Rev 3 May 2025; Table 27, Figure 19, Tables 169 and 170",
+  "official_symbol": "MCU_ST_STM32U5:STM32U5A9BJYxQ (installed KiCad 10)",
+  "pin_count": 208,
+  "pad_count": 208,
+  "name_fixes": {
+    "N24": [
+      "PH0-OSC_IN",
+      "VREF-"
+    ],
+    "N26": [
+      "PH1-OSC_OUT",
+      "VSSA"
+    ]
+  },
+  "types_changed": 188,
+  "geometry": "Numbering and top-view orientation correct; coordinates aligned to KiCad official footprint (original deviations below 1um).",
+  "pad_diameter": [
+    "0.192",
+    "0.210"
+  ],
+  "mask_diameter": "0.275",
+  "paste_diameter": "0.235",
+  "backup": "G:\\C++\\X-Watch-master\\docs\\hardware\\STM32U5A9BJY6QTR_audit\\before_fix_20261020_111734.zip",
+  "files": [
+    {
+      "path": "XWatch_Rev3.0.kicad_sym",
+      "before_sha256": "f62215ea417dcfbe5e24f8d82789a0ee23159a24d45d7b5f5583514d7e519527",
+      "after_sha256": "1000ff9de51538d23d02b70b3da4ae4f26945793635438225f8a2eb16654841c"
+    },
+    {
+      "path": "MCU_IO.kicad_sch",
+      "before_sha256": "01b22d347ad54ab35dd76372c75095729aa3ca35fc7d9c8de7e117a6dac66d34",
+      "after_sha256": "681812669d2e253d4727e9ccbb22e27fb381c90c7ffb8fc6dfb0bfe937dc37af"
+    },
+    {
+      "path": "MCU_PWR.kicad_sch",
+      "before_sha256": "c687a328d7e792199e0c0304ff92b073e6e4bf865f9329b9d32a28d239d30cf2",
+      "after_sha256": "3758869542c1e12641c7fd4c808eea94ce09068f0758d415dff464638d1c353a"
+    },
+    {
+      "path": "XWatch_Rev3.0.pretty\\STM32U5A9BJY6QTR.kicad_mod",
+      "before_sha256": "575198b805361f65213ba890a7ceed4af7e2bb8ab00df22dee7fc8ce481f88ad",
+      "after_sha256": "03cda6c97b50b064d8e8a0b2bd5d2422c819fd04f77dadae98ef5ad1a8fed17d"
+    }
+  ]
+}
