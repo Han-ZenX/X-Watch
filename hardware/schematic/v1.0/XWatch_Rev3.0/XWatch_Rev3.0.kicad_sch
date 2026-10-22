@@ -567,7 +567,7 @@
 	)
 	(sheet
 		(at 207.01 101.6)
-		(size 20.32 20.32)
+		(size 20.32 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -593,7 +593,7 @@
 			)
 		)
 		(property "Sheetfile" "BLE.kicad_sch"
-			(at 207.01 122.5046 0)
+			(at 207.01 132.6646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -601,6 +601,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BLE.WAKE_MCU" input
+			(at 207.01 110.49 180)
+			(uuid "d507a16b-b6fc-457f-a799-9f4e56de1923")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BLE.WAKE_NRF" input
+			(at 207.01 113.03 180)
+			(uuid "8024af0b-132f-42aa-86a2-271229c8a89f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BLE.MCU_RTS" input
+			(at 207.01 115.57 180)
+			(uuid "f6cc95d8-1204-49f3-92aa-8b3079562635")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BLE.MCU_CTS" output
+			(at 207.01 118.11 180)
+			(uuid "e07ef51f-4b2d-4eb7-8006-c3c2d4816d47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BLE.MCU_TX" input
+			(at 207.01 120.65 180)
+			(uuid "b8f0358f-f42f-48d2-9da3-c714f21a14a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BLE.MCU_RX" output
+			(at 207.01 123.19 180)
+			(uuid "0dc77515-0c12-48ab-969d-63b5c5bc0a25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

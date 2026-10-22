@@ -1,0 +1,166 @@
+(footprint "R832000033"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 32MHz 8pF SMD crystal oscillator ±10ppm ±20ppm SMD1612-4P Crystals ROHS")
+	(tags "C19173054 CRYSTAL-SMD_4P-L1.6-W1.2-BL-1 R832000033 TROQ")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "6adda6b4-d6f7-4e4f-bfca-5c741023ab3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "88b1ffc1-efd7-4c58-a34e-55a52542e3f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2310301040_TROQ-R832000033_C19173054.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef5a9cee-b9db-4e0d-9a54-5e596da343a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 32MHz 8pF SMD crystal oscillator ±10ppm ±20ppm SMD1612-4P Crystals ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8212bf62-8d1b-4244-9127-ecadca97536b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C19173054"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69dbd888-5697-400e-996c-d510560e4244")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.1 -0.9)
+		(end -1.1 0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf357575-b951-4aa7-a817-1cf8318ad960")
+	)
+	(fp_line
+		(start -1.1 -0.9)
+		(end 1.1 -0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93fcc174-5eb1-431e-a7ad-0cafa1c53b16")
+	)
+	(fp_line
+		(start -1.1 0.9)
+		(end 1.1 0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09716b45-67f5-4154-9d93-8e2afd426423")
+	)
+	(fp_line
+		(start 1.1 -0.9)
+		(end 1.1 0.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afd46d5c-3781-43c8-894a-a6ab7c35e864")
+	)
+	(fp_circle
+		(center -0.75 1.17)
+		(end -0.686 1.17)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3915e819-4531-492f-94ec-1ec8a4c09eb4")
+	)
+	(fp_circle
+		(center -0.689864 0.49)
+		(end -0.589788 0.49)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6e488936-cfa5-47b5-917e-70a68668e445")
+	)
+	(pad "1" smd rect
+		(at -0.55 0.4)
+		(size 0.65 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03ce7b1e-bdbb-4f50-8cca-f9edbbf170be")
+	)
+	(pad "2" smd rect
+		(at 0.55 0.4)
+		(size 0.65 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b37b36d3-53ef-42a6-8747-b7d37a0cfa4e")
+	)
+	(pad "3" smd rect
+		(at 0.55 -0.4)
+		(size 0.65 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "07f1607e-8daf-4e0b-98e3-fabbe3a0d968")
+	)
+	(pad "4" smd rect
+		(at -0.55 -0.4)
+		(size 0.65 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fef29545-63bb-482a-b2b2-0b502f68ec8e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/XWatch_Rev3.0.3dshapes/R832000033.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
