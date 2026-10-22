@@ -1204,6 +1204,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "XWatch_Rev3.0:SCTA1A0100"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 4.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SCTA1A0100"
+				(at 0 -4.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XWatch_Rev3.0:SCTA1A0100"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810182017_ALPSALPINE-SCTA1A0100_C202384.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "- Antenna spring ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C202384"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ALPSALPINE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "SCTA1A0100"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ALPSALPINE C202384 SCTA1A0100"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SCTA1A0100_0_1"
+				(rectangle
+					(start 1.27 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SCTA1A0100_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XWatch_Rev3.0:nRF52833-QDAA-R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2222,12 +2363,6 @@
 		(uuid "9d6bf295-1be6-40fb-88f5-9a3c16a72df6")
 	)
 	(junction
-		(at 135.89 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9eaf48bc-5fe7-426f-8d82-495ea6de149a")
-	)
-	(junction
 		(at 186.69 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2240,10 +2375,22 @@
 		(uuid "b4a8e995-d793-40df-affd-ae4786934b55")
 	)
 	(junction
+		(at 133.35 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c19dd141-27f8-4f23-8688-abace0708f7e")
+	)
+	(junction
 		(at 123.19 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e51db43d-7e9d-41bc-a9d8-96dfb3b79157")
+	)
+	(junction
+		(at 135.89 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f361cd2f-776a-4dbf-adf3-fc93f9f7e23f")
 	)
 	(junction
 		(at 182.88 73.66)
@@ -2365,7 +2512,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 132.08) (xy 133.35 138.43)
+			(xy 133.35 132.08) (xy 133.35 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2402,6 +2549,26 @@
 			(type default)
 		)
 		(uuid "2498db42-cbc4-47e4-8168-02e569081cc1")
+	)
+	(wire
+		(pts
+			(xy 128.27 151.13) (xy 133.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24db06e5-3267-4aed-a06f-655eb4316d2a")
+	)
+	(wire
+		(pts
+			(xy 118.11 151.13) (xy 120.65 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f14a34-cb01-456a-80c5-cd9806f85963")
 	)
 	(wire
 		(pts
@@ -2535,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 151.13) (xy 135.89 146.05)
+			(xy 135.89 148.59) (xy 135.89 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2805,6 +2972,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 151.13) (xy 133.35 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d45a7c-593a-4761-ad04-825231e76c47")
+	)
+	(wire
+		(pts
 			(xy 209.55 77.47) (xy 215.9 77.47)
 		)
 		(stroke
@@ -2894,7 +3071,7 @@
 		(uuid "38933b63-7f3e-4b6d-8e13-8b002ca4d28c")
 	)
 	(label "nRESET"
-		(at 133.35 138.43 90)
+		(at 133.35 162.56 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2947,7 +3124,7 @@
 	)
 	(hierarchical_label "BLE.WAKE_MCU"
 		(shape input)
-		(at 135.89 151.13 270)
+		(at 135.89 148.59 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4386,6 +4563,118 @@
 			(project "XWatch_Rev3.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/77598b17-7755-4f85-a007-50934971418a"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev3.0:SCTA1A0100")
+		(at 217.17 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "565ff2b4-6710-4011-99c6-370cecb9e9c0")
+		(property "Reference" "CN6"
+			(at 222.25 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCTA1A0100"
+			(at 222.25 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev3.0:SCTA1A0100"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810182017_ALPSALPINE-SCTA1A0100_C202384.pdf"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "- Antenna spring ROHS"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C202384"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SCTA1A0100"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35373ca7-5d1f-4378-abc1-4d1d4b013f92")
+		)
+		(instances
+			(project "XWatch_Rev3.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/77598b17-7755-4f85-a007-50934971418a"
+					(reference "CN6")
 					(unit 1)
 				)
 			)
@@ -6073,6 +6362,86 @@
 		)
 	)
 	(symbol
+		(lib_id "XWatch_Rev3.0:GND")
+		(at 213.36 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3b683e8-b563-405a-91c1-e437dd4c7d34")
+		(property "Reference" "#PWR0258"
+			(at 213.36 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 213.3599 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37222cb8-6971-460e-8a1f-7cb10c5ffed5")
+		)
+		(instances
+			(project "XWatch_Rev3.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/77598b17-7755-4f85-a007-50934971418a"
+					(reference "#PWR0258")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "XWatch_Rev3.0:+1V8")
 		(at 168.91 82.55 0)
 		(unit 1)
@@ -6301,6 +6670,118 @@
 			(project "XWatch_Rev3.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/77598b17-7755-4f85-a007-50934971418a"
 					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev3.0:SCTA1A0100")
+		(at 217.17 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d602c70e-5422-4e85-a144-5ae99ec8ee9e")
+		(property "Reference" "CN5"
+			(at 222.25 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCTA1A0100"
+			(at 222.25 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "XWatch_Rev3.0:SCTA1A0100"
+			(at 217.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810182017_ALPSALPINE-SCTA1A0100_C202384.pdf"
+			(at 217.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "- Antenna spring ROHS"
+			(at 217.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C202384"
+			(at 217.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ALPSALPINE"
+			(at 217.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SCTA1A0100"
+			(at 217.17 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "215f1153-04ad-429d-9ed2-33b0af0fba44")
+		)
+		(instances
+			(project "XWatch_Rev3.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/77598b17-7755-4f85-a007-50934971418a"
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -6860,6 +7341,162 @@
 			(project "XWatch_Rev3.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/77598b17-7755-4f85-a007-50934971418a"
 					(reference "#PWR0246")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev3.0:+1V8")
+		(at 118.11 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdde1b59-b387-4691-9e92-c56aeed2f597")
+		(property "Reference" "#PWR0257"
+			(at 118.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 118.11 147.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 118.11 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7a22778-3002-4f2c-8884-3f84d015eb68")
+		)
+		(instances
+			(project "XWatch_Rev3.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/77598b17-7755-4f85-a007-50934971418a"
+					(reference "#PWR0257")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev3.0:R")
+		(at 124.46 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe9671b8-2537-4f5b-9ac2-c72c084b4fc7")
+		(property "Reference" "R28"
+			(at 122.682 153.924 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 129.032 153.924 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XWatch_Rev3.0:GEN_R_0201"
+			(at 124.46 149.352 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "37c42c63-a42b-464f-a43c-37ae96f6cf78")
+		)
+		(pin "1"
+			(uuid "45944741-647f-43ae-88b4-8ebd6f3dfada")
+		)
+		(instances
+			(project "XWatch_Rev3.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/77598b17-7755-4f85-a007-50934971418a"
+					(reference "R28")
 					(unit 1)
 				)
 			)

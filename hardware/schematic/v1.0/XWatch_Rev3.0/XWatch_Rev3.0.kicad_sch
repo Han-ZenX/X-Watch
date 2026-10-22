@@ -163,7 +163,7 @@
 	)
 	(sheet
 		(at 154.94 92.71)
-		(size 22.86 45.72)
+		(size 22.86 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -189,7 +189,7 @@
 			)
 		)
 		(property "Sheetfile" "SENSOR.kicad_sch"
-			(at 154.94 139.0146 0)
+			(at 154.94 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -250,13 +250,13 @@
 			)
 		)
 		(pin "LRA_N" output
-			(at 154.94 127 180)
+			(at 177.8 107.95 0)
 			(uuid "aab8f61c-d6fe-4132-886b-88f41870436e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "IMU_INT1" output
@@ -280,13 +280,13 @@
 			)
 		)
 		(pin "LRA_P" output
-			(at 154.94 124.46 180)
+			(at 177.8 105.41 0)
 			(uuid "d8be935b-dd6b-4980-aa87-dcf03079fc6f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PPG_INT_N" output
@@ -759,66 +759,6 @@
 				(justify right)
 			)
 		)
-		(pin "OSPI_IO1" output
-			(at 148.59 71.12 0)
-			(uuid "4a1aeb30-8ef4-4ad0-8e27-b3571de0e4e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OSPI_IO3" output
-			(at 148.59 76.2 0)
-			(uuid "f6f797e7-c50a-4607-882c-49093c1dba5f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OSPI_IO0" output
-			(at 148.59 68.58 0)
-			(uuid "e6d15f18-8954-488f-80aa-a0aed1642284")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OSPI_IO2" output
-			(at 148.59 73.66 0)
-			(uuid "db9801a2-944d-4c06-8bcc-98276971e42e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OSPI_CLK" output
-			(at 148.59 81.28 0)
-			(uuid "5d4b967d-1113-4ec8-bc48-1e9a81347d30")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "OSPI_NCS" output
-			(at 148.59 78.74 0)
-			(uuid "921fa841-382b-48ac-be85-f6692f809f14")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DSI_CK_N" bidirectional
 			(at 115.57 76.2 180)
 			(uuid "67e79496-be45-496d-9051-ffc392656c43")
@@ -1077,6 +1017,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "OSPI.NCS" output
+			(at 148.59 78.74 0)
+			(uuid "3963e2f7-6037-4a7b-b980-4ed2181ce0ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI.IO2" output
+			(at 148.59 73.66 0)
+			(uuid "fda03321-8ed4-445c-99c3-fbb318d6986f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI.IO1" output
+			(at 148.59 71.12 0)
+			(uuid "a5d594b3-9573-4d44-8467-776ed37150f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI.IO3" output
+			(at 148.59 76.2 0)
+			(uuid "2cc6cf81-2dda-4b24-b621-af0bb7bf39ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI.IO0" output
+			(at 148.59 68.58 0)
+			(uuid "482ebaa7-ef23-4f0e-943b-ef6c1ace1cb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSPI.CLK" output
+			(at 148.59 81.28 0)
+			(uuid "4e35c9fa-384e-4115-bfa1-5dd3236b150b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
