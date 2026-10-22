@@ -43,109 +43,109 @@
 				(justify left top)
 			)
 		)
-		(pin "DSI_D0_N" bidirectional
-			(at 106.68 71.12 0)
-			(uuid "0d11ac73-e02a-49bf-bc33-ac85c20badf4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DSI_CK_N" bidirectional
-			(at 106.68 76.2 0)
-			(uuid "be16d203-3cff-4242-9e95-3d1a88cecd54")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DSI_CK_P" bidirectional
-			(at 106.68 73.66 0)
-			(uuid "b486d21f-3f06-418e-8d4c-e69a5a000da1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DSI_RESET" input
-			(at 106.68 81.28 0)
-			(uuid "f95a85b8-1bf9-4079-8f2a-ccf912825442")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DSI_TE" input
-			(at 106.68 83.82 0)
-			(uuid "1fcfb0ee-5464-47c2-8efa-53910ed5f660")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TP_SDA" bidirectional
-			(at 106.68 86.36 0)
-			(uuid "56c6c388-4645-41b3-8eba-7592065dfa09")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TP_INT" output
-			(at 106.68 91.44 0)
-			(uuid "8d03e67a-dc52-4c56-82e4-93a3f1c55051")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DSI_PWR_EN" input
-			(at 106.68 78.74 0)
-			(uuid "182211e6-7445-4dbb-87c8-e903a7f807b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DSI_D0_P" bidirectional
-			(at 106.68 68.58 0)
-			(uuid "227aef6d-5aac-45f3-8c3a-39683b222e69")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TP_RESET" input
-			(at 106.68 93.98 0)
-			(uuid "bd4d9555-92a3-4938-aac6-cb781ef74145")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TP_SCL" input
+		(pin "TP.SCL" input
 			(at 106.68 88.9 0)
-			(uuid "45fa2378-12f0-4372-a985-d59a3afeea2b")
+			(uuid "d66fe5e2-320f-45ab-aa2f-2236a85a24f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI.CK_N" bidirectional
+			(at 106.68 76.2 0)
+			(uuid "287192dc-a758-4bb7-bc31-8f3743363c10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI.TE" input
+			(at 106.68 83.82 0)
+			(uuid "e68f07ea-fc5e-4eb1-917c-de76952928a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI.CK_P" bidirectional
+			(at 106.68 73.66 0)
+			(uuid "ba3a6ea7-dcc2-418f-8d1e-4cb8a23291cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TP.SDA" bidirectional
+			(at 106.68 86.36 0)
+			(uuid "a80a4d2f-b443-4125-aff0-625f4a35bf83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI.RESET" input
+			(at 106.68 81.28 0)
+			(uuid "bcd40fb7-83c3-4e6c-a63c-cb7f11d4227e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TP.RESET" input
+			(at 106.68 93.98 0)
+			(uuid "61f24d0f-937d-4723-8600-17e3c121d4b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI.D0_N" bidirectional
+			(at 106.68 71.12 0)
+			(uuid "2bb1b4b7-dd61-4873-919c-a3361ce8fc97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI.PWR_EN" input
+			(at 106.68 78.74 0)
+			(uuid "90da7f14-5db8-4b74-b94b-23ff07a8789b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI.D0_P" bidirectional
+			(at 106.68 68.58 0)
+			(uuid "c6bb627c-9860-4e26-963f-7228e71f1c91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TP.INT" output
+			(at 106.68 91.44 0)
+			(uuid "6bf93381-f513-4511-9af6-40f7458c382d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -759,116 +759,6 @@
 				(justify right)
 			)
 		)
-		(pin "DSI_CK_N" bidirectional
-			(at 115.57 76.2 180)
-			(uuid "67e79496-be45-496d-9051-ffc392656c43")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_D0_N" bidirectional
-			(at 115.57 71.12 180)
-			(uuid "820c8226-548a-4bff-bdfe-f51210681750")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_CK_P" bidirectional
-			(at 115.57 73.66 180)
-			(uuid "55794919-613c-410e-b1fb-29087913f3cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TP_SDA" bidirectional
-			(at 115.57 86.36 180)
-			(uuid "c43e2f93-d41c-45a7-834c-a8e75dfc361a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TP_RESET" output
-			(at 115.57 93.98 180)
-			(uuid "5c36d141-6c9a-4b28-92c5-efc964d9f8c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_RESET" output
-			(at 115.57 81.28 180)
-			(uuid "7f13f994-2d48-498b-b662-0adcbcf21cc1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_D0_P" bidirectional
-			(at 115.57 68.58 180)
-			(uuid "f2485612-5293-4bbc-aca9-eb50589dbedc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_TE" input
-			(at 115.57 83.82 180)
-			(uuid "63e18cda-207d-436d-bb25-e1115c5f9a57")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DSI_PWR_EN" output
-			(at 115.57 78.74 180)
-			(uuid "7ef68e45-2c60-481e-bc75-d7809d998a8e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TP_INT" input
-			(at 115.57 91.44 180)
-			(uuid "3f2dce85-1674-44d5-9220-59de6636e6f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TP_SCL" output
-			(at 115.57 88.9 180)
-			(uuid "416e36d9-5423-4bdc-8bb4-860beaa4cea1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ALS_INT_N" input
 			(at 148.59 104.14 0)
 			(uuid "2ac1ece8-ad9b-4078-96eb-ffd28743d348")
@@ -877,16 +767,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "DSI_D1_P" bidirectional
-			(at 115.57 99.06 180)
-			(uuid "4b541509-aa09-40fd-8ed5-c77c6942abf1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "PWR_SCL" output
@@ -917,16 +797,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "DSI_D1_N" bidirectional
-			(at 115.57 101.6 180)
-			(uuid "5969039d-5f6a-4c3d-8624-e17b59ed577c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "MAG_DRDY" input
@@ -1077,6 +947,136 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DSI.PWR_EN" output
+			(at 115.57 78.74 180)
+			(uuid "15484d4e-1a11-486c-9b52-037f86bd85c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI.CK_P" bidirectional
+			(at 115.57 73.66 180)
+			(uuid "30d06a9f-a1b6-4542-964d-03d6821c8278")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI.D0_N" bidirectional
+			(at 115.57 71.12 180)
+			(uuid "b4e7df87-c1de-460e-a0ff-d8d38654fa13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP.INT" input
+			(at 115.57 91.44 180)
+			(uuid "5c0ce80b-afe7-4cd5-860c-e83c6342ae62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP.SCL" output
+			(at 115.57 88.9 180)
+			(uuid "6b20ed64-5d16-400a-b5bb-41b99a10f78c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI.CK_N" bidirectional
+			(at 115.57 76.2 180)
+			(uuid "5df626c5-830b-4a20-9964-e856f925afd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP.RESET" output
+			(at 115.57 93.98 180)
+			(uuid "4ed3eff5-07d2-4ddf-b86b-de3ebe507d1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI.RESET" output
+			(at 115.57 81.28 180)
+			(uuid "42da8bf5-73d7-4048-8de7-4f166d262edd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI.D0_P" bidirectional
+			(at 115.57 68.58 180)
+			(uuid "7c1d14e3-9ab4-4b25-95a5-eeafc5c83fbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI.D1_P" bidirectional
+			(at 115.57 100.33 180)
+			(uuid "fcf7d35c-f592-4ecc-8821-a2df073a9b0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TP.SDA" bidirectional
+			(at 115.57 86.36 180)
+			(uuid "98132773-d085-4caf-8209-08e44e6f656b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI.D1_N" bidirectional
+			(at 115.57 102.87 180)
+			(uuid "a4908e43-aec5-4602-adc3-b4b11f1daf51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI.TE" input
+			(at 115.57 83.82 180)
+			(uuid "b3149e51-d185-4efc-876f-0ceca1afa312")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

@@ -2091,7 +2091,7 @@
 		)
 		(uuid "fd82dd73-80e8-43fc-b750-d71334e91615")
 	)
-	(hierarchical_label "TP_RESET"
+	(hierarchical_label "TP.RESET"
 		(shape input)
 		(at 113.03 97.79 180)
 		(effects
@@ -2102,7 +2102,7 @@
 		)
 		(uuid "0cdb1eaa-6313-41db-a358-667ef06e3e43")
 	)
-	(hierarchical_label "DSI_RESET"
+	(hierarchical_label "DSI.RESET"
 		(shape input)
 		(at 156.21 109.22 0)
 		(effects
@@ -2113,7 +2113,7 @@
 		)
 		(uuid "1db36eee-77ca-47fc-9c2f-364124fc3641")
 	)
-	(hierarchical_label "DSI_CK_P"
+	(hierarchical_label "DSI.CK_P"
 		(shape bidirectional)
 		(at 156.21 113.03 0)
 		(effects
@@ -2124,7 +2124,7 @@
 		)
 		(uuid "2a124c6a-dfef-4111-b2b1-7ae08ca25b10")
 	)
-	(hierarchical_label "TP_SCL"
+	(hierarchical_label "TP.SCL"
 		(shape input)
 		(at 113.03 74.93 180)
 		(effects
@@ -2135,7 +2135,7 @@
 		)
 		(uuid "629b6033-5c45-4ed4-b6ff-d0028244e2ca")
 	)
-	(hierarchical_label "TP_SCL"
+	(hierarchical_label "TP.SCL"
 		(shape input)
 		(at 224.79 121.92 180)
 		(effects
@@ -2146,7 +2146,7 @@
 		)
 		(uuid "664263bf-15ac-44ca-97cc-be9f94ec67d7")
 	)
-	(hierarchical_label "DSI_CK_N"
+	(hierarchical_label "DSI.CK_N"
 		(shape bidirectional)
 		(at 156.21 105.41 0)
 		(effects
@@ -2157,7 +2157,7 @@
 		)
 		(uuid "6fd79fed-0ec9-430d-8277-9a3b2e772dcc")
 	)
-	(hierarchical_label "DSI_TE"
+	(hierarchical_label "DSI.TE"
 		(shape input)
 		(at 156.21 78.74 0)
 		(effects
@@ -2168,7 +2168,7 @@
 		)
 		(uuid "72ac883c-253a-4fdd-916e-ead75f34b4bc")
 	)
-	(hierarchical_label "TP_INT"
+	(hierarchical_label "TP.INT"
 		(shape output)
 		(at 224.79 124.46 180)
 		(effects
@@ -2179,7 +2179,7 @@
 		)
 		(uuid "7425b3f9-8318-4905-87c1-3b3eff23bee1")
 	)
-	(hierarchical_label "TP_SDA"
+	(hierarchical_label "TP.SDA"
 		(shape bidirectional)
 		(at 113.03 82.55 180)
 		(effects
@@ -2190,7 +2190,7 @@
 		)
 		(uuid "89206549-629e-4c7e-8444-32db1b027ab3")
 	)
-	(hierarchical_label "DSI_PWR_EN"
+	(hierarchical_label "DSI.PWR_EN"
 		(shape input)
 		(at 156.21 101.6 0)
 		(effects
@@ -2201,7 +2201,7 @@
 		)
 		(uuid "9b1238ac-6a67-4088-a1b7-9d53c300f982")
 	)
-	(hierarchical_label "DSI_D0_P"
+	(hierarchical_label "DSI.D0_P"
 		(shape bidirectional)
 		(at 156.21 90.17 0)
 		(effects
@@ -2212,7 +2212,7 @@
 		)
 		(uuid "dd55d884-74b7-41cd-a743-a55e7dd11644")
 	)
-	(hierarchical_label "TP_SDA"
+	(hierarchical_label "TP.SDA"
 		(shape bidirectional)
 		(at 224.79 119.38 180)
 		(effects
@@ -2223,7 +2223,7 @@
 		)
 		(uuid "ddfb767a-bcaf-44a7-9db1-e8845fe5c16b")
 	)
-	(hierarchical_label "DSI_D0_N"
+	(hierarchical_label "DSI.D0_N"
 		(shape bidirectional)
 		(at 156.21 82.55 0)
 		(effects
@@ -2234,7 +2234,7 @@
 		)
 		(uuid "e5fec034-6e3b-4c35-8b54-12920e9f6c1a")
 	)
-	(hierarchical_label "TP_INT"
+	(hierarchical_label "TP.INT"
 		(shape output)
 		(at 113.03 90.17 180)
 		(effects
