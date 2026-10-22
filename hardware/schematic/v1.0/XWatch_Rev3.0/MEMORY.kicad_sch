@@ -1114,7 +1114,7 @@
 		)
 		(uuid "f00e4b7f-9b41-4e65-97ad-dfc17d64f2de")
 	)
-	(hierarchical_label "OSPI_CLK"
+	(hierarchical_label "OSPI.CLK"
 		(shape input)
 		(at 182.88 104.14 0)
 		(effects
@@ -1125,7 +1125,7 @@
 		)
 		(uuid "0413ea64-584b-42ed-b71b-5db87f0e8760")
 	)
-	(hierarchical_label "OSPI_IO3"
+	(hierarchical_label "OSPI.IO3"
 		(shape input)
 		(at 182.88 101.6 0)
 		(effects
@@ -1136,7 +1136,7 @@
 		)
 		(uuid "1c15b295-3b00-465d-a22a-9f7fc4370548")
 	)
-	(hierarchical_label "OSPI_IO0"
+	(hierarchical_label "OSPI.IO0"
 		(shape input)
 		(at 182.88 106.68 0)
 		(effects
@@ -1147,7 +1147,7 @@
 		)
 		(uuid "2ca1059e-4937-47d5-9996-047e9d21a010")
 	)
-	(hierarchical_label "OSPI_IO1"
+	(hierarchical_label "OSPI.IO1"
 		(shape input)
 		(at 92.71 101.6 180)
 		(effects
@@ -1158,7 +1158,7 @@
 		)
 		(uuid "554bc758-e350-413d-aae9-3e030379e462")
 	)
-	(hierarchical_label "OSPI_IO2"
+	(hierarchical_label "OSPI.IO2"
 		(shape input)
 		(at 92.71 104.14 180)
 		(effects
@@ -1169,7 +1169,7 @@
 		)
 		(uuid "ce6019cf-dab2-4077-ab10-c94ef7611272")
 	)
-	(hierarchical_label "OSPI_NCS"
+	(hierarchical_label "OSPI.NCS"
 		(shape input)
 		(at 92.71 99.06 180)
 		(effects
