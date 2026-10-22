@@ -5444,6 +5444,16 @@
 		)
 		(uuid "3b9d9b4d-76a2-4ce8-81d5-e09454261ac7")
 	)
+	(text "PA11"
+		(exclude_from_sim no)
+		(at 211.582 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3e73fd18-b35d-469e-8b1e-4d474d68053a")
+	)
 	(text "BUTTONS"
 		(exclude_from_sim no)
 		(at 49.784 214.376 0)
@@ -5630,6 +5640,16 @@
 		)
 		(uuid "8cde0d9d-eb7e-4d65-b935-1436614d8695")
 	)
+	(text "PA12"
+		(exclude_from_sim no)
+		(at 211.582 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96b5c808-11c3-4aeb-b09d-392c6f65443d")
+	)
 	(text "PH7"
 		(exclude_from_sim no)
 		(at 163.068 128.016 0)
@@ -5691,6 +5711,16 @@
 			)
 		)
 		(uuid "ab46d441-beb3-4908-bea6-82a0bef95ac8")
+	)
+	(text "PA12"
+		(exclude_from_sim no)
+		(at 132.842 247.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab5572ee-e2c3-42db-a478-6ae82e94a7da")
 	)
 	(text "PG14"
 		(exclude_from_sim no)
@@ -5833,6 +5863,16 @@
 			)
 		)
 		(uuid "d76ec326-6859-4c2e-b7a2-bc7fbccfab69")
+	)
+	(text "PA11"
+		(exclude_from_sim no)
+		(at 132.842 244.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d853d832-599c-4c67-975a-3290128f2fee")
 	)
 	(text "PF10"
 		(exclude_from_sim no)
@@ -6073,6 +6113,26 @@
 			(type default)
 		)
 		(uuid "197d2b1e-8872-4dea-bc7d-a0a2968aac92")
+	)
+	(wire
+		(pts
+			(xy 214.63 115.57) (xy 229.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c593d46-0883-4195-8538-2b5c1fe658b5")
+	)
+	(wire
+		(pts
+			(xy 214.63 118.11) (xy 229.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23443f57-9244-493a-b0bb-17426674dc8b")
 	)
 	(wire
 		(pts
@@ -6376,6 +6436,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 247.65) (xy 149.86 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d02ddca-91b4-4720-bfb5-8fa986d6935f")
+	)
+	(wire
+		(pts
 			(xy 60.96 238.76) (xy 74.93 238.76)
 		)
 		(stroke
@@ -6583,6 +6653,16 @@
 			(type default)
 		)
 		(uuid "a80ddd1d-11a2-4575-823f-15d4da510120")
+	)
+	(wire
+		(pts
+			(xy 135.89 245.11) (xy 149.86 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0f7115-f464-4650-ae1c-66c05966ffdb")
 	)
 	(wire
 		(pts
@@ -6974,6 +7054,26 @@
 		)
 		(uuid "14c83af8-d226-4097-8ed3-978eeccc6505")
 	)
+	(label "USB_OTG_DP"
+		(at 135.89 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d051275-6300-485a-9e69-ef98379b4cb6")
+	)
+	(label "USB_OTG_DM"
+		(at 135.89 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d2189be-2a1a-4164-9eeb-5372d7465729")
+	)
 	(label "I2C5.SDA"
 		(at 311.15 222.25 0)
 		(effects
@@ -7123,6 +7223,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b0446e8-3a5c-4c1c-baa8-c289939f4091")
+	)
+	(label "USB_OTG_DP"
+		(at 214.63 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c7d2184-7367-4591-891e-d29cd8630fa7")
 	)
 	(label "OSPI.IO0"
 		(at 62.23 265.43 0)
@@ -7604,8 +7714,18 @@
 		)
 		(uuid "f2230c22-4056-4d67-bda6-c56496a4bdee")
 	)
+	(label "USB_OTG_DM"
+		(at 214.63 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f66986d8-153a-4042-8c76-233c9c23979e")
+	)
 	(hierarchical_label "PWR_INT_N"
-		(shape input)
+		(shape bidirectional)
 		(at 149.86 236.22 0)
 		(effects
 			(font
@@ -7659,6 +7779,17 @@
 		)
 		(uuid "22024cf3-4aa2-49ad-b87c-04b68215c2d1")
 	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 149.86 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22f07304-c0a2-411f-84ed-44247cd9435f")
+	)
 	(hierarchical_label "HAPTIC_EN"
 		(shape output)
 		(at 229.87 247.65 0)
@@ -7680,6 +7811,17 @@
 			(justify left)
 		)
 		(uuid "3eb6d843-9971-4a69-b8f9-b5ab47cc751c")
+	)
+	(hierarchical_label "USB_DM"
+		(shape bidirectional)
+		(at 149.86 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "449250eb-e06e-4441-8fac-29ef22fbfc84")
 	)
 	(hierarchical_label "TP_INT"
 		(shape input)
@@ -7913,7 +8055,7 @@
 		(uuid "c722d198-fd4f-40a0-865d-e1c20c3a6485")
 	)
 	(hierarchical_label "FG_ALRT_N"
-		(shape input)
+		(shape bidirectional)
 		(at 149.86 233.68 0)
 		(effects
 			(font

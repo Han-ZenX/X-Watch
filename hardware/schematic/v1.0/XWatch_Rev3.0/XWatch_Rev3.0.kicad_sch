@@ -899,7 +899,7 @@
 				(justify left)
 			)
 		)
-		(pin "FG_ALRT_N" input
+		(pin "FG_ALRT_N" bidirectional
 			(at 115.57 116.84 180)
 			(uuid "4c405251-3662-45f1-bf7e-d976158c004f")
 			(effects
@@ -949,7 +949,7 @@
 				(justify right)
 			)
 		)
-		(pin "PWR_INT_N" input
+		(pin "PWR_INT_N" bidirectional
 			(at 115.57 114.3 180)
 			(uuid "bb1f6b01-0e23-40f2-bebb-7b6907c60281")
 			(effects
