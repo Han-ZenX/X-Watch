@@ -1573,6 +1573,26 @@
 		)
 		(uuid "24425f53-19f2-443b-b800-c2599ed91fa4")
 	)
+	(text "If IM1=GND,IM0=GND, CS=IOVCC, DO0143FMST02 set to MIPI-DSI interface"
+		(exclude_from_sim no)
+		(at 137.16 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65068253-6415-409e-89d4-444ac5e7c655")
+	)
+	(text "If IM1=IOVCC,IM0=GND, DO0143FMST02 set to QSPI interface"
+		(exclude_from_sim no)
+		(at 137.16 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c355aeff-3a6e-4ead-acd8-fd9803e175f9")
+	)
 	(text_box "DWO DO0143FMST02"
 		(exclude_from_sim no)
 		(at 121.92 148.59 0)
