@@ -12986,7 +12986,7 @@
 		)
 		(uuid "10d0bba9-47ed-452f-9d49-781e38cd31bd")
 	)
-	(hierarchical_label "ALS_INT_N"
+	(hierarchical_label "ALS.INT_N"
 		(shape input)
 		(at 229.87 232.41 0)
 		(effects
@@ -13052,7 +13052,7 @@
 		)
 		(uuid "22f07304-c0a2-411f-84ed-44247cd9435f")
 	)
-	(hierarchical_label "HAPTIC_EN"
+	(hierarchical_label "HAPTIC.EN"
 		(shape output)
 		(at 229.87 247.65 0)
 		(effects
@@ -13118,7 +13118,7 @@
 		)
 		(uuid "4f9811eb-9c9b-44dd-8d88-9457ad12d8d3")
 	)
-	(hierarchical_label "BARO_INT"
+	(hierarchical_label "BARO.INT"
 		(shape input)
 		(at 229.87 242.57 0)
 		(effects
@@ -13129,7 +13129,7 @@
 		)
 		(uuid "4fdc499a-7e58-4f88-9e6e-b044265d38bf")
 	)
-	(hierarchical_label "SENSOR_SCL"
+	(hierarchical_label "SENSOR.SCL"
 		(shape output)
 		(at 229.87 227.33 0)
 		(effects
@@ -13151,7 +13151,7 @@
 		)
 		(uuid "5b432e93-2d40-4fec-b183-357a3d10a14d")
 	)
-	(hierarchical_label "IMU_INT2"
+	(hierarchical_label "IMU.INT2"
 		(shape input)
 		(at 229.87 237.49 0)
 		(effects
@@ -13173,7 +13173,7 @@
 		)
 		(uuid "684a96ab-6b9f-4c9c-a03d-3d0fb6b49dd6")
 	)
-	(hierarchical_label "PPG_INT_N"
+	(hierarchical_label "PPG.INT_N"
 		(shape input)
 		(at 229.87 245.11 0)
 		(effects
@@ -13228,7 +13228,7 @@
 		)
 		(uuid "7d273643-f2f4-4df1-8a90-3c35164e629c")
 	)
-	(hierarchical_label "SENSOR_SDA"
+	(hierarchical_label "SENSOR.SDA"
 		(shape bidirectional)
 		(at 229.87 224.79 0)
 		(effects
@@ -13338,7 +13338,7 @@
 		)
 		(uuid "ab6d3b2c-1142-457d-9efa-e8dd590344d5")
 	)
-	(hierarchical_label "MAG_DRDY"
+	(hierarchical_label "MAG.DRDY"
 		(shape input)
 		(at 229.87 240.03 0)
 		(effects
@@ -13393,7 +13393,7 @@
 		)
 		(uuid "c874bb6f-dfcd-4948-9b87-ee786b8c1d2c")
 	)
-	(hierarchical_label "IMU_INT1"
+	(hierarchical_label "IMU.INT1"
 		(shape input)
 		(at 229.87 234.95 0)
 		(effects
