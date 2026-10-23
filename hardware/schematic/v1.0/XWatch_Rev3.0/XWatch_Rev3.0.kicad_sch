@@ -5,6 +5,66 @@
 	(uuid "64425c00-526a-4829-b8a6-ed1dc1b19578")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 148.59 153.67) (xy 154.94 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258e1927-0d06-48a1-9e2a-04c872e00530")
+	)
+	(wire
+		(pts
+			(xy 148.59 146.05) (xy 154.94 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff894a7-54f5-425c-b8c0-25f2a683bf29")
+	)
+	(wire
+		(pts
+			(xy 148.59 148.59) (xy 154.94 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9928cb0f-5840-4ac2-8525-c6504d74850b")
+	)
+	(wire
+		(pts
+			(xy 148.59 140.97) (xy 154.94 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c491550f-31ad-46c7-b621-cdcb189142b6")
+	)
+	(wire
+		(pts
+			(xy 148.59 143.51) (xy 154.94 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d547ade8-fa39-471b-b235-a88f85191387")
+	)
+	(wire
+		(pts
+			(xy 148.59 151.13) (xy 154.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b4b599-a2d8-493e-b22f-788031f5b8ed")
+	)
 	(sheet
 		(at 90.17 63.5)
 		(size 16.51 35.56)
