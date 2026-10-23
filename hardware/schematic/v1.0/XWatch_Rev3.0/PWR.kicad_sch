@@ -3281,6 +3281,12 @@
 		(color 0 0 0 0)
 		(uuid "dfbb2dc4-263c-4b22-8701-6fd9a2e544d8")
 	)
+	(junction
+		(at 95.25 152.2464)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed898267-cd0b-4c24-ac90-8674d26279a2")
+	)
 	(wire
 		(pts
 			(xy 222.25 57.15) (xy 222.25 58.42)
@@ -3380,6 +3386,16 @@
 			(type default)
 		)
 		(uuid "1f5268ae-7f42-48dd-9f78-f96d01a26048")
+	)
+	(wire
+		(pts
+			(xy 95.25 151.13) (xy 95.25 152.2464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213357ea-fda6-4910-a7d1-083c794bd3b1")
 	)
 	(wire
 		(pts
@@ -3640,6 +3656,16 @@
 			(type default)
 		)
 		(uuid "4e78da18-8392-4785-b19d-632ff7990cc1")
+	)
+	(wire
+		(pts
+			(xy 95.25 153.67) (xy 101.6 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a92afb-cb29-4325-ba18-48dc099d1858")
 	)
 	(wire
 		(pts
@@ -4183,6 +4209,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 152.2464) (xy 95.25 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9415f0d-f548-4af9-aab7-f352cb5dae98")
+	)
+	(wire
+		(pts
 			(xy 156.21 139.7) (xy 158.75 139.7)
 		)
 		(stroke
@@ -4340,16 +4376,6 @@
 			(type default)
 		)
 		(uuid "f10ae0b1-f85b-4199-a5ca-5e2dd9406135")
-	)
-	(wire
-		(pts
-			(xy 93.98 153.67) (xy 101.6 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2c8f560-9ea0-4247-9b75-bc3310d46e38")
 	)
 	(wire
 		(pts
@@ -8927,7 +8953,7 @@
 	)
 	(symbol
 		(lib_id "XWatch_Rev3.0:VBUS")
-		(at 93.98 153.67 0)
+		(at 95.25 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8938,7 +8964,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cc2d7d5-1109-46c0-86ab-63720ee41117")
 		(property "Reference" "#PWR013"
-			(at 93.98 157.48 0)
+			(at 95.25 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8949,7 +8975,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 93.98 148.59 0)
+			(at 95.25 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8959,7 +8985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 153.67 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8970,7 +8996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 153.67 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8981,7 +9007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 93.98 153.67 0)
+			(at 95.25 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10447,6 +10473,84 @@
 			(project "XWatch_Rev3.0"
 				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/e10fc6fe-cee5-4ccf-ade7-f348522d306a"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XWatch_Rev3.0:PWR_FLAG")
+		(at 95.25 152.2464 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bcea67e9-59bd-4c2b-8df7-8503c8191460")
+		(property "Reference" "#FLG06"
+			(at 93.345 152.2464 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 92.456 152.2464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 152.2464 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 152.2464 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 95.25 152.2464 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12c18f0b-45ed-456e-b001-556dd55270f1")
+		)
+		(instances
+			(project "XWatch_Rev3.0"
+				(path "/64425c00-526a-4829-b8a6-ed1dc1b19578/e10fc6fe-cee5-4ccf-ade7-f348522d306a"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
