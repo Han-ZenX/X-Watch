@@ -1,0 +1,16 @@
+{
+  "output": "G:\\C++\\X-Watch-master\\docs\\AG3335M_EVK芯片解析与手表应用评估_矢量版.pdf",
+  "pages": 38,
+  "analysis_pages": 24,
+  "appendix_pages": 14,
+  "image_objects": 0,
+  "pins": {
+    "A": 33,
+    "B": 10,
+    "C": 30,
+    "unique": 73
+  },
+  "source_sha256": "ec060a6b1a1a328f4768c831bef77741a83c51d1a6a33e9e8a9eb407d07cb256",
+  "max_content_y": 531.7,
+  "bytes": 716011
+}

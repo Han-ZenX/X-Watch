@@ -508,7 +508,64 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "50",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "All Nets",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -522,7 +579,136 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "50",
+        "pattern": "N17202749"
+      },
+      {
+        "netclass": "50",
+        "pattern": "V_ANT_L1"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N17206048"
+      },
+      {
+        "netclass": "50",
+        "pattern": "V_ANT_L5"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N17207071"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N17605947"
+      },
+      {
+        "netclass": "50",
+        "pattern": "V_ANT_L1_L5"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N17980673"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N18285237"
+      },
+      {
+        "netclass": "50",
+        "pattern": "RF_IN_L1"
+      },
+      {
+        "netclass": "50",
+        "pattern": "RF_IN_L5"
+      },
+      {
+        "netclass": "50",
+        "pattern": "MSDC_SD_CLK_SD"
+      },
+      {
+        "netclass": "50",
+        "pattern": "MSDC_SD_CMD_SD"
+      },
+      {
+        "netclass": "50",
+        "pattern": "MSDC_SD_DAT0_SD"
+      },
+      {
+        "netclass": "50",
+        "pattern": "MSDC_SD_DAT1_SD"
+      },
+      {
+        "netclass": "50",
+        "pattern": "MSDC_SD_DAT2_SD"
+      },
+      {
+        "netclass": "50",
+        "pattern": "MSDC_SD_DAT3_SD"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N17206944"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N17609220"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N17612681"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N17616255"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N18250230"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N18427771"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N18429529"
+      },
+      {
+        "netclass": "50",
+        "pattern": "N52123"
+      },
+      {
+        "netclass": "50",
+        "pattern": "RF"
+      },
+      {
+        "netclass": "50",
+        "pattern": "RF_P"
+      },
+      {
+        "netclass": "50",
+        "pattern": "SDCD_SD_IC"
+      },
+      {
+        "netclass": "90",
+        "pattern": "USB20_DM_AG3335"
+      },
+      {
+        "netclass": "90",
+        "pattern": "USB20_DM_FT234XD"
+      },
+      {
+        "netclass": "90",
+        "pattern": "USB20_DP_AG3335"
+      },
+      {
+        "netclass": "90",
+        "pattern": "USB20_DP_FT234XD"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -652,7 +838,7 @@
         "uuid": "64425c00-526a-4829-b8a6-ed1dc1b19578"
       }
     ],
-    "used_designators": "U1-17,R1-29,#FLG1-7,#PWR1-13,#PWR16,#PWR55,#PWR64-277,L1-5,X1-3,C1-113,FB1,SW1-5,D1,IC1,CN1-6,TP1-8",
+    "used_designators": "U1-17,R1-29,#FLG1-7,#PWR1-13,#PWR16,#PWR55,#PWR64-284,L1-5,X1-3,C1-113,FB1,SW1-5,D1,IC1,CN1-6,TP1-8",
     "variants": []
   },
   "sheets": [
@@ -691,6 +877,10 @@
     [
       "77598b17-7755-4f85-a007-50934971418a",
       "BLE"
+    ],
+    [
+      "264efcd2-8ad2-44c6-bba5-c98558ec6061",
+      "NFC"
     ]
   ],
   "text_variables": {},
