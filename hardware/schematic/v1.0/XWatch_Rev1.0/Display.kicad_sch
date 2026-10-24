@@ -3008,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 165.1) (xy 54.61 165.1)
+			(xy 41.91 166.37) (xy 54.61 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3118,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 168.91) (xy 54.61 168.91)
+			(xy 41.91 170.18) (xy 54.61 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3958,7 +3958,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 172.72) (xy 54.61 172.72)
+			(xy 41.91 173.99) (xy 54.61 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4087,7 +4087,7 @@
 		(uuid "48b220c4-6aca-4498-b8ee-1ed9c77f8221")
 	)
 	(label "TP_RST"
-		(at 43.18 172.72 0)
+		(at 43.18 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4147,7 +4147,7 @@
 		(uuid "6eaa3a56-339d-4579-9664-02e494ff1558")
 	)
 	(label "TP_INT"
-		(at 43.18 168.91 0)
+		(at 43.18 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4217,7 +4217,7 @@
 		(uuid "c4761d49-d9ba-4013-9fd8-98127822f716")
 	)
 	(label "TP_SDA"
-		(at 43.18 165.1 0)
+		(at 43.18 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4310,7 +4310,7 @@
 	)
 	(hierarchical_label "TP.INT"
 		(shape input)
-		(at 41.91 168.91 180)
+		(at 41.91 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4343,7 +4343,7 @@
 	)
 	(hierarchical_label "TP.RST"
 		(shape input)
-		(at 41.91 172.72 180)
+		(at 41.91 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4365,7 +4365,7 @@
 	)
 	(hierarchical_label "TP.SDA"
 		(shape bidirectional)
-		(at 41.91 165.1 180)
+		(at 41.91 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)

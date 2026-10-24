@@ -4882,16 +4882,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 46.99) (xy 377.19 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3087baa1-a48d-4388-afd8-f63aee0c4ed3")
-	)
-	(wire
-		(pts
 			(xy 281.94 124.46) (xy 295.91 124.46)
 		)
 		(stroke
@@ -4952,7 +4942,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 171.45) (xy 43.18 171.45)
+			(xy 33.02 163.83) (xy 43.18 163.83)
 		)
 		(stroke
 			(width 0)
@@ -5272,7 +5262,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 162.56) (xy 43.18 162.56)
+			(xy 33.02 154.94) (xy 43.18 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5352,16 +5342,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 44.45) (xy 377.19 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8270f5e6-5243-47e7-8066-fbcaa786dbf1")
-	)
-	(wire
-		(pts
 			(xy 170.18 193.04) (xy 177.8 193.04)
 		)
 		(stroke
@@ -5372,7 +5352,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 156.21) (xy 43.18 156.21)
+			(xy 33.02 152.4) (xy 43.18 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5682,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 152.4) (xy 43.18 152.4)
+			(xy 33.02 168.91) (xy 43.18 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5732,7 +5712,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 173.99) (xy 43.18 173.99)
+			(xy 33.02 166.37) (xy 43.18 166.37)
 		)
 		(stroke
 			(width 0)
@@ -6001,7 +5981,7 @@
 		(uuid "06608082-92f2-4164-b370-5505adcaa256")
 	)
 	(label "I2C1_SCL"
-		(at 43.18 171.45 0)
+		(at 43.18 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6020,16 +6000,6 @@
 		)
 		(uuid "0941a08b-e686-41a2-a0c3-9d11833b2303")
 	)
-	(label "I2C1_SCL"
-		(at 361.95 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ff14d39-cdc3-46d0-8eb4-0ca58b1ac139")
-	)
 	(label "DSI_CK_P"
 		(at 283.21 137.16 0)
 		(effects
@@ -6041,7 +6011,7 @@
 		(uuid "1345f9b3-f790-4e36-9644-f1801241005c")
 	)
 	(label "I2C1_SDA"
-		(at 43.18 173.99 0)
+		(at 43.18 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6071,7 +6041,7 @@
 		(uuid "1a2948e9-8924-48e9-8e8c-0507187762e9")
 	)
 	(label "DSI_SWIRE"
-		(at 43.18 162.56 0)
+		(at 43.18 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6210,16 +6180,6 @@
 		)
 		(uuid "8195f921-ab10-4d74-a6a9-6ca006cc76da")
 	)
-	(label "I2C1_SDA"
-		(at 361.95 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81f6385e-2460-49d5-8bfc-0e647467806d")
-	)
 	(label "DSI_D0_N"
 		(at 43.18 140.97 0)
 		(effects
@@ -6281,7 +6241,7 @@
 		(uuid "ae67d4f2-1e95-48a9-8627-84302f24e5a0")
 	)
 	(label "TP_INT"
-		(at 43.18 152.4 0)
+		(at 43.18 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6321,7 +6281,7 @@
 		(uuid "ce3454c9-c550-4c2d-87f6-236548753050")
 	)
 	(label "DSI_RST"
-		(at 43.18 156.21 0)
+		(at 43.18 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6423,7 +6383,7 @@
 	)
 	(hierarchical_label "DSI.RST"
 		(shape output)
-		(at 33.02 156.21 180)
+		(at 33.02 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6434,7 +6394,7 @@
 	)
 	(hierarchical_label "TP.SCL"
 		(shape output)
-		(at 33.02 171.45 180)
+		(at 33.02 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6442,17 +6402,6 @@
 			(justify right)
 		)
 		(uuid "0a5e6286-590d-489e-9d14-a96676e2d496")
-	)
-	(hierarchical_label "TP.SDA"
-		(shape bidirectional)
-		(at 377.19 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0cc94342-0387-4a3d-82f4-d3cc56f85080")
 	)
 	(hierarchical_label "MFX_WAKEUP"
 		(shape bidirectional)
@@ -6500,7 +6449,7 @@
 	)
 	(hierarchical_label "TP.INT"
 		(shape output)
-		(at 33.02 152.4 180)
+		(at 33.02 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6533,7 +6482,7 @@
 	)
 	(hierarchical_label "TP.SDA"
 		(shape bidirectional)
-		(at 33.02 173.99 180)
+		(at 33.02 166.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6577,7 +6526,7 @@
 	)
 	(hierarchical_label "DSI.SWIRE"
 		(shape bidirectional)
-		(at 33.02 162.56 180)
+		(at 33.02 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6618,17 +6567,6 @@
 			(justify left)
 		)
 		(uuid "f566070c-0305-4f9f-b4ae-d35221445322")
-	)
-	(hierarchical_label "TP.SCL"
-		(shape output)
-		(at 377.19 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "faafafc7-2247-44a3-a002-e56eb272b3ca")
 	)
 	(symbol
 		(lib_id "XWatch_Rev1.0:C")
