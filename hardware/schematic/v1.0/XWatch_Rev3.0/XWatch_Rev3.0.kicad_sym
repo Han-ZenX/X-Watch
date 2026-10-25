@@ -1887,10 +1887,10 @@
 			(pin bidirectional line
 				(at 27.94 17.78 180)
 				(length 5.08)
-				(name "GPIO19_[G2]"
+				(name "GPIO19/UART2_RX_[G2]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -1941,10 +1941,10 @@
 			(pin bidirectional line
 				(at -27.94 7.62 0)
 				(length 5.08)
-				(name "GPIO8_[G8]"
+				(name "GPIO8/UART0_RX_[G8]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -1959,10 +1959,10 @@
 			(pin bidirectional line
 				(at 27.94 20.32 180)
 				(length 5.08)
-				(name "GPIO18_[H1]"
+				(name "GPIO18/UART2_TX_[H1]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -2031,10 +2031,10 @@
 			(pin bidirectional line
 				(at -27.94 25.4 0)
 				(length 5.08)
-				(name "GPIO1_[H7]"
+				(name "GPIO1/UART2_CTS/SDIO_CLK_[H7]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -2067,10 +2067,10 @@
 			(pin bidirectional line
 				(at -27.94 20.32 0)
 				(length 5.08)
-				(name "GPIO3_[H9]"
+				(name "GPIO3/UART0_CTS/SDIO_DAT0_[H9]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -2139,10 +2139,10 @@
 			(pin bidirectional line
 				(at 27.94 22.86 180)
 				(length 5.08)
-				(name "GPIO17_[J4]"
+				(name "GPIO17/UART2_CTS_[J4]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -2157,10 +2157,10 @@
 			(pin bidirectional line
 				(at 27.94 25.4 180)
 				(length 5.08)
-				(name "GPIO16_[J5]"
+				(name "GPIO16/UART2_RTS_[J5]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -2175,10 +2175,10 @@
 			(pin bidirectional line
 				(at -27.94 10.16 0)
 				(length 5.08)
-				(name "GPIO7_[J6]"
+				(name "GPIO7/UART0_TX_[J6]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -2211,10 +2211,10 @@
 			(pin bidirectional line
 				(at -27.94 27.94 0)
 				(length 5.08)
-				(name "GPIO0_[J8]"
+				(name "GPIO0/UART2_RTS/SDIO_CMD_[J8]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -2229,10 +2229,10 @@
 			(pin bidirectional line
 				(at -27.94 22.86 0)
 				(length 5.08)
-				(name "GPIO2_[J9]"
+				(name "GPIO2/UART0_RTS/SDIO_DAT1_[J9]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -2301,10 +2301,10 @@
 			(pin bidirectional line
 				(at -27.94 12.7 0)
 				(length 5.08)
-				(name "GPIO6_[K6]"
+				(name "GPIO6/SDIO_DAT2_[K6]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
@@ -2319,10 +2319,10 @@
 			(pin bidirectional line
 				(at -27.94 15.24 0)
 				(length 5.08)
-				(name "GPIO5_[K8]"
+				(name "GPIO5/SDIO_DAT3_[K8]"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 0.889 0.889)
 						)
 					)
 				)
